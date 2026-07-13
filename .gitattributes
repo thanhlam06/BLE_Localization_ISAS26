@@ -1,0 +1,31 @@
+* text=auto
+
+# Keep source and configuration files consistent across platforms.
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.ipynb text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Do not attempt text conversions on binary research assets.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.docx binary
+*.pptx binary
+*.zip binary
+*.npy binary
+*.npz binary
+*.pkl binary
+*.joblib binary
+*.onnx binary
+*.pt binary
+*.pth binary

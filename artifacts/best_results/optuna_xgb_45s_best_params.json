@@ -1,0 +1,32 @@
+{
+  "best_value_mean_macro_f1": 0.5570712889784333,
+  "best_params": {
+    "n_estimators": 1200,
+    "max_depth": 2,
+    "learning_rate": 0.05777636232285054,
+    "subsample": 0.5586452320499247,
+    "colsample_bytree": 0.5715281975582874,
+    "min_child_weight": 0.6059070828801523,
+    "gamma": 0.28400196945154244,
+    "reg_lambda": 0.4400052219312428,
+    "reg_alpha": 3.473417504490065e-05,
+    "max_delta_step": 2.967918406649486
+  },
+  "baseline_params": {
+    "n_estimators": 600,
+    "max_depth": 4,
+    "learning_rate": 0.03,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "min_child_weight": 2.0,
+    "gamma": 0.0,
+    "reg_lambda": 5.0,
+    "reg_alpha": 1e-08,
+    "max_delta_step": 0.0
+  },
+  "baseline_score": 0.5004997632316229,
+  "n_trials": 80,
+  "feature_set": "ble_safe_only",
+  "window": "45s",
+  "closed_set": true
+}
