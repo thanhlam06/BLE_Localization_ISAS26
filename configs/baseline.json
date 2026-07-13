@@ -1,0 +1,71 @@
+{
+  "project_name": "ISAS26 REST-Care Baseline ML",
+  "raw": {
+    "ble_path": "data/raw/ble_train_4d.csv",
+    "label_path": "data/raw/location_train_labels.csv"
+  },
+  "processing": {
+    "build_aligned_if_missing": true,
+    "label_start_col": "started_at",
+    "label_end_col": "finished_at",
+    "label_max_gap_minutes": 30,
+    "label_metadata_cols": ["room", "floor"]
+  },
+  "processed": {
+    "aligned_cache_path": "data/processed/extracted_features_base.csv",
+    "date_col": "date",
+    "time_col": "timestamp",
+    "user_col": "user_id",
+    "label_col": "room"
+  },
+  "features": {
+    "window_seconds": 45,
+    "rssi_prefix": "RSSI_",
+    "missing_rssi": -110.0,
+    "replace_zero_rssi": true,
+    "aggregations": ["mean", "std", "min", "max", "last"],
+    "include_time_features": false
+  },
+  "training": {
+    "evaluation": "leave_one_day_out",
+    "closed_set": true,
+    "model": "xgb",
+    "random_state": 42,
+    "xgb_params": {
+      "n_estimators": 1200,
+      "max_depth": 2,
+      "learning_rate": 0.05777636232285054,
+      "subsample": 0.5586452320499247,
+      "colsample_bytree": 0.5715281975582874,
+      "min_child_weight": 0.6059070828801523,
+      "gamma": 0.28400196945154244,
+      "reg_lambda": 0.4400052219312428,
+      "reg_alpha": 3.473417504490065e-05,
+      "max_delta_step": 2.967918406649486,
+      "eval_metric": "mlogloss",
+      "tree_method": "hist"
+    },
+    "rf_params": {
+      "n_estimators": 600,
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt",
+      "class_weight": "balanced_subsample"
+    }
+  },
+  "historical_recorded_result": {
+    "model": "Optuna XGBoost",
+    "window": "45s",
+    "feature_set": "ble_safe_only",
+    "evaluation": "closed-set LODO",
+    "reproduced_by_current_pipeline": false,
+    "note": "Historical tuned notebook result; not an exact reproduction of the leakage-safe public CLI.",
+    "mean_macro_f1": 0.5570712889784333,
+    "std_macro_f1": 0.028996017233208462,
+    "mean_accuracy": 0.6486610020273663,
+    "mean_balanced_accuracy": 0.5906657479636359,
+    "mean_weighted_f1": 0.641673625828981,
+    "source_summary": "artifacts/best_results/optuna_xgb_45s_summary_best.csv",
+    "source_params": "artifacts/best_results/optuna_xgb_45s_best_params.json"
+  }
+}

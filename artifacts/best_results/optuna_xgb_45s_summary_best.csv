@@ -1,0 +1,2 @@
+window,feature_set,model,inference,mean_macro_f1,std_macro_f1,mean_accuracy,mean_balanced_accuracy,mean_weighted_f1,mean_confidence,mean_n_classes_closed,mean_n_test_closed,mean_n_final_features,total_test_closed
+45s,ble_safe_only,xgb,argmax,0.5570712889784333,0.028996017233208462,0.6486610020273663,0.5906657479636359,0.641673625828981,0.7665423303842545,13.0,215.25,235.0,861

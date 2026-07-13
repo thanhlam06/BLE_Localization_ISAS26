@@ -1,0 +1,5 @@
+config,mean_macro_f1,delta_vs_rf_ble_safe_only,delta_vs_untuned_xgb
+RF 45s ble_safe_only argmax,0.4761,0.0,-0.024399763231622906
+RF 45s ble_safe_plus_time argmax,0.4783,0.0021999999999999797,-0.022199763231622927
+Untuned XGB 45s ble_safe_only argmax,0.5004997632316229,0.024399763231622906,0.0
+Optuna XGB 45s ble_safe_only argmax,0.5570712889784333,0.08097128897843325,0.05657152574681035

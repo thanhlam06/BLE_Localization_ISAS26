@@ -1,0 +1,9 @@
+# Core pipeline
+numpy>=1.26,<3
+pandas>=2.1,<4
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+joblib>=1.3,<2
+
+# Configured baseline model
+xgboost>=2.0,<4

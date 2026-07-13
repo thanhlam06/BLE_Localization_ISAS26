@@ -1,0 +1,3 @@
+mean_macro_f1_candidate,metric_column,source_path,window,feature_set,model,inference,mean_macro_f1,std_macro_f1,mean_accuracy,mean_balanced_accuracy,mean_weighted_f1,config
+0.5570712889784333,mean_macro_f1,artifacts/best_results/optuna_xgb_45s_summary_best.csv,45s,ble_safe_only,xgb,argmax,0.5570712889784333,0.0289960172332084,0.6486610020273663,0.5906657479636359,0.641673625828981,
+0.5570712889784333,mean_macro_f1,artifacts/best_results/optuna_xgb_45s_reference_comparison.csv,,,,,0.5570712889784333,,,,,Optuna XGB 45s ble_safe_only argmax

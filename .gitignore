@@ -1,0 +1,77 @@
+# Private datasets: only the public input contract may be committed.
+/data/*
+!/data/README.md
+/Dataset/
+/datasets/
+/private_data/
+
+# Generated runs may contain row-level timestamps, labels, or predictions.
+/artifacts/*
+!/artifacts/best_results/
+/artifacts/best_results/*
+!/artifacts/best_results/optuna_xgb_45s_best_params.json
+!/artifacts/best_results/optuna_xgb_45s_reference_comparison.csv
+!/artifacts/best_results/optuna_xgb_45s_summary_best.csv
+**/*prediction*.csv
+**/*predictions*.csv
+
+# Curated public aggregate result only; other reports/figures are data-derived.
+/reports/*
+!/reports/best_results_summary.csv
+/figures/
+/docs/DATASET_EDA_INSIGHTS_REPORT.md
+
+# Executed research notebooks contain private outputs and local paths.
+/scripts/*.ipynb
+# Internal EDA builder depends on private cached predictions and parent paths.
+/scripts/build_eda_insights_report.py
+/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Secrets and local configuration.
+.env
+.env.*
+!.env.example
+*credentials*.json
+*secret*.json
+*.pem
+*.key
+
+# Python environments, caches, coverage, and build outputs.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Large/generated data and model formats.
+*.zip
+*.parquet
+*.feather
+*.arrow
+*.npy
+*.npz
+*.keras
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files and editor/OS noise.
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+*.swp
