@@ -9,8 +9,11 @@ are intentionally outside the public project contract.
 | Path | Purpose |
 | --- | --- |
 | `scripts/run_baseline.py` | CLI wrapper for input audit, processing, feature extraction, and LODO training |
+| `scripts/extract_dasel_features.py` | Creates private 262-column tumbling-window matrices for 1s and 3s |
+| `scripts/run_dasel_windows.py` | Audits or trains both DASEL-intersection LODO controls |
 | `scripts/summarize_results.py` | Builds a compact index from reviewed aggregate result artifacts |
 | `configs/baseline.json` | Default data paths, schema keys, feature construction, model, and seed |
+| `configs/dasel_1s.json`, `configs/dasel_3s.json` | Strict 1s/3s class protocol and model controls |
 | `data/README.md` | Public local-input contract; contains no dataset rows |
 | `tests/test_pipeline.py` | Synthetic regression tests for alignment, extraction, and end-to-end outputs |
 
@@ -20,6 +23,7 @@ are intentionally outside the public project contract.
 | --- | --- |
 | `src/baseline_ml/config.py` | Repository-root discovery, config loading, and relative-path resolution |
 | `src/baseline_ml/pipeline.py` | Pipeline stages, feature engineering, classifiers, and fold metrics |
+| `src/baseline_ml/dasel_features.py` | Historical DASEL long-form 262-column feature builder |
 | `src/baseline_ml/results.py` | Aggregate result discovery and Markdown/CSV report generation |
 
 ## Documentation
@@ -28,6 +32,7 @@ are intentionally outside the public project contract.
 | --- | --- |
 | `README.md` | Public overview, setup, data contract, commands, privacy, and troubleshooting |
 | `docs/PIPELINE.md` | Detailed executable stage contract |
+| `docs/DASEL_PROTOCOL_1S_3S.md` | DASEL Table II class-match evidence and reproduction contract |
 | `docs/RESULTS.md` | Generated reviewed aggregate result index |
 
 ## Local-only inputs and outputs

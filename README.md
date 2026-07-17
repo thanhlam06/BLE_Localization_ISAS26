@@ -5,6 +5,10 @@ localization from Bluetooth Low Energy (BLE) RSSI measurements. The executable
 pipeline builds fixed-window signal features and evaluates XGBoost or Random
 Forest models with Leave-One-Day-Out (LODO) validation.
 
+The `agent/dasel-class-matched-1s-3s` research track adds auditable 1-second
+and 3-second experiments whose model class set matches the train/test class
+intersection reported in DASEL Table II.
+
 > **Private dataset:** the raw BLE data, location labels, aligned cache,
 > row-level features, and row-level predictions are not distributed with this
 > repository. Access must be obtained from the project owners. Do not commit
@@ -51,14 +55,19 @@ This is a research/evaluation pipeline, not a real-time localization service.
 ```text
 configs/
   baseline.json                 Default paths, feature settings, and models
+  dasel_1s.json                 Strict class-matched 1s control
+  dasel_3s.json                 Strict class-matched 3s control
 data/
   README.md                     Public private-input contract (no data rows)
 docs/
+  DASEL_PROTOCOL_1S_3S.md       Class policy, evidence, and reproduction
   PIPELINE.md                   Detailed stage contract and outputs
   PROJECT_INDEX.md              Public repository file map
   RESULTS.md                    Generated aggregate result summary
 scripts/
+  extract_dasel_features.py     Historical 262-column 1s/3s extractor
   run_baseline.py               Main pipeline CLI
+  run_dasel_windows.py          Strict 1s/3s audit and training runner
   summarize_results.py          Aggregate-result report generator
 src/baseline_ml/
   config.py                     Config loading and path resolution
@@ -71,6 +80,44 @@ tests/test_pipeline.py          Synthetic end-to-end regression tests
 Only reviewed aggregate reports and figures should be published. Historical
 notebooks and private-data-derived row-level artifacts are not required to run
 the public CLI.
+
+## DASEL-matched 1s/3s track
+
+The strict class policy is `training.class_protocol=dasel_intersection`. For
+every held-out day, the runner computes the intersection of room labels found
+in the training days and that test day, then filters **both** sides before any
+model-side fitting. The reviewed audit reproduces DASEL Table II class counts
+`12, 15, 18, 13` for both 1s and 3s matrices.
+
+Create the private feature matrices:
+
+```bash
+python scripts/extract_dasel_features.py \
+  --input /authorized/path/DASEL_preprocessed_train.csv \
+  --output-dir /private/output/features \
+  --windows 1 3
+```
+
+Audit only, without training:
+
+```bash
+python scripts/run_dasel_windows.py \
+  --features-dir /private/output/features \
+  --output-dir artifacts/dasel_audit \
+  --audit-only
+```
+
+Run both confirmatory controls:
+
+```bash
+python scripts/run_dasel_windows.py \
+  --features-dir /private/output/features \
+  --output-dir artifacts/dasel_confirmatory
+```
+
+See [the protocol note](docs/DASEL_PROTOCOL_1S_3S.md) before comparing scores.
+The archived M0-M8 leaderboard is explicitly marked legacy/exploratory because
+its original training class policy was asymmetric.
 
 ## Private dataset contract
 
@@ -257,6 +304,11 @@ With `training.closed_set=true`, each fold is restricted to room classes found
 in both its training days and held-out day. This prevents label-encoder errors
 but does **not** measure unseen-room recognition. Report these scores as
 closed-set LODO results, not open-world deployment performance.
+
+For auditable behavior, prefer the explicit
+`training.class_protocol="dasel_intersection"`. The legacy `closed_set` flag is
+kept for compatibility and maps to that protocol when `class_protocol` is not
+provided.
 
 With `closed_set=false`, the trainer keeps all fold rows but stops with a clear
 error if the held-out day contains a class absent from training; the current

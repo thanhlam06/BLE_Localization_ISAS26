@@ -1,0 +1,9 @@
+window_seconds,test_day,class_protocol,n_train_raw,n_test_raw,n_train_classes_raw,n_test_classes_raw,n_common_classes,n_train_dropped,n_test_dropped,n_train_only_classes,n_test_only_classes
+1,2023-04-10,dasel_intersection,16231,7353,22,12,12,1231,0,10,0
+1,2023-04-11,dasel_intersection,15845,7739,22,15,15,709,0,7,0
+1,2023-04-12,dasel_intersection,17608,5976,21,19,18,102,44,3,1
+1,2023-04-13,dasel_intersection,21068,2516,21,14,13,1788,35,8,1
+3,2023-04-10,dasel_intersection,6537,2757,22,12,12,590,0,10,0
+3,2023-04-11,dasel_intersection,6469,2825,22,15,15,342,0,7,0
+3,2023-04-12,dasel_intersection,6685,2609,21,19,18,51,25,3,1
+3,2023-04-13,dasel_intersection,8191,1103,21,14,13,762,18,8,1

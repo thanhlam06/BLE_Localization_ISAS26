@@ -122,8 +122,8 @@ and no row limit is active. Otherwise, it runs `extract` first.
 For each held-out day:
 
 1. all other days form the training fold;
-2. when `closed_set=true`, train and test rows are restricted to their shared
-   room classes;
+2. when `class_protocol=dasel_intersection`, train and test rows are restricted
+   to their shared room classes before any fitted transformation;
 3. labels are encoded using the training fold;
 4. constant and duplicate numeric feature columns are removed using training
    data only;
@@ -142,13 +142,35 @@ Outputs:
 
 ```text
 artifacts/baseline_run/training/lodo_results.csv
+artifacts/baseline_run/training/lodo_class_audit.csv
 artifacts/baseline_run/training/lodo_predictions.csv
 artifacts/baseline_run/training/lodo_summary.csv
 ```
 
+`lodo_class_audit.csv` records raw train/test row counts, raw class counts,
+common classes, train-only/test-only class counts, and rows removed from each
+side. It is the primary evidence for matching the DASEL Table II class policy.
+
 The feature and prediction CSVs are private row-level derivatives. Fold files
 also require review because they contain held-out-day metadata. Only reviewed,
 de-identified aggregates should be published.
+
+## DASEL 1s/3s research entry points
+
+The long-form extractor and matrix runner are intentionally separate from the
+wide-cache baseline:
+
+```bash
+python scripts/extract_dasel_features.py --input PRIVATE.csv --output-dir PRIVATE_FEATURES --windows 1 3
+python scripts/run_dasel_windows.py --features-dir PRIVATE_FEATURES --audit-only
+python scripts/run_dasel_windows.py --features-dir PRIVATE_FEATURES
+```
+
+The extractor produces tumbling windows (stride equals window length) with the
+historical 262-column schema. `run_dasel_windows.py` uses
+`configs/dasel_1s.json` and `configs/dasel_3s.json`, excludes calendar/time and
+compatibility power fields, and writes combined audits/results under its output
+directory.
 
 ## Result index
 
