@@ -34,6 +34,7 @@ are intentionally outside the public project contract.
 | `docs/PIPELINE.md` | Detailed executable stage contract |
 | `docs/DASEL_PROTOCOL_1S_3S.md` | DASEL Table II class-match evidence and reproduction contract |
 | `docs/RESULTS.md` | Generated reviewed aggregate result index |
+| `notebooks/1s/`, `notebooks/3s/` | Output-free provenance notebooks for EDA, ML, ablations, H1-H6, and H7/DL |
 
 ## Local-only inputs and outputs
 
@@ -46,6 +47,6 @@ The following path families are operational but not automatically publishable:
 | `artifacts/**/lodo_predictions.csv` | Private row-level predictions |
 | Other `artifacts/`, `reports/`, and `figures/` | Derived material; publish only after owner review and de-identification |
 
-The baseline does not depend on historical research notebooks. Any notebook
-retained for internal provenance should be cleared of outputs, absolute paths,
-embedded samples, and private metadata before separate publication.
+The baseline does not depend on the sanitized research notebooks. They are
+retained for provenance with outputs, absolute paths, embedded samples, and
+private metadata removed; generated notebook artifacts remain local-only.

@@ -64,6 +64,9 @@ docs/
   PIPELINE.md                   Detailed stage contract and outputs
   PROJECT_INDEX.md              Public repository file map
   RESULTS.md                    Generated aggregate result summary
+notebooks/
+  1s/                           Sanitized EDA/ML/ablation/H1-H7 flow
+  3s/                           Sanitized EDA/ML/ablation/H1-H7 flow
 scripts/
   extract_dasel_features.py     Historical 262-column 1s/3s extractor
   run_baseline.py               Main pipeline CLI
@@ -77,9 +80,9 @@ requirements.txt                Python dependencies
 tests/test_pipeline.py          Synthetic end-to-end regression tests
 ```
 
-Only reviewed aggregate reports and figures should be published. Historical
-notebooks and private-data-derived row-level artifacts are not required to run
-the public CLI.
+Only reviewed aggregate reports and figures should be published. The sanitized
+notebooks preserve code provenance but are not required to run the public CLI;
+private-data-derived row-level artifacts remain excluded.
 
 ## DASEL-matched 1s/3s track
 
