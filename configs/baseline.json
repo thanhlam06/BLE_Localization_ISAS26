@@ -29,6 +29,7 @@
   "training": {
     "evaluation": "leave_one_day_out",
     "closed_set": true,
+    "class_protocol": "dasel_intersection",
     "model": "xgb",
     "random_state": 42,
     "xgb_params": {
