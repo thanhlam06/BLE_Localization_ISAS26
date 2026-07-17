@@ -71,11 +71,13 @@ scripts/
   extract_dasel_features.py     Historical 262-column 1s/3s extractor
   run_baseline.py               Main pipeline CLI
   run_dasel_windows.py          Strict 1s/3s audit and training runner
+  run_strong_ml.py              Strong M2/M5 training, evaluation, plots, SHAP
   summarize_results.py          Aggregate-result report generator
 src/baseline_ml/
   config.py                     Config loading and path resolution
   pipeline.py                   Processing, extraction, and LODO training
   results.py                    Result discovery and report generation
+  strong_ml.py                  Fold-local strong ML and temporal decoder
 requirements.txt                Python dependencies
 tests/test_pipeline.py          Synthetic end-to-end regression tests
 ```
@@ -121,6 +123,25 @@ python scripts/run_dasel_windows.py \
 See [the protocol note](docs/DASEL_PROTOCOL_1S_3S.md) before comparing scores.
 The archived M0-M8 leaderboard is explicitly marked legacy/exploratory because
 its original training class policy was asymmetric.
+
+### Strong reviewed ML configurations
+
+The strong runner applies the best reviewed classical configurations without
+relaxing the strict DASEL shared-class rule. The 1s branch uses M2 (top-100
+drift-aware features and soft visit-balanced weights); the 3s branch uses M5
+(23 beacon-frequency features plus selected RSSI/context features). Both use a
+three-seed XGBoost ensemble and the same fixed temporal decoder.
+
+```bash
+python scripts/run_strong_ml.py \
+  --features-dir /private/output/features
+```
+
+Private models, probabilities, and row-level predictions are written below
+`artifacts/strong_ml/`. Only reviewed fold/aggregate metrics, figures, and
+native XGBoost TreeSHAP importance are publishable in
+`reports/strong_ml_1s_3s/`. TreeSHAP explains the raw ensemble; decoder effects
+are evaluated separately as raw-versus-decoded metrics.
 
 ## Private dataset contract
 

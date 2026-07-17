@@ -1,0 +1,3449 @@
+window_seconds,variant,test_day,decoder,true_room,pred_room,count
+1,M2,2023-04-10,raw,501,501,37
+1,M2,2023-04-10,raw,501,506,0
+1,M2,2023-04-10,raw,501,508,0
+1,M2,2023-04-10,raw,501,511,0
+1,M2,2023-04-10,raw,501,516,12
+1,M2,2023-04-10,raw,501,520,0
+1,M2,2023-04-10,raw,501,523,1
+1,M2,2023-04-10,raw,501,cafeteria,0
+1,M2,2023-04-10,raw,501,cleaning,0
+1,M2,2023-04-10,raw,501,hallway,0
+1,M2,2023-04-10,raw,501,kitchen,0
+1,M2,2023-04-10,raw,501,nurse station,0
+1,M2,2023-04-10,raw,506,501,0
+1,M2,2023-04-10,raw,506,506,46
+1,M2,2023-04-10,raw,506,508,0
+1,M2,2023-04-10,raw,506,511,0
+1,M2,2023-04-10,raw,506,516,0
+1,M2,2023-04-10,raw,506,520,0
+1,M2,2023-04-10,raw,506,523,0
+1,M2,2023-04-10,raw,506,cafeteria,0
+1,M2,2023-04-10,raw,506,cleaning,12
+1,M2,2023-04-10,raw,506,hallway,0
+1,M2,2023-04-10,raw,506,kitchen,0
+1,M2,2023-04-10,raw,506,nurse station,7
+1,M2,2023-04-10,raw,508,501,0
+1,M2,2023-04-10,raw,508,506,0
+1,M2,2023-04-10,raw,508,508,13
+1,M2,2023-04-10,raw,508,511,0
+1,M2,2023-04-10,raw,508,516,0
+1,M2,2023-04-10,raw,508,520,4
+1,M2,2023-04-10,raw,508,523,0
+1,M2,2023-04-10,raw,508,cafeteria,0
+1,M2,2023-04-10,raw,508,cleaning,0
+1,M2,2023-04-10,raw,508,hallway,0
+1,M2,2023-04-10,raw,508,kitchen,0
+1,M2,2023-04-10,raw,508,nurse station,0
+1,M2,2023-04-10,raw,511,501,0
+1,M2,2023-04-10,raw,511,506,0
+1,M2,2023-04-10,raw,511,508,0
+1,M2,2023-04-10,raw,511,511,0
+1,M2,2023-04-10,raw,511,516,0
+1,M2,2023-04-10,raw,511,520,0
+1,M2,2023-04-10,raw,511,523,0
+1,M2,2023-04-10,raw,511,cafeteria,1
+1,M2,2023-04-10,raw,511,cleaning,2
+1,M2,2023-04-10,raw,511,hallway,0
+1,M2,2023-04-10,raw,511,kitchen,3
+1,M2,2023-04-10,raw,511,nurse station,41
+1,M2,2023-04-10,raw,516,501,5
+1,M2,2023-04-10,raw,516,506,0
+1,M2,2023-04-10,raw,516,508,0
+1,M2,2023-04-10,raw,516,511,0
+1,M2,2023-04-10,raw,516,516,5
+1,M2,2023-04-10,raw,516,520,0
+1,M2,2023-04-10,raw,516,523,0
+1,M2,2023-04-10,raw,516,cafeteria,0
+1,M2,2023-04-10,raw,516,cleaning,0
+1,M2,2023-04-10,raw,516,hallway,0
+1,M2,2023-04-10,raw,516,kitchen,0
+1,M2,2023-04-10,raw,516,nurse station,0
+1,M2,2023-04-10,raw,520,501,0
+1,M2,2023-04-10,raw,520,506,0
+1,M2,2023-04-10,raw,520,508,11
+1,M2,2023-04-10,raw,520,511,0
+1,M2,2023-04-10,raw,520,516,0
+1,M2,2023-04-10,raw,520,520,21
+1,M2,2023-04-10,raw,520,523,1
+1,M2,2023-04-10,raw,520,cafeteria,0
+1,M2,2023-04-10,raw,520,cleaning,0
+1,M2,2023-04-10,raw,520,hallway,0
+1,M2,2023-04-10,raw,520,kitchen,0
+1,M2,2023-04-10,raw,520,nurse station,2
+1,M2,2023-04-10,raw,523,501,0
+1,M2,2023-04-10,raw,523,506,0
+1,M2,2023-04-10,raw,523,508,1
+1,M2,2023-04-10,raw,523,511,13
+1,M2,2023-04-10,raw,523,516,0
+1,M2,2023-04-10,raw,523,520,6
+1,M2,2023-04-10,raw,523,523,128
+1,M2,2023-04-10,raw,523,cafeteria,0
+1,M2,2023-04-10,raw,523,cleaning,0
+1,M2,2023-04-10,raw,523,hallway,0
+1,M2,2023-04-10,raw,523,kitchen,0
+1,M2,2023-04-10,raw,523,nurse station,3
+1,M2,2023-04-10,raw,cafeteria,501,0
+1,M2,2023-04-10,raw,cafeteria,506,23
+1,M2,2023-04-10,raw,cafeteria,508,11
+1,M2,2023-04-10,raw,cafeteria,511,28
+1,M2,2023-04-10,raw,cafeteria,516,0
+1,M2,2023-04-10,raw,cafeteria,520,30
+1,M2,2023-04-10,raw,cafeteria,523,28
+1,M2,2023-04-10,raw,cafeteria,cafeteria,187
+1,M2,2023-04-10,raw,cafeteria,cleaning,22
+1,M2,2023-04-10,raw,cafeteria,hallway,4
+1,M2,2023-04-10,raw,cafeteria,kitchen,1146
+1,M2,2023-04-10,raw,cafeteria,nurse station,359
+1,M2,2023-04-10,raw,cleaning,501,0
+1,M2,2023-04-10,raw,cleaning,506,21
+1,M2,2023-04-10,raw,cleaning,508,0
+1,M2,2023-04-10,raw,cleaning,511,0
+1,M2,2023-04-10,raw,cleaning,516,0
+1,M2,2023-04-10,raw,cleaning,520,0
+1,M2,2023-04-10,raw,cleaning,523,0
+1,M2,2023-04-10,raw,cleaning,cafeteria,1
+1,M2,2023-04-10,raw,cleaning,cleaning,12
+1,M2,2023-04-10,raw,cleaning,hallway,3
+1,M2,2023-04-10,raw,cleaning,kitchen,0
+1,M2,2023-04-10,raw,cleaning,nurse station,17
+1,M2,2023-04-10,raw,hallway,501,1
+1,M2,2023-04-10,raw,hallway,506,6
+1,M2,2023-04-10,raw,hallway,508,149
+1,M2,2023-04-10,raw,hallway,511,110
+1,M2,2023-04-10,raw,hallway,516,41
+1,M2,2023-04-10,raw,hallway,520,77
+1,M2,2023-04-10,raw,hallway,523,63
+1,M2,2023-04-10,raw,hallway,cafeteria,5
+1,M2,2023-04-10,raw,hallway,cleaning,6
+1,M2,2023-04-10,raw,hallway,hallway,9
+1,M2,2023-04-10,raw,hallway,kitchen,10
+1,M2,2023-04-10,raw,hallway,nurse station,123
+1,M2,2023-04-10,raw,kitchen,501,0
+1,M2,2023-04-10,raw,kitchen,506,6
+1,M2,2023-04-10,raw,kitchen,508,7
+1,M2,2023-04-10,raw,kitchen,511,9
+1,M2,2023-04-10,raw,kitchen,516,0
+1,M2,2023-04-10,raw,kitchen,520,1
+1,M2,2023-04-10,raw,kitchen,523,17
+1,M2,2023-04-10,raw,kitchen,cafeteria,61
+1,M2,2023-04-10,raw,kitchen,cleaning,2
+1,M2,2023-04-10,raw,kitchen,hallway,0
+1,M2,2023-04-10,raw,kitchen,kitchen,883
+1,M2,2023-04-10,raw,kitchen,nurse station,35
+1,M2,2023-04-10,raw,nurse station,501,0
+1,M2,2023-04-10,raw,nurse station,506,45
+1,M2,2023-04-10,raw,nurse station,508,46
+1,M2,2023-04-10,raw,nurse station,511,48
+1,M2,2023-04-10,raw,nurse station,516,0
+1,M2,2023-04-10,raw,nurse station,520,42
+1,M2,2023-04-10,raw,nurse station,523,11
+1,M2,2023-04-10,raw,nurse station,cafeteria,74
+1,M2,2023-04-10,raw,nurse station,cleaning,33
+1,M2,2023-04-10,raw,nurse station,hallway,40
+1,M2,2023-04-10,raw,nurse station,kitchen,343
+1,M2,2023-04-10,raw,nurse station,nurse station,2783
+1,M2,2023-04-10,fixed_decoder,501,501,42
+1,M2,2023-04-10,fixed_decoder,501,506,0
+1,M2,2023-04-10,fixed_decoder,501,508,0
+1,M2,2023-04-10,fixed_decoder,501,511,0
+1,M2,2023-04-10,fixed_decoder,501,516,2
+1,M2,2023-04-10,fixed_decoder,501,520,0
+1,M2,2023-04-10,fixed_decoder,501,523,0
+1,M2,2023-04-10,fixed_decoder,501,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,501,cleaning,0
+1,M2,2023-04-10,fixed_decoder,501,hallway,0
+1,M2,2023-04-10,fixed_decoder,501,kitchen,0
+1,M2,2023-04-10,fixed_decoder,501,nurse station,6
+1,M2,2023-04-10,fixed_decoder,506,501,0
+1,M2,2023-04-10,fixed_decoder,506,506,55
+1,M2,2023-04-10,fixed_decoder,506,508,0
+1,M2,2023-04-10,fixed_decoder,506,511,0
+1,M2,2023-04-10,fixed_decoder,506,516,0
+1,M2,2023-04-10,fixed_decoder,506,520,0
+1,M2,2023-04-10,fixed_decoder,506,523,0
+1,M2,2023-04-10,fixed_decoder,506,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,506,cleaning,10
+1,M2,2023-04-10,fixed_decoder,506,hallway,0
+1,M2,2023-04-10,fixed_decoder,506,kitchen,0
+1,M2,2023-04-10,fixed_decoder,506,nurse station,0
+1,M2,2023-04-10,fixed_decoder,508,501,0
+1,M2,2023-04-10,fixed_decoder,508,506,0
+1,M2,2023-04-10,fixed_decoder,508,508,4
+1,M2,2023-04-10,fixed_decoder,508,511,0
+1,M2,2023-04-10,fixed_decoder,508,516,0
+1,M2,2023-04-10,fixed_decoder,508,520,2
+1,M2,2023-04-10,fixed_decoder,508,523,0
+1,M2,2023-04-10,fixed_decoder,508,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,508,cleaning,0
+1,M2,2023-04-10,fixed_decoder,508,hallway,0
+1,M2,2023-04-10,fixed_decoder,508,kitchen,0
+1,M2,2023-04-10,fixed_decoder,508,nurse station,11
+1,M2,2023-04-10,fixed_decoder,511,501,0
+1,M2,2023-04-10,fixed_decoder,511,506,0
+1,M2,2023-04-10,fixed_decoder,511,508,0
+1,M2,2023-04-10,fixed_decoder,511,511,0
+1,M2,2023-04-10,fixed_decoder,511,516,0
+1,M2,2023-04-10,fixed_decoder,511,520,0
+1,M2,2023-04-10,fixed_decoder,511,523,0
+1,M2,2023-04-10,fixed_decoder,511,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,511,cleaning,0
+1,M2,2023-04-10,fixed_decoder,511,hallway,0
+1,M2,2023-04-10,fixed_decoder,511,kitchen,0
+1,M2,2023-04-10,fixed_decoder,511,nurse station,47
+1,M2,2023-04-10,fixed_decoder,516,501,5
+1,M2,2023-04-10,fixed_decoder,516,506,0
+1,M2,2023-04-10,fixed_decoder,516,508,0
+1,M2,2023-04-10,fixed_decoder,516,511,0
+1,M2,2023-04-10,fixed_decoder,516,516,5
+1,M2,2023-04-10,fixed_decoder,516,520,0
+1,M2,2023-04-10,fixed_decoder,516,523,0
+1,M2,2023-04-10,fixed_decoder,516,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,516,cleaning,0
+1,M2,2023-04-10,fixed_decoder,516,hallway,0
+1,M2,2023-04-10,fixed_decoder,516,kitchen,0
+1,M2,2023-04-10,fixed_decoder,516,nurse station,0
+1,M2,2023-04-10,fixed_decoder,520,501,0
+1,M2,2023-04-10,fixed_decoder,520,506,0
+1,M2,2023-04-10,fixed_decoder,520,508,0
+1,M2,2023-04-10,fixed_decoder,520,511,0
+1,M2,2023-04-10,fixed_decoder,520,516,0
+1,M2,2023-04-10,fixed_decoder,520,520,30
+1,M2,2023-04-10,fixed_decoder,520,523,0
+1,M2,2023-04-10,fixed_decoder,520,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,520,cleaning,0
+1,M2,2023-04-10,fixed_decoder,520,hallway,0
+1,M2,2023-04-10,fixed_decoder,520,kitchen,0
+1,M2,2023-04-10,fixed_decoder,520,nurse station,5
+1,M2,2023-04-10,fixed_decoder,523,501,0
+1,M2,2023-04-10,fixed_decoder,523,506,0
+1,M2,2023-04-10,fixed_decoder,523,508,0
+1,M2,2023-04-10,fixed_decoder,523,511,0
+1,M2,2023-04-10,fixed_decoder,523,516,0
+1,M2,2023-04-10,fixed_decoder,523,520,0
+1,M2,2023-04-10,fixed_decoder,523,523,139
+1,M2,2023-04-10,fixed_decoder,523,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,523,cleaning,0
+1,M2,2023-04-10,fixed_decoder,523,hallway,0
+1,M2,2023-04-10,fixed_decoder,523,kitchen,0
+1,M2,2023-04-10,fixed_decoder,523,nurse station,12
+1,M2,2023-04-10,fixed_decoder,cafeteria,501,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,506,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,508,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,511,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,516,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,520,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,523,36
+1,M2,2023-04-10,fixed_decoder,cafeteria,cafeteria,252
+1,M2,2023-04-10,fixed_decoder,cafeteria,cleaning,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,hallway,0
+1,M2,2023-04-10,fixed_decoder,cafeteria,kitchen,1151
+1,M2,2023-04-10,fixed_decoder,cafeteria,nurse station,399
+1,M2,2023-04-10,fixed_decoder,cleaning,501,0
+1,M2,2023-04-10,fixed_decoder,cleaning,506,0
+1,M2,2023-04-10,fixed_decoder,cleaning,508,0
+1,M2,2023-04-10,fixed_decoder,cleaning,511,0
+1,M2,2023-04-10,fixed_decoder,cleaning,516,0
+1,M2,2023-04-10,fixed_decoder,cleaning,520,0
+1,M2,2023-04-10,fixed_decoder,cleaning,523,0
+1,M2,2023-04-10,fixed_decoder,cleaning,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,cleaning,cleaning,41
+1,M2,2023-04-10,fixed_decoder,cleaning,hallway,0
+1,M2,2023-04-10,fixed_decoder,cleaning,kitchen,0
+1,M2,2023-04-10,fixed_decoder,cleaning,nurse station,13
+1,M2,2023-04-10,fixed_decoder,hallway,501,0
+1,M2,2023-04-10,fixed_decoder,hallway,506,0
+1,M2,2023-04-10,fixed_decoder,hallway,508,235
+1,M2,2023-04-10,fixed_decoder,hallway,511,123
+1,M2,2023-04-10,fixed_decoder,hallway,516,45
+1,M2,2023-04-10,fixed_decoder,hallway,520,0
+1,M2,2023-04-10,fixed_decoder,hallway,523,25
+1,M2,2023-04-10,fixed_decoder,hallway,cafeteria,0
+1,M2,2023-04-10,fixed_decoder,hallway,cleaning,3
+1,M2,2023-04-10,fixed_decoder,hallway,hallway,0
+1,M2,2023-04-10,fixed_decoder,hallway,kitchen,9
+1,M2,2023-04-10,fixed_decoder,hallway,nurse station,160
+1,M2,2023-04-10,fixed_decoder,kitchen,501,0
+1,M2,2023-04-10,fixed_decoder,kitchen,506,0
+1,M2,2023-04-10,fixed_decoder,kitchen,508,0
+1,M2,2023-04-10,fixed_decoder,kitchen,511,0
+1,M2,2023-04-10,fixed_decoder,kitchen,516,0
+1,M2,2023-04-10,fixed_decoder,kitchen,520,0
+1,M2,2023-04-10,fixed_decoder,kitchen,523,35
+1,M2,2023-04-10,fixed_decoder,kitchen,cafeteria,15
+1,M2,2023-04-10,fixed_decoder,kitchen,cleaning,0
+1,M2,2023-04-10,fixed_decoder,kitchen,hallway,0
+1,M2,2023-04-10,fixed_decoder,kitchen,kitchen,963
+1,M2,2023-04-10,fixed_decoder,kitchen,nurse station,8
+1,M2,2023-04-10,fixed_decoder,nurse station,501,0
+1,M2,2023-04-10,fixed_decoder,nurse station,506,0
+1,M2,2023-04-10,fixed_decoder,nurse station,508,86
+1,M2,2023-04-10,fixed_decoder,nurse station,511,44
+1,M2,2023-04-10,fixed_decoder,nurse station,516,0
+1,M2,2023-04-10,fixed_decoder,nurse station,520,0
+1,M2,2023-04-10,fixed_decoder,nurse station,523,0
+1,M2,2023-04-10,fixed_decoder,nurse station,cafeteria,55
+1,M2,2023-04-10,fixed_decoder,nurse station,cleaning,0
+1,M2,2023-04-10,fixed_decoder,nurse station,hallway,0
+1,M2,2023-04-10,fixed_decoder,nurse station,kitchen,137
+1,M2,2023-04-10,fixed_decoder,nurse station,nurse station,3143
+1,M2,2023-04-11,raw,502,502,7
+1,M2,2023-04-11,raw,502,511,0
+1,M2,2023-04-11,raw,502,512,0
+1,M2,2023-04-11,raw,502,513,1
+1,M2,2023-04-11,raw,502,516,1
+1,M2,2023-04-11,raw,502,517,0
+1,M2,2023-04-11,raw,502,518,0
+1,M2,2023-04-11,raw,502,520,0
+1,M2,2023-04-11,raw,502,522,0
+1,M2,2023-04-11,raw,502,523,0
+1,M2,2023-04-11,raw,502,cafeteria,0
+1,M2,2023-04-11,raw,502,cleaning,0
+1,M2,2023-04-11,raw,502,hallway,0
+1,M2,2023-04-11,raw,502,kitchen,0
+1,M2,2023-04-11,raw,502,nurse station,0
+1,M2,2023-04-11,raw,511,502,0
+1,M2,2023-04-11,raw,511,511,16
+1,M2,2023-04-11,raw,511,512,5
+1,M2,2023-04-11,raw,511,513,0
+1,M2,2023-04-11,raw,511,516,0
+1,M2,2023-04-11,raw,511,517,0
+1,M2,2023-04-11,raw,511,518,0
+1,M2,2023-04-11,raw,511,520,5
+1,M2,2023-04-11,raw,511,522,4
+1,M2,2023-04-11,raw,511,523,6
+1,M2,2023-04-11,raw,511,cafeteria,0
+1,M2,2023-04-11,raw,511,cleaning,0
+1,M2,2023-04-11,raw,511,hallway,13
+1,M2,2023-04-11,raw,511,kitchen,0
+1,M2,2023-04-11,raw,511,nurse station,0
+1,M2,2023-04-11,raw,512,502,0
+1,M2,2023-04-11,raw,512,511,1
+1,M2,2023-04-11,raw,512,512,123
+1,M2,2023-04-11,raw,512,513,0
+1,M2,2023-04-11,raw,512,516,0
+1,M2,2023-04-11,raw,512,517,0
+1,M2,2023-04-11,raw,512,518,0
+1,M2,2023-04-11,raw,512,520,0
+1,M2,2023-04-11,raw,512,522,7
+1,M2,2023-04-11,raw,512,523,28
+1,M2,2023-04-11,raw,512,cafeteria,0
+1,M2,2023-04-11,raw,512,cleaning,0
+1,M2,2023-04-11,raw,512,hallway,0
+1,M2,2023-04-11,raw,512,kitchen,0
+1,M2,2023-04-11,raw,512,nurse station,0
+1,M2,2023-04-11,raw,513,502,3
+1,M2,2023-04-11,raw,513,511,0
+1,M2,2023-04-11,raw,513,512,0
+1,M2,2023-04-11,raw,513,513,11
+1,M2,2023-04-11,raw,513,516,1
+1,M2,2023-04-11,raw,513,517,0
+1,M2,2023-04-11,raw,513,518,0
+1,M2,2023-04-11,raw,513,520,0
+1,M2,2023-04-11,raw,513,522,0
+1,M2,2023-04-11,raw,513,523,0
+1,M2,2023-04-11,raw,513,cafeteria,0
+1,M2,2023-04-11,raw,513,cleaning,0
+1,M2,2023-04-11,raw,513,hallway,0
+1,M2,2023-04-11,raw,513,kitchen,0
+1,M2,2023-04-11,raw,513,nurse station,0
+1,M2,2023-04-11,raw,516,502,6
+1,M2,2023-04-11,raw,516,511,0
+1,M2,2023-04-11,raw,516,512,0
+1,M2,2023-04-11,raw,516,513,5
+1,M2,2023-04-11,raw,516,516,0
+1,M2,2023-04-11,raw,516,517,2
+1,M2,2023-04-11,raw,516,518,0
+1,M2,2023-04-11,raw,516,520,0
+1,M2,2023-04-11,raw,516,522,0
+1,M2,2023-04-11,raw,516,523,0
+1,M2,2023-04-11,raw,516,cafeteria,0
+1,M2,2023-04-11,raw,516,cleaning,0
+1,M2,2023-04-11,raw,516,hallway,0
+1,M2,2023-04-11,raw,516,kitchen,0
+1,M2,2023-04-11,raw,516,nurse station,0
+1,M2,2023-04-11,raw,517,502,9
+1,M2,2023-04-11,raw,517,511,0
+1,M2,2023-04-11,raw,517,512,0
+1,M2,2023-04-11,raw,517,513,0
+1,M2,2023-04-11,raw,517,516,1
+1,M2,2023-04-11,raw,517,517,4
+1,M2,2023-04-11,raw,517,518,0
+1,M2,2023-04-11,raw,517,520,0
+1,M2,2023-04-11,raw,517,522,0
+1,M2,2023-04-11,raw,517,523,0
+1,M2,2023-04-11,raw,517,cafeteria,0
+1,M2,2023-04-11,raw,517,cleaning,0
+1,M2,2023-04-11,raw,517,hallway,0
+1,M2,2023-04-11,raw,517,kitchen,1
+1,M2,2023-04-11,raw,517,nurse station,0
+1,M2,2023-04-11,raw,518,502,0
+1,M2,2023-04-11,raw,518,511,0
+1,M2,2023-04-11,raw,518,512,0
+1,M2,2023-04-11,raw,518,513,0
+1,M2,2023-04-11,raw,518,516,0
+1,M2,2023-04-11,raw,518,517,0
+1,M2,2023-04-11,raw,518,518,1
+1,M2,2023-04-11,raw,518,520,2
+1,M2,2023-04-11,raw,518,522,0
+1,M2,2023-04-11,raw,518,523,0
+1,M2,2023-04-11,raw,518,cafeteria,0
+1,M2,2023-04-11,raw,518,cleaning,0
+1,M2,2023-04-11,raw,518,hallway,1
+1,M2,2023-04-11,raw,518,kitchen,0
+1,M2,2023-04-11,raw,518,nurse station,1
+1,M2,2023-04-11,raw,520,502,0
+1,M2,2023-04-11,raw,520,511,0
+1,M2,2023-04-11,raw,520,512,0
+1,M2,2023-04-11,raw,520,513,0
+1,M2,2023-04-11,raw,520,516,0
+1,M2,2023-04-11,raw,520,517,0
+1,M2,2023-04-11,raw,520,518,2
+1,M2,2023-04-11,raw,520,520,25
+1,M2,2023-04-11,raw,520,522,0
+1,M2,2023-04-11,raw,520,523,1
+1,M2,2023-04-11,raw,520,cafeteria,0
+1,M2,2023-04-11,raw,520,cleaning,0
+1,M2,2023-04-11,raw,520,hallway,6
+1,M2,2023-04-11,raw,520,kitchen,0
+1,M2,2023-04-11,raw,520,nurse station,1
+1,M2,2023-04-11,raw,522,502,0
+1,M2,2023-04-11,raw,522,511,3
+1,M2,2023-04-11,raw,522,512,5
+1,M2,2023-04-11,raw,522,513,0
+1,M2,2023-04-11,raw,522,516,0
+1,M2,2023-04-11,raw,522,517,0
+1,M2,2023-04-11,raw,522,518,0
+1,M2,2023-04-11,raw,522,520,14
+1,M2,2023-04-11,raw,522,522,98
+1,M2,2023-04-11,raw,522,523,38
+1,M2,2023-04-11,raw,522,cafeteria,0
+1,M2,2023-04-11,raw,522,cleaning,0
+1,M2,2023-04-11,raw,522,hallway,16
+1,M2,2023-04-11,raw,522,kitchen,0
+1,M2,2023-04-11,raw,522,nurse station,7
+1,M2,2023-04-11,raw,523,502,0
+1,M2,2023-04-11,raw,523,511,1
+1,M2,2023-04-11,raw,523,512,31
+1,M2,2023-04-11,raw,523,513,0
+1,M2,2023-04-11,raw,523,516,0
+1,M2,2023-04-11,raw,523,517,0
+1,M2,2023-04-11,raw,523,518,0
+1,M2,2023-04-11,raw,523,520,2
+1,M2,2023-04-11,raw,523,522,3
+1,M2,2023-04-11,raw,523,523,41
+1,M2,2023-04-11,raw,523,cafeteria,0
+1,M2,2023-04-11,raw,523,cleaning,0
+1,M2,2023-04-11,raw,523,hallway,3
+1,M2,2023-04-11,raw,523,kitchen,0
+1,M2,2023-04-11,raw,523,nurse station,0
+1,M2,2023-04-11,raw,cafeteria,502,5
+1,M2,2023-04-11,raw,cafeteria,511,4
+1,M2,2023-04-11,raw,cafeteria,512,1
+1,M2,2023-04-11,raw,cafeteria,513,0
+1,M2,2023-04-11,raw,cafeteria,516,0
+1,M2,2023-04-11,raw,cafeteria,517,0
+1,M2,2023-04-11,raw,cafeteria,518,0
+1,M2,2023-04-11,raw,cafeteria,520,5
+1,M2,2023-04-11,raw,cafeteria,522,0
+1,M2,2023-04-11,raw,cafeteria,523,0
+1,M2,2023-04-11,raw,cafeteria,cafeteria,411
+1,M2,2023-04-11,raw,cafeteria,cleaning,23
+1,M2,2023-04-11,raw,cafeteria,hallway,8
+1,M2,2023-04-11,raw,cafeteria,kitchen,821
+1,M2,2023-04-11,raw,cafeteria,nurse station,204
+1,M2,2023-04-11,raw,cleaning,502,0
+1,M2,2023-04-11,raw,cleaning,511,0
+1,M2,2023-04-11,raw,cleaning,512,0
+1,M2,2023-04-11,raw,cleaning,513,0
+1,M2,2023-04-11,raw,cleaning,516,0
+1,M2,2023-04-11,raw,cleaning,517,0
+1,M2,2023-04-11,raw,cleaning,518,0
+1,M2,2023-04-11,raw,cleaning,520,0
+1,M2,2023-04-11,raw,cleaning,522,0
+1,M2,2023-04-11,raw,cleaning,523,0
+1,M2,2023-04-11,raw,cleaning,cafeteria,10
+1,M2,2023-04-11,raw,cleaning,cleaning,24
+1,M2,2023-04-11,raw,cleaning,hallway,3
+1,M2,2023-04-11,raw,cleaning,kitchen,4
+1,M2,2023-04-11,raw,cleaning,nurse station,13
+1,M2,2023-04-11,raw,hallway,502,2
+1,M2,2023-04-11,raw,hallway,511,0
+1,M2,2023-04-11,raw,hallway,512,0
+1,M2,2023-04-11,raw,hallway,513,1
+1,M2,2023-04-11,raw,hallway,516,1
+1,M2,2023-04-11,raw,hallway,517,0
+1,M2,2023-04-11,raw,hallway,518,0
+1,M2,2023-04-11,raw,hallway,520,0
+1,M2,2023-04-11,raw,hallway,522,0
+1,M2,2023-04-11,raw,hallway,523,0
+1,M2,2023-04-11,raw,hallway,cafeteria,3
+1,M2,2023-04-11,raw,hallway,cleaning,0
+1,M2,2023-04-11,raw,hallway,hallway,6
+1,M2,2023-04-11,raw,hallway,kitchen,5
+1,M2,2023-04-11,raw,hallway,nurse station,2
+1,M2,2023-04-11,raw,kitchen,502,0
+1,M2,2023-04-11,raw,kitchen,511,1
+1,M2,2023-04-11,raw,kitchen,512,1
+1,M2,2023-04-11,raw,kitchen,513,0
+1,M2,2023-04-11,raw,kitchen,516,0
+1,M2,2023-04-11,raw,kitchen,517,0
+1,M2,2023-04-11,raw,kitchen,518,0
+1,M2,2023-04-11,raw,kitchen,520,0
+1,M2,2023-04-11,raw,kitchen,522,0
+1,M2,2023-04-11,raw,kitchen,523,0
+1,M2,2023-04-11,raw,kitchen,cafeteria,573
+1,M2,2023-04-11,raw,kitchen,cleaning,2
+1,M2,2023-04-11,raw,kitchen,hallway,2
+1,M2,2023-04-11,raw,kitchen,kitchen,1248
+1,M2,2023-04-11,raw,kitchen,nurse station,37
+1,M2,2023-04-11,raw,nurse station,502,1
+1,M2,2023-04-11,raw,nurse station,511,42
+1,M2,2023-04-11,raw,nurse station,512,5
+1,M2,2023-04-11,raw,nurse station,513,0
+1,M2,2023-04-11,raw,nurse station,516,0
+1,M2,2023-04-11,raw,nurse station,517,3
+1,M2,2023-04-11,raw,nurse station,518,22
+1,M2,2023-04-11,raw,nurse station,520,130
+1,M2,2023-04-11,raw,nurse station,522,3
+1,M2,2023-04-11,raw,nurse station,523,6
+1,M2,2023-04-11,raw,nurse station,cafeteria,283
+1,M2,2023-04-11,raw,nurse station,cleaning,154
+1,M2,2023-04-11,raw,nurse station,hallway,180
+1,M2,2023-04-11,raw,nurse station,kitchen,223
+1,M2,2023-04-11,raw,nurse station,nurse station,2705
+1,M2,2023-04-11,fixed_decoder,502,502,9
+1,M2,2023-04-11,fixed_decoder,502,511,0
+1,M2,2023-04-11,fixed_decoder,502,512,0
+1,M2,2023-04-11,fixed_decoder,502,513,0
+1,M2,2023-04-11,fixed_decoder,502,516,0
+1,M2,2023-04-11,fixed_decoder,502,517,0
+1,M2,2023-04-11,fixed_decoder,502,518,0
+1,M2,2023-04-11,fixed_decoder,502,520,0
+1,M2,2023-04-11,fixed_decoder,502,522,0
+1,M2,2023-04-11,fixed_decoder,502,523,0
+1,M2,2023-04-11,fixed_decoder,502,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,502,cleaning,0
+1,M2,2023-04-11,fixed_decoder,502,hallway,0
+1,M2,2023-04-11,fixed_decoder,502,kitchen,0
+1,M2,2023-04-11,fixed_decoder,502,nurse station,0
+1,M2,2023-04-11,fixed_decoder,511,502,0
+1,M2,2023-04-11,fixed_decoder,511,511,24
+1,M2,2023-04-11,fixed_decoder,511,512,0
+1,M2,2023-04-11,fixed_decoder,511,513,0
+1,M2,2023-04-11,fixed_decoder,511,516,0
+1,M2,2023-04-11,fixed_decoder,511,517,0
+1,M2,2023-04-11,fixed_decoder,511,518,0
+1,M2,2023-04-11,fixed_decoder,511,520,2
+1,M2,2023-04-11,fixed_decoder,511,522,6
+1,M2,2023-04-11,fixed_decoder,511,523,0
+1,M2,2023-04-11,fixed_decoder,511,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,511,cleaning,0
+1,M2,2023-04-11,fixed_decoder,511,hallway,15
+1,M2,2023-04-11,fixed_decoder,511,kitchen,0
+1,M2,2023-04-11,fixed_decoder,511,nurse station,2
+1,M2,2023-04-11,fixed_decoder,512,502,0
+1,M2,2023-04-11,fixed_decoder,512,511,0
+1,M2,2023-04-11,fixed_decoder,512,512,151
+1,M2,2023-04-11,fixed_decoder,512,513,0
+1,M2,2023-04-11,fixed_decoder,512,516,0
+1,M2,2023-04-11,fixed_decoder,512,517,0
+1,M2,2023-04-11,fixed_decoder,512,518,0
+1,M2,2023-04-11,fixed_decoder,512,520,0
+1,M2,2023-04-11,fixed_decoder,512,522,0
+1,M2,2023-04-11,fixed_decoder,512,523,8
+1,M2,2023-04-11,fixed_decoder,512,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,512,cleaning,0
+1,M2,2023-04-11,fixed_decoder,512,hallway,0
+1,M2,2023-04-11,fixed_decoder,512,kitchen,0
+1,M2,2023-04-11,fixed_decoder,512,nurse station,0
+1,M2,2023-04-11,fixed_decoder,513,502,0
+1,M2,2023-04-11,fixed_decoder,513,511,0
+1,M2,2023-04-11,fixed_decoder,513,512,0
+1,M2,2023-04-11,fixed_decoder,513,513,15
+1,M2,2023-04-11,fixed_decoder,513,516,0
+1,M2,2023-04-11,fixed_decoder,513,517,0
+1,M2,2023-04-11,fixed_decoder,513,518,0
+1,M2,2023-04-11,fixed_decoder,513,520,0
+1,M2,2023-04-11,fixed_decoder,513,522,0
+1,M2,2023-04-11,fixed_decoder,513,523,0
+1,M2,2023-04-11,fixed_decoder,513,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,513,cleaning,0
+1,M2,2023-04-11,fixed_decoder,513,hallway,0
+1,M2,2023-04-11,fixed_decoder,513,kitchen,0
+1,M2,2023-04-11,fixed_decoder,513,nurse station,0
+1,M2,2023-04-11,fixed_decoder,516,502,13
+1,M2,2023-04-11,fixed_decoder,516,511,0
+1,M2,2023-04-11,fixed_decoder,516,512,0
+1,M2,2023-04-11,fixed_decoder,516,513,0
+1,M2,2023-04-11,fixed_decoder,516,516,0
+1,M2,2023-04-11,fixed_decoder,516,517,0
+1,M2,2023-04-11,fixed_decoder,516,518,0
+1,M2,2023-04-11,fixed_decoder,516,520,0
+1,M2,2023-04-11,fixed_decoder,516,522,0
+1,M2,2023-04-11,fixed_decoder,516,523,0
+1,M2,2023-04-11,fixed_decoder,516,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,516,cleaning,0
+1,M2,2023-04-11,fixed_decoder,516,hallway,0
+1,M2,2023-04-11,fixed_decoder,516,kitchen,0
+1,M2,2023-04-11,fixed_decoder,516,nurse station,0
+1,M2,2023-04-11,fixed_decoder,517,502,14
+1,M2,2023-04-11,fixed_decoder,517,511,0
+1,M2,2023-04-11,fixed_decoder,517,512,0
+1,M2,2023-04-11,fixed_decoder,517,513,0
+1,M2,2023-04-11,fixed_decoder,517,516,0
+1,M2,2023-04-11,fixed_decoder,517,517,0
+1,M2,2023-04-11,fixed_decoder,517,518,0
+1,M2,2023-04-11,fixed_decoder,517,520,0
+1,M2,2023-04-11,fixed_decoder,517,522,0
+1,M2,2023-04-11,fixed_decoder,517,523,0
+1,M2,2023-04-11,fixed_decoder,517,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,517,cleaning,0
+1,M2,2023-04-11,fixed_decoder,517,hallway,0
+1,M2,2023-04-11,fixed_decoder,517,kitchen,0
+1,M2,2023-04-11,fixed_decoder,517,nurse station,1
+1,M2,2023-04-11,fixed_decoder,518,502,0
+1,M2,2023-04-11,fixed_decoder,518,511,0
+1,M2,2023-04-11,fixed_decoder,518,512,0
+1,M2,2023-04-11,fixed_decoder,518,513,0
+1,M2,2023-04-11,fixed_decoder,518,516,0
+1,M2,2023-04-11,fixed_decoder,518,517,0
+1,M2,2023-04-11,fixed_decoder,518,518,0
+1,M2,2023-04-11,fixed_decoder,518,520,5
+1,M2,2023-04-11,fixed_decoder,518,522,0
+1,M2,2023-04-11,fixed_decoder,518,523,0
+1,M2,2023-04-11,fixed_decoder,518,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,518,cleaning,0
+1,M2,2023-04-11,fixed_decoder,518,hallway,0
+1,M2,2023-04-11,fixed_decoder,518,kitchen,0
+1,M2,2023-04-11,fixed_decoder,518,nurse station,0
+1,M2,2023-04-11,fixed_decoder,520,502,0
+1,M2,2023-04-11,fixed_decoder,520,511,0
+1,M2,2023-04-11,fixed_decoder,520,512,0
+1,M2,2023-04-11,fixed_decoder,520,513,0
+1,M2,2023-04-11,fixed_decoder,520,516,0
+1,M2,2023-04-11,fixed_decoder,520,517,0
+1,M2,2023-04-11,fixed_decoder,520,518,0
+1,M2,2023-04-11,fixed_decoder,520,520,32
+1,M2,2023-04-11,fixed_decoder,520,522,0
+1,M2,2023-04-11,fixed_decoder,520,523,0
+1,M2,2023-04-11,fixed_decoder,520,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,520,cleaning,0
+1,M2,2023-04-11,fixed_decoder,520,hallway,3
+1,M2,2023-04-11,fixed_decoder,520,kitchen,0
+1,M2,2023-04-11,fixed_decoder,520,nurse station,0
+1,M2,2023-04-11,fixed_decoder,522,502,0
+1,M2,2023-04-11,fixed_decoder,522,511,0
+1,M2,2023-04-11,fixed_decoder,522,512,3
+1,M2,2023-04-11,fixed_decoder,522,513,0
+1,M2,2023-04-11,fixed_decoder,522,516,0
+1,M2,2023-04-11,fixed_decoder,522,517,0
+1,M2,2023-04-11,fixed_decoder,522,518,0
+1,M2,2023-04-11,fixed_decoder,522,520,0
+1,M2,2023-04-11,fixed_decoder,522,522,96
+1,M2,2023-04-11,fixed_decoder,522,523,29
+1,M2,2023-04-11,fixed_decoder,522,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,522,cleaning,0
+1,M2,2023-04-11,fixed_decoder,522,hallway,8
+1,M2,2023-04-11,fixed_decoder,522,kitchen,0
+1,M2,2023-04-11,fixed_decoder,522,nurse station,45
+1,M2,2023-04-11,fixed_decoder,523,502,0
+1,M2,2023-04-11,fixed_decoder,523,511,0
+1,M2,2023-04-11,fixed_decoder,523,512,30
+1,M2,2023-04-11,fixed_decoder,523,513,0
+1,M2,2023-04-11,fixed_decoder,523,516,0
+1,M2,2023-04-11,fixed_decoder,523,517,0
+1,M2,2023-04-11,fixed_decoder,523,518,0
+1,M2,2023-04-11,fixed_decoder,523,520,0
+1,M2,2023-04-11,fixed_decoder,523,522,0
+1,M2,2023-04-11,fixed_decoder,523,523,48
+1,M2,2023-04-11,fixed_decoder,523,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,523,cleaning,0
+1,M2,2023-04-11,fixed_decoder,523,hallway,3
+1,M2,2023-04-11,fixed_decoder,523,kitchen,0
+1,M2,2023-04-11,fixed_decoder,523,nurse station,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,502,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,511,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,512,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,513,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,516,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,517,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,518,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,520,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,522,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,523,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,cafeteria,267
+1,M2,2023-04-11,fixed_decoder,cafeteria,cleaning,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,hallway,0
+1,M2,2023-04-11,fixed_decoder,cafeteria,kitchen,1000
+1,M2,2023-04-11,fixed_decoder,cafeteria,nurse station,215
+1,M2,2023-04-11,fixed_decoder,cleaning,502,0
+1,M2,2023-04-11,fixed_decoder,cleaning,511,0
+1,M2,2023-04-11,fixed_decoder,cleaning,512,0
+1,M2,2023-04-11,fixed_decoder,cleaning,513,0
+1,M2,2023-04-11,fixed_decoder,cleaning,516,0
+1,M2,2023-04-11,fixed_decoder,cleaning,517,0
+1,M2,2023-04-11,fixed_decoder,cleaning,518,0
+1,M2,2023-04-11,fixed_decoder,cleaning,520,0
+1,M2,2023-04-11,fixed_decoder,cleaning,522,0
+1,M2,2023-04-11,fixed_decoder,cleaning,523,0
+1,M2,2023-04-11,fixed_decoder,cleaning,cafeteria,0
+1,M2,2023-04-11,fixed_decoder,cleaning,cleaning,38
+1,M2,2023-04-11,fixed_decoder,cleaning,hallway,0
+1,M2,2023-04-11,fixed_decoder,cleaning,kitchen,0
+1,M2,2023-04-11,fixed_decoder,cleaning,nurse station,16
+1,M2,2023-04-11,fixed_decoder,hallway,502,0
+1,M2,2023-04-11,fixed_decoder,hallway,511,0
+1,M2,2023-04-11,fixed_decoder,hallway,512,0
+1,M2,2023-04-11,fixed_decoder,hallway,513,4
+1,M2,2023-04-11,fixed_decoder,hallway,516,0
+1,M2,2023-04-11,fixed_decoder,hallway,517,0
+1,M2,2023-04-11,fixed_decoder,hallway,518,0
+1,M2,2023-04-11,fixed_decoder,hallway,520,0
+1,M2,2023-04-11,fixed_decoder,hallway,522,0
+1,M2,2023-04-11,fixed_decoder,hallway,523,0
+1,M2,2023-04-11,fixed_decoder,hallway,cafeteria,7
+1,M2,2023-04-11,fixed_decoder,hallway,cleaning,0
+1,M2,2023-04-11,fixed_decoder,hallway,hallway,0
+1,M2,2023-04-11,fixed_decoder,hallway,kitchen,1
+1,M2,2023-04-11,fixed_decoder,hallway,nurse station,8
+1,M2,2023-04-11,fixed_decoder,kitchen,502,0
+1,M2,2023-04-11,fixed_decoder,kitchen,511,0
+1,M2,2023-04-11,fixed_decoder,kitchen,512,0
+1,M2,2023-04-11,fixed_decoder,kitchen,513,0
+1,M2,2023-04-11,fixed_decoder,kitchen,516,0
+1,M2,2023-04-11,fixed_decoder,kitchen,517,0
+1,M2,2023-04-11,fixed_decoder,kitchen,518,0
+1,M2,2023-04-11,fixed_decoder,kitchen,520,0
+1,M2,2023-04-11,fixed_decoder,kitchen,522,0
+1,M2,2023-04-11,fixed_decoder,kitchen,523,0
+1,M2,2023-04-11,fixed_decoder,kitchen,cafeteria,154
+1,M2,2023-04-11,fixed_decoder,kitchen,cleaning,0
+1,M2,2023-04-11,fixed_decoder,kitchen,hallway,0
+1,M2,2023-04-11,fixed_decoder,kitchen,kitchen,1708
+1,M2,2023-04-11,fixed_decoder,kitchen,nurse station,2
+1,M2,2023-04-11,fixed_decoder,nurse station,502,0
+1,M2,2023-04-11,fixed_decoder,nurse station,511,0
+1,M2,2023-04-11,fixed_decoder,nurse station,512,0
+1,M2,2023-04-11,fixed_decoder,nurse station,513,0
+1,M2,2023-04-11,fixed_decoder,nurse station,516,0
+1,M2,2023-04-11,fixed_decoder,nurse station,517,0
+1,M2,2023-04-11,fixed_decoder,nurse station,518,0
+1,M2,2023-04-11,fixed_decoder,nurse station,520,2
+1,M2,2023-04-11,fixed_decoder,nurse station,522,0
+1,M2,2023-04-11,fixed_decoder,nurse station,523,8
+1,M2,2023-04-11,fixed_decoder,nurse station,cafeteria,80
+1,M2,2023-04-11,fixed_decoder,nurse station,cleaning,146
+1,M2,2023-04-11,fixed_decoder,nurse station,hallway,31
+1,M2,2023-04-11,fixed_decoder,nurse station,kitchen,59
+1,M2,2023-04-11,fixed_decoder,nurse station,nurse station,3431
+1,M2,2023-04-12,raw,501,501,5
+1,M2,2023-04-12,raw,501,502,0
+1,M2,2023-04-12,raw,501,505,0
+1,M2,2023-04-12,raw,501,506,0
+1,M2,2023-04-12,raw,501,511,0
+1,M2,2023-04-12,raw,501,512,0
+1,M2,2023-04-12,raw,501,513,5
+1,M2,2023-04-12,raw,501,515,5
+1,M2,2023-04-12,raw,501,517,0
+1,M2,2023-04-12,raw,501,518,0
+1,M2,2023-04-12,raw,501,520,0
+1,M2,2023-04-12,raw,501,522,0
+1,M2,2023-04-12,raw,501,523,0
+1,M2,2023-04-12,raw,501,cafeteria,0
+1,M2,2023-04-12,raw,501,cleaning,0
+1,M2,2023-04-12,raw,501,hallway,0
+1,M2,2023-04-12,raw,501,kitchen,0
+1,M2,2023-04-12,raw,501,nurse station,0
+1,M2,2023-04-12,raw,502,501,1
+1,M2,2023-04-12,raw,502,502,19
+1,M2,2023-04-12,raw,502,505,9
+1,M2,2023-04-12,raw,502,506,1
+1,M2,2023-04-12,raw,502,511,0
+1,M2,2023-04-12,raw,502,512,0
+1,M2,2023-04-12,raw,502,513,16
+1,M2,2023-04-12,raw,502,515,6
+1,M2,2023-04-12,raw,502,517,16
+1,M2,2023-04-12,raw,502,518,0
+1,M2,2023-04-12,raw,502,520,0
+1,M2,2023-04-12,raw,502,522,0
+1,M2,2023-04-12,raw,502,523,0
+1,M2,2023-04-12,raw,502,cafeteria,0
+1,M2,2023-04-12,raw,502,cleaning,0
+1,M2,2023-04-12,raw,502,hallway,0
+1,M2,2023-04-12,raw,502,kitchen,0
+1,M2,2023-04-12,raw,502,nurse station,1
+1,M2,2023-04-12,raw,505,501,0
+1,M2,2023-04-12,raw,505,502,0
+1,M2,2023-04-12,raw,505,505,0
+1,M2,2023-04-12,raw,505,506,1
+1,M2,2023-04-12,raw,505,511,1
+1,M2,2023-04-12,raw,505,512,0
+1,M2,2023-04-12,raw,505,513,0
+1,M2,2023-04-12,raw,505,515,0
+1,M2,2023-04-12,raw,505,517,0
+1,M2,2023-04-12,raw,505,518,0
+1,M2,2023-04-12,raw,505,520,0
+1,M2,2023-04-12,raw,505,522,0
+1,M2,2023-04-12,raw,505,523,0
+1,M2,2023-04-12,raw,505,cafeteria,0
+1,M2,2023-04-12,raw,505,cleaning,0
+1,M2,2023-04-12,raw,505,hallway,0
+1,M2,2023-04-12,raw,505,kitchen,0
+1,M2,2023-04-12,raw,505,nurse station,2
+1,M2,2023-04-12,raw,506,501,0
+1,M2,2023-04-12,raw,506,502,0
+1,M2,2023-04-12,raw,506,505,1
+1,M2,2023-04-12,raw,506,506,56
+1,M2,2023-04-12,raw,506,511,0
+1,M2,2023-04-12,raw,506,512,0
+1,M2,2023-04-12,raw,506,513,0
+1,M2,2023-04-12,raw,506,515,0
+1,M2,2023-04-12,raw,506,517,0
+1,M2,2023-04-12,raw,506,518,0
+1,M2,2023-04-12,raw,506,520,0
+1,M2,2023-04-12,raw,506,522,0
+1,M2,2023-04-12,raw,506,523,0
+1,M2,2023-04-12,raw,506,cafeteria,2
+1,M2,2023-04-12,raw,506,cleaning,31
+1,M2,2023-04-12,raw,506,hallway,0
+1,M2,2023-04-12,raw,506,kitchen,1
+1,M2,2023-04-12,raw,506,nurse station,6
+1,M2,2023-04-12,raw,511,501,0
+1,M2,2023-04-12,raw,511,502,0
+1,M2,2023-04-12,raw,511,505,0
+1,M2,2023-04-12,raw,511,506,0
+1,M2,2023-04-12,raw,511,511,28
+1,M2,2023-04-12,raw,511,512,0
+1,M2,2023-04-12,raw,511,513,0
+1,M2,2023-04-12,raw,511,515,0
+1,M2,2023-04-12,raw,511,517,0
+1,M2,2023-04-12,raw,511,518,0
+1,M2,2023-04-12,raw,511,520,5
+1,M2,2023-04-12,raw,511,522,12
+1,M2,2023-04-12,raw,511,523,0
+1,M2,2023-04-12,raw,511,cafeteria,0
+1,M2,2023-04-12,raw,511,cleaning,0
+1,M2,2023-04-12,raw,511,hallway,1
+1,M2,2023-04-12,raw,511,kitchen,0
+1,M2,2023-04-12,raw,511,nurse station,0
+1,M2,2023-04-12,raw,512,501,0
+1,M2,2023-04-12,raw,512,502,0
+1,M2,2023-04-12,raw,512,505,0
+1,M2,2023-04-12,raw,512,506,0
+1,M2,2023-04-12,raw,512,511,4
+1,M2,2023-04-12,raw,512,512,63
+1,M2,2023-04-12,raw,512,513,0
+1,M2,2023-04-12,raw,512,515,0
+1,M2,2023-04-12,raw,512,517,0
+1,M2,2023-04-12,raw,512,518,2
+1,M2,2023-04-12,raw,512,520,2
+1,M2,2023-04-12,raw,512,522,7
+1,M2,2023-04-12,raw,512,523,38
+1,M2,2023-04-12,raw,512,cafeteria,0
+1,M2,2023-04-12,raw,512,cleaning,0
+1,M2,2023-04-12,raw,512,hallway,9
+1,M2,2023-04-12,raw,512,kitchen,0
+1,M2,2023-04-12,raw,512,nurse station,8
+1,M2,2023-04-12,raw,513,501,35
+1,M2,2023-04-12,raw,513,502,4
+1,M2,2023-04-12,raw,513,505,16
+1,M2,2023-04-12,raw,513,506,16
+1,M2,2023-04-12,raw,513,511,0
+1,M2,2023-04-12,raw,513,512,0
+1,M2,2023-04-12,raw,513,513,46
+1,M2,2023-04-12,raw,513,515,24
+1,M2,2023-04-12,raw,513,517,2
+1,M2,2023-04-12,raw,513,518,0
+1,M2,2023-04-12,raw,513,520,0
+1,M2,2023-04-12,raw,513,522,0
+1,M2,2023-04-12,raw,513,523,0
+1,M2,2023-04-12,raw,513,cafeteria,4
+1,M2,2023-04-12,raw,513,cleaning,25
+1,M2,2023-04-12,raw,513,hallway,0
+1,M2,2023-04-12,raw,513,kitchen,1
+1,M2,2023-04-12,raw,513,nurse station,7
+1,M2,2023-04-12,raw,515,501,14
+1,M2,2023-04-12,raw,515,502,1
+1,M2,2023-04-12,raw,515,505,3
+1,M2,2023-04-12,raw,515,506,0
+1,M2,2023-04-12,raw,515,511,0
+1,M2,2023-04-12,raw,515,512,0
+1,M2,2023-04-12,raw,515,513,6
+1,M2,2023-04-12,raw,515,515,15
+1,M2,2023-04-12,raw,515,517,0
+1,M2,2023-04-12,raw,515,518,0
+1,M2,2023-04-12,raw,515,520,0
+1,M2,2023-04-12,raw,515,522,0
+1,M2,2023-04-12,raw,515,523,0
+1,M2,2023-04-12,raw,515,cafeteria,0
+1,M2,2023-04-12,raw,515,cleaning,0
+1,M2,2023-04-12,raw,515,hallway,0
+1,M2,2023-04-12,raw,515,kitchen,0
+1,M2,2023-04-12,raw,515,nurse station,0
+1,M2,2023-04-12,raw,517,501,0
+1,M2,2023-04-12,raw,517,502,0
+1,M2,2023-04-12,raw,517,505,2
+1,M2,2023-04-12,raw,517,506,0
+1,M2,2023-04-12,raw,517,511,0
+1,M2,2023-04-12,raw,517,512,0
+1,M2,2023-04-12,raw,517,513,0
+1,M2,2023-04-12,raw,517,515,0
+1,M2,2023-04-12,raw,517,517,0
+1,M2,2023-04-12,raw,517,518,0
+1,M2,2023-04-12,raw,517,520,0
+1,M2,2023-04-12,raw,517,522,0
+1,M2,2023-04-12,raw,517,523,0
+1,M2,2023-04-12,raw,517,cafeteria,0
+1,M2,2023-04-12,raw,517,cleaning,0
+1,M2,2023-04-12,raw,517,hallway,0
+1,M2,2023-04-12,raw,517,kitchen,0
+1,M2,2023-04-12,raw,517,nurse station,0
+1,M2,2023-04-12,raw,518,501,0
+1,M2,2023-04-12,raw,518,502,0
+1,M2,2023-04-12,raw,518,505,0
+1,M2,2023-04-12,raw,518,506,0
+1,M2,2023-04-12,raw,518,511,1
+1,M2,2023-04-12,raw,518,512,0
+1,M2,2023-04-12,raw,518,513,0
+1,M2,2023-04-12,raw,518,515,0
+1,M2,2023-04-12,raw,518,517,0
+1,M2,2023-04-12,raw,518,518,3
+1,M2,2023-04-12,raw,518,520,3
+1,M2,2023-04-12,raw,518,522,0
+1,M2,2023-04-12,raw,518,523,0
+1,M2,2023-04-12,raw,518,cafeteria,0
+1,M2,2023-04-12,raw,518,cleaning,0
+1,M2,2023-04-12,raw,518,hallway,3
+1,M2,2023-04-12,raw,518,kitchen,0
+1,M2,2023-04-12,raw,518,nurse station,3
+1,M2,2023-04-12,raw,520,501,0
+1,M2,2023-04-12,raw,520,502,0
+1,M2,2023-04-12,raw,520,505,0
+1,M2,2023-04-12,raw,520,506,0
+1,M2,2023-04-12,raw,520,511,2
+1,M2,2023-04-12,raw,520,512,0
+1,M2,2023-04-12,raw,520,513,0
+1,M2,2023-04-12,raw,520,515,0
+1,M2,2023-04-12,raw,520,517,0
+1,M2,2023-04-12,raw,520,518,20
+1,M2,2023-04-12,raw,520,520,148
+1,M2,2023-04-12,raw,520,522,3
+1,M2,2023-04-12,raw,520,523,1
+1,M2,2023-04-12,raw,520,cafeteria,0
+1,M2,2023-04-12,raw,520,cleaning,0
+1,M2,2023-04-12,raw,520,hallway,14
+1,M2,2023-04-12,raw,520,kitchen,0
+1,M2,2023-04-12,raw,520,nurse station,2
+1,M2,2023-04-12,raw,522,501,0
+1,M2,2023-04-12,raw,522,502,0
+1,M2,2023-04-12,raw,522,505,0
+1,M2,2023-04-12,raw,522,506,0
+1,M2,2023-04-12,raw,522,511,1
+1,M2,2023-04-12,raw,522,512,0
+1,M2,2023-04-12,raw,522,513,0
+1,M2,2023-04-12,raw,522,515,0
+1,M2,2023-04-12,raw,522,517,0
+1,M2,2023-04-12,raw,522,518,0
+1,M2,2023-04-12,raw,522,520,1
+1,M2,2023-04-12,raw,522,522,12
+1,M2,2023-04-12,raw,522,523,3
+1,M2,2023-04-12,raw,522,cafeteria,0
+1,M2,2023-04-12,raw,522,cleaning,0
+1,M2,2023-04-12,raw,522,hallway,0
+1,M2,2023-04-12,raw,522,kitchen,0
+1,M2,2023-04-12,raw,522,nurse station,0
+1,M2,2023-04-12,raw,523,501,0
+1,M2,2023-04-12,raw,523,502,0
+1,M2,2023-04-12,raw,523,505,0
+1,M2,2023-04-12,raw,523,506,0
+1,M2,2023-04-12,raw,523,511,5
+1,M2,2023-04-12,raw,523,512,35
+1,M2,2023-04-12,raw,523,513,0
+1,M2,2023-04-12,raw,523,515,0
+1,M2,2023-04-12,raw,523,517,0
+1,M2,2023-04-12,raw,523,518,0
+1,M2,2023-04-12,raw,523,520,0
+1,M2,2023-04-12,raw,523,522,10
+1,M2,2023-04-12,raw,523,523,55
+1,M2,2023-04-12,raw,523,cafeteria,0
+1,M2,2023-04-12,raw,523,cleaning,0
+1,M2,2023-04-12,raw,523,hallway,5
+1,M2,2023-04-12,raw,523,kitchen,0
+1,M2,2023-04-12,raw,523,nurse station,0
+1,M2,2023-04-12,raw,cafeteria,501,0
+1,M2,2023-04-12,raw,cafeteria,502,0
+1,M2,2023-04-12,raw,cafeteria,505,2
+1,M2,2023-04-12,raw,cafeteria,506,72
+1,M2,2023-04-12,raw,cafeteria,511,0
+1,M2,2023-04-12,raw,cafeteria,512,0
+1,M2,2023-04-12,raw,cafeteria,513,0
+1,M2,2023-04-12,raw,cafeteria,515,0
+1,M2,2023-04-12,raw,cafeteria,517,0
+1,M2,2023-04-12,raw,cafeteria,518,11
+1,M2,2023-04-12,raw,cafeteria,520,4
+1,M2,2023-04-12,raw,cafeteria,522,0
+1,M2,2023-04-12,raw,cafeteria,523,0
+1,M2,2023-04-12,raw,cafeteria,cafeteria,172
+1,M2,2023-04-12,raw,cafeteria,cleaning,33
+1,M2,2023-04-12,raw,cafeteria,hallway,0
+1,M2,2023-04-12,raw,cafeteria,kitchen,704
+1,M2,2023-04-12,raw,cafeteria,nurse station,250
+1,M2,2023-04-12,raw,cleaning,501,0
+1,M2,2023-04-12,raw,cleaning,502,0
+1,M2,2023-04-12,raw,cleaning,505,6
+1,M2,2023-04-12,raw,cleaning,506,132
+1,M2,2023-04-12,raw,cleaning,511,1
+1,M2,2023-04-12,raw,cleaning,512,0
+1,M2,2023-04-12,raw,cleaning,513,0
+1,M2,2023-04-12,raw,cleaning,515,0
+1,M2,2023-04-12,raw,cleaning,517,17
+1,M2,2023-04-12,raw,cleaning,518,7
+1,M2,2023-04-12,raw,cleaning,520,4
+1,M2,2023-04-12,raw,cleaning,522,1
+1,M2,2023-04-12,raw,cleaning,523,0
+1,M2,2023-04-12,raw,cleaning,cafeteria,13
+1,M2,2023-04-12,raw,cleaning,cleaning,131
+1,M2,2023-04-12,raw,cleaning,hallway,8
+1,M2,2023-04-12,raw,cleaning,kitchen,41
+1,M2,2023-04-12,raw,cleaning,nurse station,114
+1,M2,2023-04-12,raw,hallway,501,0
+1,M2,2023-04-12,raw,hallway,502,0
+1,M2,2023-04-12,raw,hallway,505,2
+1,M2,2023-04-12,raw,hallway,506,23
+1,M2,2023-04-12,raw,hallway,511,3
+1,M2,2023-04-12,raw,hallway,512,0
+1,M2,2023-04-12,raw,hallway,513,0
+1,M2,2023-04-12,raw,hallway,515,0
+1,M2,2023-04-12,raw,hallway,517,2
+1,M2,2023-04-12,raw,hallway,518,21
+1,M2,2023-04-12,raw,hallway,520,15
+1,M2,2023-04-12,raw,hallway,522,0
+1,M2,2023-04-12,raw,hallway,523,0
+1,M2,2023-04-12,raw,hallway,cafeteria,16
+1,M2,2023-04-12,raw,hallway,cleaning,13
+1,M2,2023-04-12,raw,hallway,hallway,2
+1,M2,2023-04-12,raw,hallway,kitchen,19
+1,M2,2023-04-12,raw,hallway,nurse station,210
+1,M2,2023-04-12,raw,kitchen,501,0
+1,M2,2023-04-12,raw,kitchen,502,0
+1,M2,2023-04-12,raw,kitchen,505,6
+1,M2,2023-04-12,raw,kitchen,506,69
+1,M2,2023-04-12,raw,kitchen,511,1
+1,M2,2023-04-12,raw,kitchen,512,0
+1,M2,2023-04-12,raw,kitchen,513,0
+1,M2,2023-04-12,raw,kitchen,515,0
+1,M2,2023-04-12,raw,kitchen,517,3
+1,M2,2023-04-12,raw,kitchen,518,4
+1,M2,2023-04-12,raw,kitchen,520,1
+1,M2,2023-04-12,raw,kitchen,522,1
+1,M2,2023-04-12,raw,kitchen,523,1
+1,M2,2023-04-12,raw,kitchen,cafeteria,188
+1,M2,2023-04-12,raw,kitchen,cleaning,13
+1,M2,2023-04-12,raw,kitchen,hallway,8
+1,M2,2023-04-12,raw,kitchen,kitchen,1302
+1,M2,2023-04-12,raw,kitchen,nurse station,106
+1,M2,2023-04-12,raw,nurse station,501,0
+1,M2,2023-04-12,raw,nurse station,502,0
+1,M2,2023-04-12,raw,nurse station,505,0
+1,M2,2023-04-12,raw,nurse station,506,87
+1,M2,2023-04-12,raw,nurse station,511,16
+1,M2,2023-04-12,raw,nurse station,512,5
+1,M2,2023-04-12,raw,nurse station,513,2
+1,M2,2023-04-12,raw,nurse station,515,1
+1,M2,2023-04-12,raw,nurse station,517,1
+1,M2,2023-04-12,raw,nurse station,518,69
+1,M2,2023-04-12,raw,nurse station,520,66
+1,M2,2023-04-12,raw,nurse station,522,7
+1,M2,2023-04-12,raw,nurse station,523,8
+1,M2,2023-04-12,raw,nurse station,cafeteria,47
+1,M2,2023-04-12,raw,nurse station,cleaning,58
+1,M2,2023-04-12,raw,nurse station,hallway,26
+1,M2,2023-04-12,raw,nurse station,kitchen,90
+1,M2,2023-04-12,raw,nurse station,nurse station,782
+1,M2,2023-04-12,fixed_decoder,501,501,0
+1,M2,2023-04-12,fixed_decoder,501,502,0
+1,M2,2023-04-12,fixed_decoder,501,505,0
+1,M2,2023-04-12,fixed_decoder,501,506,0
+1,M2,2023-04-12,fixed_decoder,501,511,0
+1,M2,2023-04-12,fixed_decoder,501,512,0
+1,M2,2023-04-12,fixed_decoder,501,513,2
+1,M2,2023-04-12,fixed_decoder,501,515,8
+1,M2,2023-04-12,fixed_decoder,501,517,0
+1,M2,2023-04-12,fixed_decoder,501,518,0
+1,M2,2023-04-12,fixed_decoder,501,520,0
+1,M2,2023-04-12,fixed_decoder,501,522,0
+1,M2,2023-04-12,fixed_decoder,501,523,0
+1,M2,2023-04-12,fixed_decoder,501,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,501,cleaning,0
+1,M2,2023-04-12,fixed_decoder,501,hallway,0
+1,M2,2023-04-12,fixed_decoder,501,kitchen,0
+1,M2,2023-04-12,fixed_decoder,501,nurse station,5
+1,M2,2023-04-12,fixed_decoder,502,501,0
+1,M2,2023-04-12,fixed_decoder,502,502,22
+1,M2,2023-04-12,fixed_decoder,502,505,23
+1,M2,2023-04-12,fixed_decoder,502,506,0
+1,M2,2023-04-12,fixed_decoder,502,511,0
+1,M2,2023-04-12,fixed_decoder,502,512,0
+1,M2,2023-04-12,fixed_decoder,502,513,0
+1,M2,2023-04-12,fixed_decoder,502,515,0
+1,M2,2023-04-12,fixed_decoder,502,517,12
+1,M2,2023-04-12,fixed_decoder,502,518,0
+1,M2,2023-04-12,fixed_decoder,502,520,0
+1,M2,2023-04-12,fixed_decoder,502,522,0
+1,M2,2023-04-12,fixed_decoder,502,523,0
+1,M2,2023-04-12,fixed_decoder,502,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,502,cleaning,0
+1,M2,2023-04-12,fixed_decoder,502,hallway,0
+1,M2,2023-04-12,fixed_decoder,502,kitchen,0
+1,M2,2023-04-12,fixed_decoder,502,nurse station,12
+1,M2,2023-04-12,fixed_decoder,505,501,0
+1,M2,2023-04-12,fixed_decoder,505,502,0
+1,M2,2023-04-12,fixed_decoder,505,505,0
+1,M2,2023-04-12,fixed_decoder,505,506,0
+1,M2,2023-04-12,fixed_decoder,505,511,0
+1,M2,2023-04-12,fixed_decoder,505,512,0
+1,M2,2023-04-12,fixed_decoder,505,513,0
+1,M2,2023-04-12,fixed_decoder,505,515,0
+1,M2,2023-04-12,fixed_decoder,505,517,0
+1,M2,2023-04-12,fixed_decoder,505,518,0
+1,M2,2023-04-12,fixed_decoder,505,520,0
+1,M2,2023-04-12,fixed_decoder,505,522,0
+1,M2,2023-04-12,fixed_decoder,505,523,0
+1,M2,2023-04-12,fixed_decoder,505,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,505,cleaning,0
+1,M2,2023-04-12,fixed_decoder,505,hallway,0
+1,M2,2023-04-12,fixed_decoder,505,kitchen,0
+1,M2,2023-04-12,fixed_decoder,505,nurse station,4
+1,M2,2023-04-12,fixed_decoder,506,501,0
+1,M2,2023-04-12,fixed_decoder,506,502,0
+1,M2,2023-04-12,fixed_decoder,506,505,0
+1,M2,2023-04-12,fixed_decoder,506,506,82
+1,M2,2023-04-12,fixed_decoder,506,511,0
+1,M2,2023-04-12,fixed_decoder,506,512,0
+1,M2,2023-04-12,fixed_decoder,506,513,0
+1,M2,2023-04-12,fixed_decoder,506,515,0
+1,M2,2023-04-12,fixed_decoder,506,517,0
+1,M2,2023-04-12,fixed_decoder,506,518,0
+1,M2,2023-04-12,fixed_decoder,506,520,0
+1,M2,2023-04-12,fixed_decoder,506,522,0
+1,M2,2023-04-12,fixed_decoder,506,523,0
+1,M2,2023-04-12,fixed_decoder,506,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,506,cleaning,12
+1,M2,2023-04-12,fixed_decoder,506,hallway,0
+1,M2,2023-04-12,fixed_decoder,506,kitchen,0
+1,M2,2023-04-12,fixed_decoder,506,nurse station,3
+1,M2,2023-04-12,fixed_decoder,511,501,0
+1,M2,2023-04-12,fixed_decoder,511,502,0
+1,M2,2023-04-12,fixed_decoder,511,505,0
+1,M2,2023-04-12,fixed_decoder,511,506,0
+1,M2,2023-04-12,fixed_decoder,511,511,27
+1,M2,2023-04-12,fixed_decoder,511,512,0
+1,M2,2023-04-12,fixed_decoder,511,513,0
+1,M2,2023-04-12,fixed_decoder,511,515,0
+1,M2,2023-04-12,fixed_decoder,511,517,0
+1,M2,2023-04-12,fixed_decoder,511,518,0
+1,M2,2023-04-12,fixed_decoder,511,520,0
+1,M2,2023-04-12,fixed_decoder,511,522,4
+1,M2,2023-04-12,fixed_decoder,511,523,0
+1,M2,2023-04-12,fixed_decoder,511,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,511,cleaning,0
+1,M2,2023-04-12,fixed_decoder,511,hallway,0
+1,M2,2023-04-12,fixed_decoder,511,kitchen,0
+1,M2,2023-04-12,fixed_decoder,511,nurse station,15
+1,M2,2023-04-12,fixed_decoder,512,501,0
+1,M2,2023-04-12,fixed_decoder,512,502,0
+1,M2,2023-04-12,fixed_decoder,512,505,0
+1,M2,2023-04-12,fixed_decoder,512,506,0
+1,M2,2023-04-12,fixed_decoder,512,511,0
+1,M2,2023-04-12,fixed_decoder,512,512,60
+1,M2,2023-04-12,fixed_decoder,512,513,0
+1,M2,2023-04-12,fixed_decoder,512,515,0
+1,M2,2023-04-12,fixed_decoder,512,517,0
+1,M2,2023-04-12,fixed_decoder,512,518,0
+1,M2,2023-04-12,fixed_decoder,512,520,0
+1,M2,2023-04-12,fixed_decoder,512,522,0
+1,M2,2023-04-12,fixed_decoder,512,523,45
+1,M2,2023-04-12,fixed_decoder,512,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,512,cleaning,0
+1,M2,2023-04-12,fixed_decoder,512,hallway,10
+1,M2,2023-04-12,fixed_decoder,512,kitchen,0
+1,M2,2023-04-12,fixed_decoder,512,nurse station,18
+1,M2,2023-04-12,fixed_decoder,513,501,42
+1,M2,2023-04-12,fixed_decoder,513,502,0
+1,M2,2023-04-12,fixed_decoder,513,505,13
+1,M2,2023-04-12,fixed_decoder,513,506,17
+1,M2,2023-04-12,fixed_decoder,513,511,0
+1,M2,2023-04-12,fixed_decoder,513,512,0
+1,M2,2023-04-12,fixed_decoder,513,513,40
+1,M2,2023-04-12,fixed_decoder,513,515,18
+1,M2,2023-04-12,fixed_decoder,513,517,0
+1,M2,2023-04-12,fixed_decoder,513,518,0
+1,M2,2023-04-12,fixed_decoder,513,520,0
+1,M2,2023-04-12,fixed_decoder,513,522,0
+1,M2,2023-04-12,fixed_decoder,513,523,0
+1,M2,2023-04-12,fixed_decoder,513,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,513,cleaning,33
+1,M2,2023-04-12,fixed_decoder,513,hallway,0
+1,M2,2023-04-12,fixed_decoder,513,kitchen,0
+1,M2,2023-04-12,fixed_decoder,513,nurse station,17
+1,M2,2023-04-12,fixed_decoder,515,501,14
+1,M2,2023-04-12,fixed_decoder,515,502,0
+1,M2,2023-04-12,fixed_decoder,515,505,8
+1,M2,2023-04-12,fixed_decoder,515,506,0
+1,M2,2023-04-12,fixed_decoder,515,511,0
+1,M2,2023-04-12,fixed_decoder,515,512,0
+1,M2,2023-04-12,fixed_decoder,515,513,0
+1,M2,2023-04-12,fixed_decoder,515,515,12
+1,M2,2023-04-12,fixed_decoder,515,517,0
+1,M2,2023-04-12,fixed_decoder,515,518,0
+1,M2,2023-04-12,fixed_decoder,515,520,0
+1,M2,2023-04-12,fixed_decoder,515,522,0
+1,M2,2023-04-12,fixed_decoder,515,523,0
+1,M2,2023-04-12,fixed_decoder,515,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,515,cleaning,0
+1,M2,2023-04-12,fixed_decoder,515,hallway,0
+1,M2,2023-04-12,fixed_decoder,515,kitchen,0
+1,M2,2023-04-12,fixed_decoder,515,nurse station,5
+1,M2,2023-04-12,fixed_decoder,517,501,0
+1,M2,2023-04-12,fixed_decoder,517,502,0
+1,M2,2023-04-12,fixed_decoder,517,505,0
+1,M2,2023-04-12,fixed_decoder,517,506,0
+1,M2,2023-04-12,fixed_decoder,517,511,0
+1,M2,2023-04-12,fixed_decoder,517,512,0
+1,M2,2023-04-12,fixed_decoder,517,513,0
+1,M2,2023-04-12,fixed_decoder,517,515,0
+1,M2,2023-04-12,fixed_decoder,517,517,0
+1,M2,2023-04-12,fixed_decoder,517,518,0
+1,M2,2023-04-12,fixed_decoder,517,520,0
+1,M2,2023-04-12,fixed_decoder,517,522,0
+1,M2,2023-04-12,fixed_decoder,517,523,0
+1,M2,2023-04-12,fixed_decoder,517,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,517,cleaning,0
+1,M2,2023-04-12,fixed_decoder,517,hallway,0
+1,M2,2023-04-12,fixed_decoder,517,kitchen,0
+1,M2,2023-04-12,fixed_decoder,517,nurse station,2
+1,M2,2023-04-12,fixed_decoder,518,501,0
+1,M2,2023-04-12,fixed_decoder,518,502,0
+1,M2,2023-04-12,fixed_decoder,518,505,0
+1,M2,2023-04-12,fixed_decoder,518,506,0
+1,M2,2023-04-12,fixed_decoder,518,511,0
+1,M2,2023-04-12,fixed_decoder,518,512,0
+1,M2,2023-04-12,fixed_decoder,518,513,0
+1,M2,2023-04-12,fixed_decoder,518,515,0
+1,M2,2023-04-12,fixed_decoder,518,517,0
+1,M2,2023-04-12,fixed_decoder,518,518,0
+1,M2,2023-04-12,fixed_decoder,518,520,0
+1,M2,2023-04-12,fixed_decoder,518,522,0
+1,M2,2023-04-12,fixed_decoder,518,523,0
+1,M2,2023-04-12,fixed_decoder,518,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,518,cleaning,0
+1,M2,2023-04-12,fixed_decoder,518,hallway,0
+1,M2,2023-04-12,fixed_decoder,518,kitchen,0
+1,M2,2023-04-12,fixed_decoder,518,nurse station,13
+1,M2,2023-04-12,fixed_decoder,520,501,0
+1,M2,2023-04-12,fixed_decoder,520,502,0
+1,M2,2023-04-12,fixed_decoder,520,505,0
+1,M2,2023-04-12,fixed_decoder,520,506,0
+1,M2,2023-04-12,fixed_decoder,520,511,0
+1,M2,2023-04-12,fixed_decoder,520,512,0
+1,M2,2023-04-12,fixed_decoder,520,513,0
+1,M2,2023-04-12,fixed_decoder,520,515,0
+1,M2,2023-04-12,fixed_decoder,520,517,0
+1,M2,2023-04-12,fixed_decoder,520,518,0
+1,M2,2023-04-12,fixed_decoder,520,520,163
+1,M2,2023-04-12,fixed_decoder,520,522,0
+1,M2,2023-04-12,fixed_decoder,520,523,0
+1,M2,2023-04-12,fixed_decoder,520,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,520,cleaning,0
+1,M2,2023-04-12,fixed_decoder,520,hallway,16
+1,M2,2023-04-12,fixed_decoder,520,kitchen,0
+1,M2,2023-04-12,fixed_decoder,520,nurse station,11
+1,M2,2023-04-12,fixed_decoder,522,501,0
+1,M2,2023-04-12,fixed_decoder,522,502,0
+1,M2,2023-04-12,fixed_decoder,522,505,0
+1,M2,2023-04-12,fixed_decoder,522,506,0
+1,M2,2023-04-12,fixed_decoder,522,511,0
+1,M2,2023-04-12,fixed_decoder,522,512,0
+1,M2,2023-04-12,fixed_decoder,522,513,0
+1,M2,2023-04-12,fixed_decoder,522,515,0
+1,M2,2023-04-12,fixed_decoder,522,517,0
+1,M2,2023-04-12,fixed_decoder,522,518,0
+1,M2,2023-04-12,fixed_decoder,522,520,0
+1,M2,2023-04-12,fixed_decoder,522,522,15
+1,M2,2023-04-12,fixed_decoder,522,523,0
+1,M2,2023-04-12,fixed_decoder,522,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,522,cleaning,0
+1,M2,2023-04-12,fixed_decoder,522,hallway,0
+1,M2,2023-04-12,fixed_decoder,522,kitchen,0
+1,M2,2023-04-12,fixed_decoder,522,nurse station,2
+1,M2,2023-04-12,fixed_decoder,523,501,0
+1,M2,2023-04-12,fixed_decoder,523,502,0
+1,M2,2023-04-12,fixed_decoder,523,505,0
+1,M2,2023-04-12,fixed_decoder,523,506,0
+1,M2,2023-04-12,fixed_decoder,523,511,0
+1,M2,2023-04-12,fixed_decoder,523,512,39
+1,M2,2023-04-12,fixed_decoder,523,513,0
+1,M2,2023-04-12,fixed_decoder,523,515,0
+1,M2,2023-04-12,fixed_decoder,523,517,0
+1,M2,2023-04-12,fixed_decoder,523,518,0
+1,M2,2023-04-12,fixed_decoder,523,520,0
+1,M2,2023-04-12,fixed_decoder,523,522,2
+1,M2,2023-04-12,fixed_decoder,523,523,58
+1,M2,2023-04-12,fixed_decoder,523,cafeteria,0
+1,M2,2023-04-12,fixed_decoder,523,cleaning,0
+1,M2,2023-04-12,fixed_decoder,523,hallway,5
+1,M2,2023-04-12,fixed_decoder,523,kitchen,0
+1,M2,2023-04-12,fixed_decoder,523,nurse station,6
+1,M2,2023-04-12,fixed_decoder,cafeteria,501,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,502,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,505,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,506,5
+1,M2,2023-04-12,fixed_decoder,cafeteria,511,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,512,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,513,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,515,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,517,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,518,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,520,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,522,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,523,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,cafeteria,107
+1,M2,2023-04-12,fixed_decoder,cafeteria,cleaning,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,hallway,0
+1,M2,2023-04-12,fixed_decoder,cafeteria,kitchen,697
+1,M2,2023-04-12,fixed_decoder,cafeteria,nurse station,439
+1,M2,2023-04-12,fixed_decoder,cleaning,501,0
+1,M2,2023-04-12,fixed_decoder,cleaning,502,0
+1,M2,2023-04-12,fixed_decoder,cleaning,505,0
+1,M2,2023-04-12,fixed_decoder,cleaning,506,145
+1,M2,2023-04-12,fixed_decoder,cleaning,511,0
+1,M2,2023-04-12,fixed_decoder,cleaning,512,0
+1,M2,2023-04-12,fixed_decoder,cleaning,513,0
+1,M2,2023-04-12,fixed_decoder,cleaning,515,0
+1,M2,2023-04-12,fixed_decoder,cleaning,517,0
+1,M2,2023-04-12,fixed_decoder,cleaning,518,0
+1,M2,2023-04-12,fixed_decoder,cleaning,520,0
+1,M2,2023-04-12,fixed_decoder,cleaning,522,0
+1,M2,2023-04-12,fixed_decoder,cleaning,523,0
+1,M2,2023-04-12,fixed_decoder,cleaning,cafeteria,3
+1,M2,2023-04-12,fixed_decoder,cleaning,cleaning,119
+1,M2,2023-04-12,fixed_decoder,cleaning,hallway,0
+1,M2,2023-04-12,fixed_decoder,cleaning,kitchen,8
+1,M2,2023-04-12,fixed_decoder,cleaning,nurse station,200
+1,M2,2023-04-12,fixed_decoder,hallway,501,0
+1,M2,2023-04-12,fixed_decoder,hallway,502,0
+1,M2,2023-04-12,fixed_decoder,hallway,505,0
+1,M2,2023-04-12,fixed_decoder,hallway,506,0
+1,M2,2023-04-12,fixed_decoder,hallway,511,0
+1,M2,2023-04-12,fixed_decoder,hallway,512,0
+1,M2,2023-04-12,fixed_decoder,hallway,513,0
+1,M2,2023-04-12,fixed_decoder,hallway,515,0
+1,M2,2023-04-12,fixed_decoder,hallway,517,0
+1,M2,2023-04-12,fixed_decoder,hallway,518,0
+1,M2,2023-04-12,fixed_decoder,hallway,520,0
+1,M2,2023-04-12,fixed_decoder,hallway,522,0
+1,M2,2023-04-12,fixed_decoder,hallway,523,0
+1,M2,2023-04-12,fixed_decoder,hallway,cafeteria,19
+1,M2,2023-04-12,fixed_decoder,hallway,cleaning,0
+1,M2,2023-04-12,fixed_decoder,hallway,hallway,0
+1,M2,2023-04-12,fixed_decoder,hallway,kitchen,0
+1,M2,2023-04-12,fixed_decoder,hallway,nurse station,307
+1,M2,2023-04-12,fixed_decoder,kitchen,501,0
+1,M2,2023-04-12,fixed_decoder,kitchen,502,0
+1,M2,2023-04-12,fixed_decoder,kitchen,505,0
+1,M2,2023-04-12,fixed_decoder,kitchen,506,13
+1,M2,2023-04-12,fixed_decoder,kitchen,511,0
+1,M2,2023-04-12,fixed_decoder,kitchen,512,0
+1,M2,2023-04-12,fixed_decoder,kitchen,513,0
+1,M2,2023-04-12,fixed_decoder,kitchen,515,0
+1,M2,2023-04-12,fixed_decoder,kitchen,517,0
+1,M2,2023-04-12,fixed_decoder,kitchen,518,0
+1,M2,2023-04-12,fixed_decoder,kitchen,520,0
+1,M2,2023-04-12,fixed_decoder,kitchen,522,0
+1,M2,2023-04-12,fixed_decoder,kitchen,523,0
+1,M2,2023-04-12,fixed_decoder,kitchen,cafeteria,86
+1,M2,2023-04-12,fixed_decoder,kitchen,cleaning,8
+1,M2,2023-04-12,fixed_decoder,kitchen,hallway,10
+1,M2,2023-04-12,fixed_decoder,kitchen,kitchen,1466
+1,M2,2023-04-12,fixed_decoder,kitchen,nurse station,120
+1,M2,2023-04-12,fixed_decoder,nurse station,501,0
+1,M2,2023-04-12,fixed_decoder,nurse station,502,0
+1,M2,2023-04-12,fixed_decoder,nurse station,505,0
+1,M2,2023-04-12,fixed_decoder,nurse station,506,0
+1,M2,2023-04-12,fixed_decoder,nurse station,511,0
+1,M2,2023-04-12,fixed_decoder,nurse station,512,5
+1,M2,2023-04-12,fixed_decoder,nurse station,513,0
+1,M2,2023-04-12,fixed_decoder,nurse station,515,0
+1,M2,2023-04-12,fixed_decoder,nurse station,517,0
+1,M2,2023-04-12,fixed_decoder,nurse station,518,0
+1,M2,2023-04-12,fixed_decoder,nurse station,520,0
+1,M2,2023-04-12,fixed_decoder,nurse station,522,0
+1,M2,2023-04-12,fixed_decoder,nurse station,523,8
+1,M2,2023-04-12,fixed_decoder,nurse station,cafeteria,26
+1,M2,2023-04-12,fixed_decoder,nurse station,cleaning,9
+1,M2,2023-04-12,fixed_decoder,nurse station,hallway,24
+1,M2,2023-04-12,fixed_decoder,nurse station,kitchen,7
+1,M2,2023-04-12,fixed_decoder,nurse station,nurse station,1186
+1,M2,2023-04-13,raw,505,505,0
+1,M2,2023-04-13,raw,505,506,0
+1,M2,2023-04-13,raw,505,508,0
+1,M2,2023-04-13,raw,505,513,9
+1,M2,2023-04-13,raw,505,515,5
+1,M2,2023-04-13,raw,505,517,14
+1,M2,2023-04-13,raw,505,518,0
+1,M2,2023-04-13,raw,505,520,0
+1,M2,2023-04-13,raw,505,523,0
+1,M2,2023-04-13,raw,505,cafeteria,0
+1,M2,2023-04-13,raw,505,cleaning,1
+1,M2,2023-04-13,raw,505,kitchen,0
+1,M2,2023-04-13,raw,505,nurse station,0
+1,M2,2023-04-13,raw,506,505,8
+1,M2,2023-04-13,raw,506,506,54
+1,M2,2023-04-13,raw,506,508,0
+1,M2,2023-04-13,raw,506,513,0
+1,M2,2023-04-13,raw,506,515,0
+1,M2,2023-04-13,raw,506,517,3
+1,M2,2023-04-13,raw,506,518,0
+1,M2,2023-04-13,raw,506,520,0
+1,M2,2023-04-13,raw,506,523,0
+1,M2,2023-04-13,raw,506,cafeteria,0
+1,M2,2023-04-13,raw,506,cleaning,21
+1,M2,2023-04-13,raw,506,kitchen,1
+1,M2,2023-04-13,raw,506,nurse station,8
+1,M2,2023-04-13,raw,508,505,0
+1,M2,2023-04-13,raw,508,506,0
+1,M2,2023-04-13,raw,508,508,7
+1,M2,2023-04-13,raw,508,513,0
+1,M2,2023-04-13,raw,508,515,0
+1,M2,2023-04-13,raw,508,517,0
+1,M2,2023-04-13,raw,508,518,9
+1,M2,2023-04-13,raw,508,520,9
+1,M2,2023-04-13,raw,508,523,1
+1,M2,2023-04-13,raw,508,cafeteria,0
+1,M2,2023-04-13,raw,508,cleaning,0
+1,M2,2023-04-13,raw,508,kitchen,0
+1,M2,2023-04-13,raw,508,nurse station,1
+1,M2,2023-04-13,raw,513,505,0
+1,M2,2023-04-13,raw,513,506,0
+1,M2,2023-04-13,raw,513,508,0
+1,M2,2023-04-13,raw,513,513,27
+1,M2,2023-04-13,raw,513,515,31
+1,M2,2023-04-13,raw,513,517,0
+1,M2,2023-04-13,raw,513,518,0
+1,M2,2023-04-13,raw,513,520,0
+1,M2,2023-04-13,raw,513,523,0
+1,M2,2023-04-13,raw,513,cafeteria,0
+1,M2,2023-04-13,raw,513,cleaning,7
+1,M2,2023-04-13,raw,513,kitchen,0
+1,M2,2023-04-13,raw,513,nurse station,0
+1,M2,2023-04-13,raw,515,505,0
+1,M2,2023-04-13,raw,515,506,6
+1,M2,2023-04-13,raw,515,508,0
+1,M2,2023-04-13,raw,515,513,84
+1,M2,2023-04-13,raw,515,515,65
+1,M2,2023-04-13,raw,515,517,7
+1,M2,2023-04-13,raw,515,518,0
+1,M2,2023-04-13,raw,515,520,0
+1,M2,2023-04-13,raw,515,523,0
+1,M2,2023-04-13,raw,515,cafeteria,9
+1,M2,2023-04-13,raw,515,cleaning,8
+1,M2,2023-04-13,raw,515,kitchen,9
+1,M2,2023-04-13,raw,515,nurse station,4
+1,M2,2023-04-13,raw,517,505,0
+1,M2,2023-04-13,raw,517,506,0
+1,M2,2023-04-13,raw,517,508,0
+1,M2,2023-04-13,raw,517,513,0
+1,M2,2023-04-13,raw,517,515,2
+1,M2,2023-04-13,raw,517,517,5
+1,M2,2023-04-13,raw,517,518,0
+1,M2,2023-04-13,raw,517,520,0
+1,M2,2023-04-13,raw,517,523,0
+1,M2,2023-04-13,raw,517,cafeteria,0
+1,M2,2023-04-13,raw,517,cleaning,0
+1,M2,2023-04-13,raw,517,kitchen,1
+1,M2,2023-04-13,raw,517,nurse station,0
+1,M2,2023-04-13,raw,518,505,0
+1,M2,2023-04-13,raw,518,506,0
+1,M2,2023-04-13,raw,518,508,1
+1,M2,2023-04-13,raw,518,513,0
+1,M2,2023-04-13,raw,518,515,0
+1,M2,2023-04-13,raw,518,517,0
+1,M2,2023-04-13,raw,518,518,4
+1,M2,2023-04-13,raw,518,520,8
+1,M2,2023-04-13,raw,518,523,0
+1,M2,2023-04-13,raw,518,cafeteria,0
+1,M2,2023-04-13,raw,518,cleaning,0
+1,M2,2023-04-13,raw,518,kitchen,0
+1,M2,2023-04-13,raw,518,nurse station,4
+1,M2,2023-04-13,raw,520,505,0
+1,M2,2023-04-13,raw,520,506,0
+1,M2,2023-04-13,raw,520,508,6
+1,M2,2023-04-13,raw,520,513,0
+1,M2,2023-04-13,raw,520,515,0
+1,M2,2023-04-13,raw,520,517,0
+1,M2,2023-04-13,raw,520,518,9
+1,M2,2023-04-13,raw,520,520,32
+1,M2,2023-04-13,raw,520,523,0
+1,M2,2023-04-13,raw,520,cafeteria,0
+1,M2,2023-04-13,raw,520,cleaning,0
+1,M2,2023-04-13,raw,520,kitchen,0
+1,M2,2023-04-13,raw,520,nurse station,4
+1,M2,2023-04-13,raw,523,505,0
+1,M2,2023-04-13,raw,523,506,0
+1,M2,2023-04-13,raw,523,508,0
+1,M2,2023-04-13,raw,523,513,0
+1,M2,2023-04-13,raw,523,515,0
+1,M2,2023-04-13,raw,523,517,0
+1,M2,2023-04-13,raw,523,518,4
+1,M2,2023-04-13,raw,523,520,2
+1,M2,2023-04-13,raw,523,523,91
+1,M2,2023-04-13,raw,523,cafeteria,4
+1,M2,2023-04-13,raw,523,cleaning,2
+1,M2,2023-04-13,raw,523,kitchen,27
+1,M2,2023-04-13,raw,523,nurse station,7
+1,M2,2023-04-13,raw,cafeteria,505,4
+1,M2,2023-04-13,raw,cafeteria,506,39
+1,M2,2023-04-13,raw,cafeteria,508,1
+1,M2,2023-04-13,raw,cafeteria,513,1
+1,M2,2023-04-13,raw,cafeteria,515,0
+1,M2,2023-04-13,raw,cafeteria,517,1
+1,M2,2023-04-13,raw,cafeteria,518,1
+1,M2,2023-04-13,raw,cafeteria,520,2
+1,M2,2023-04-13,raw,cafeteria,523,0
+1,M2,2023-04-13,raw,cafeteria,cafeteria,87
+1,M2,2023-04-13,raw,cafeteria,cleaning,16
+1,M2,2023-04-13,raw,cafeteria,kitchen,64
+1,M2,2023-04-13,raw,cafeteria,nurse station,78
+1,M2,2023-04-13,raw,cleaning,505,6
+1,M2,2023-04-13,raw,cleaning,506,28
+1,M2,2023-04-13,raw,cleaning,508,1
+1,M2,2023-04-13,raw,cleaning,513,1
+1,M2,2023-04-13,raw,cleaning,515,1
+1,M2,2023-04-13,raw,cleaning,517,0
+1,M2,2023-04-13,raw,cleaning,518,1
+1,M2,2023-04-13,raw,cleaning,520,0
+1,M2,2023-04-13,raw,cleaning,523,1
+1,M2,2023-04-13,raw,cleaning,cafeteria,9
+1,M2,2023-04-13,raw,cleaning,cleaning,20
+1,M2,2023-04-13,raw,cleaning,kitchen,11
+1,M2,2023-04-13,raw,cleaning,nurse station,26
+1,M2,2023-04-13,raw,kitchen,505,3
+1,M2,2023-04-13,raw,kitchen,506,13
+1,M2,2023-04-13,raw,kitchen,508,0
+1,M2,2023-04-13,raw,kitchen,513,0
+1,M2,2023-04-13,raw,kitchen,515,0
+1,M2,2023-04-13,raw,kitchen,517,0
+1,M2,2023-04-13,raw,kitchen,518,5
+1,M2,2023-04-13,raw,kitchen,520,0
+1,M2,2023-04-13,raw,kitchen,523,0
+1,M2,2023-04-13,raw,kitchen,cafeteria,72
+1,M2,2023-04-13,raw,kitchen,cleaning,4
+1,M2,2023-04-13,raw,kitchen,kitchen,444
+1,M2,2023-04-13,raw,kitchen,nurse station,44
+1,M2,2023-04-13,raw,nurse station,505,21
+1,M2,2023-04-13,raw,nurse station,506,26
+1,M2,2023-04-13,raw,nurse station,508,17
+1,M2,2023-04-13,raw,nurse station,513,0
+1,M2,2023-04-13,raw,nurse station,515,0
+1,M2,2023-04-13,raw,nurse station,517,0
+1,M2,2023-04-13,raw,nurse station,518,68
+1,M2,2023-04-13,raw,nurse station,520,122
+1,M2,2023-04-13,raw,nurse station,523,14
+1,M2,2023-04-13,raw,nurse station,cafeteria,47
+1,M2,2023-04-13,raw,nurse station,cleaning,23
+1,M2,2023-04-13,raw,nurse station,kitchen,81
+1,M2,2023-04-13,raw,nurse station,nurse station,457
+1,M2,2023-04-13,fixed_decoder,505,505,0
+1,M2,2023-04-13,fixed_decoder,505,506,0
+1,M2,2023-04-13,fixed_decoder,505,508,0
+1,M2,2023-04-13,fixed_decoder,505,513,9
+1,M2,2023-04-13,fixed_decoder,505,515,0
+1,M2,2023-04-13,fixed_decoder,505,517,20
+1,M2,2023-04-13,fixed_decoder,505,518,0
+1,M2,2023-04-13,fixed_decoder,505,520,0
+1,M2,2023-04-13,fixed_decoder,505,523,0
+1,M2,2023-04-13,fixed_decoder,505,cafeteria,0
+1,M2,2023-04-13,fixed_decoder,505,cleaning,0
+1,M2,2023-04-13,fixed_decoder,505,kitchen,0
+1,M2,2023-04-13,fixed_decoder,505,nurse station,0
+1,M2,2023-04-13,fixed_decoder,506,505,0
+1,M2,2023-04-13,fixed_decoder,506,506,66
+1,M2,2023-04-13,fixed_decoder,506,508,0
+1,M2,2023-04-13,fixed_decoder,506,513,0
+1,M2,2023-04-13,fixed_decoder,506,515,0
+1,M2,2023-04-13,fixed_decoder,506,517,0
+1,M2,2023-04-13,fixed_decoder,506,518,0
+1,M2,2023-04-13,fixed_decoder,506,520,0
+1,M2,2023-04-13,fixed_decoder,506,523,0
+1,M2,2023-04-13,fixed_decoder,506,cafeteria,0
+1,M2,2023-04-13,fixed_decoder,506,cleaning,21
+1,M2,2023-04-13,fixed_decoder,506,kitchen,0
+1,M2,2023-04-13,fixed_decoder,506,nurse station,8
+1,M2,2023-04-13,fixed_decoder,508,505,0
+1,M2,2023-04-13,fixed_decoder,508,506,0
+1,M2,2023-04-13,fixed_decoder,508,508,0
+1,M2,2023-04-13,fixed_decoder,508,513,0
+1,M2,2023-04-13,fixed_decoder,508,515,0
+1,M2,2023-04-13,fixed_decoder,508,517,0
+1,M2,2023-04-13,fixed_decoder,508,518,0
+1,M2,2023-04-13,fixed_decoder,508,520,27
+1,M2,2023-04-13,fixed_decoder,508,523,0
+1,M2,2023-04-13,fixed_decoder,508,cafeteria,0
+1,M2,2023-04-13,fixed_decoder,508,cleaning,0
+1,M2,2023-04-13,fixed_decoder,508,kitchen,0
+1,M2,2023-04-13,fixed_decoder,508,nurse station,0
+1,M2,2023-04-13,fixed_decoder,513,505,0
+1,M2,2023-04-13,fixed_decoder,513,506,0
+1,M2,2023-04-13,fixed_decoder,513,508,0
+1,M2,2023-04-13,fixed_decoder,513,513,17
+1,M2,2023-04-13,fixed_decoder,513,515,45
+1,M2,2023-04-13,fixed_decoder,513,517,0
+1,M2,2023-04-13,fixed_decoder,513,518,0
+1,M2,2023-04-13,fixed_decoder,513,520,0
+1,M2,2023-04-13,fixed_decoder,513,523,0
+1,M2,2023-04-13,fixed_decoder,513,cafeteria,0
+1,M2,2023-04-13,fixed_decoder,513,cleaning,0
+1,M2,2023-04-13,fixed_decoder,513,kitchen,0
+1,M2,2023-04-13,fixed_decoder,513,nurse station,3
+1,M2,2023-04-13,fixed_decoder,515,505,0
+1,M2,2023-04-13,fixed_decoder,515,506,0
+1,M2,2023-04-13,fixed_decoder,515,508,0
+1,M2,2023-04-13,fixed_decoder,515,513,80
+1,M2,2023-04-13,fixed_decoder,515,515,61
+1,M2,2023-04-13,fixed_decoder,515,517,8
+1,M2,2023-04-13,fixed_decoder,515,518,0
+1,M2,2023-04-13,fixed_decoder,515,520,0
+1,M2,2023-04-13,fixed_decoder,515,523,0
+1,M2,2023-04-13,fixed_decoder,515,cafeteria,18
+1,M2,2023-04-13,fixed_decoder,515,cleaning,0
+1,M2,2023-04-13,fixed_decoder,515,kitchen,13
+1,M2,2023-04-13,fixed_decoder,515,nurse station,12
+1,M2,2023-04-13,fixed_decoder,517,505,0
+1,M2,2023-04-13,fixed_decoder,517,506,0
+1,M2,2023-04-13,fixed_decoder,517,508,0
+1,M2,2023-04-13,fixed_decoder,517,513,0
+1,M2,2023-04-13,fixed_decoder,517,515,0
+1,M2,2023-04-13,fixed_decoder,517,517,0
+1,M2,2023-04-13,fixed_decoder,517,518,0
+1,M2,2023-04-13,fixed_decoder,517,520,0
+1,M2,2023-04-13,fixed_decoder,517,523,0
+1,M2,2023-04-13,fixed_decoder,517,cafeteria,7
+1,M2,2023-04-13,fixed_decoder,517,cleaning,0
+1,M2,2023-04-13,fixed_decoder,517,kitchen,0
+1,M2,2023-04-13,fixed_decoder,517,nurse station,1
+1,M2,2023-04-13,fixed_decoder,518,505,0
+1,M2,2023-04-13,fixed_decoder,518,506,0
+1,M2,2023-04-13,fixed_decoder,518,508,0
+1,M2,2023-04-13,fixed_decoder,518,513,0
+1,M2,2023-04-13,fixed_decoder,518,515,0
+1,M2,2023-04-13,fixed_decoder,518,517,0
+1,M2,2023-04-13,fixed_decoder,518,518,0
+1,M2,2023-04-13,fixed_decoder,518,520,7
+1,M2,2023-04-13,fixed_decoder,518,523,0
+1,M2,2023-04-13,fixed_decoder,518,cafeteria,0
+1,M2,2023-04-13,fixed_decoder,518,cleaning,0
+1,M2,2023-04-13,fixed_decoder,518,kitchen,0
+1,M2,2023-04-13,fixed_decoder,518,nurse station,10
+1,M2,2023-04-13,fixed_decoder,520,505,0
+1,M2,2023-04-13,fixed_decoder,520,506,0
+1,M2,2023-04-13,fixed_decoder,520,508,0
+1,M2,2023-04-13,fixed_decoder,520,513,0
+1,M2,2023-04-13,fixed_decoder,520,515,0
+1,M2,2023-04-13,fixed_decoder,520,517,0
+1,M2,2023-04-13,fixed_decoder,520,518,0
+1,M2,2023-04-13,fixed_decoder,520,520,45
+1,M2,2023-04-13,fixed_decoder,520,523,0
+1,M2,2023-04-13,fixed_decoder,520,cafeteria,2
+1,M2,2023-04-13,fixed_decoder,520,cleaning,0
+1,M2,2023-04-13,fixed_decoder,520,kitchen,0
+1,M2,2023-04-13,fixed_decoder,520,nurse station,4
+1,M2,2023-04-13,fixed_decoder,523,505,0
+1,M2,2023-04-13,fixed_decoder,523,506,0
+1,M2,2023-04-13,fixed_decoder,523,508,0
+1,M2,2023-04-13,fixed_decoder,523,513,0
+1,M2,2023-04-13,fixed_decoder,523,515,0
+1,M2,2023-04-13,fixed_decoder,523,517,0
+1,M2,2023-04-13,fixed_decoder,523,518,0
+1,M2,2023-04-13,fixed_decoder,523,520,0
+1,M2,2023-04-13,fixed_decoder,523,523,88
+1,M2,2023-04-13,fixed_decoder,523,cafeteria,8
+1,M2,2023-04-13,fixed_decoder,523,cleaning,0
+1,M2,2023-04-13,fixed_decoder,523,kitchen,21
+1,M2,2023-04-13,fixed_decoder,523,nurse station,20
+1,M2,2023-04-13,fixed_decoder,cafeteria,505,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,506,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,508,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,513,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,515,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,517,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,518,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,520,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,523,0
+1,M2,2023-04-13,fixed_decoder,cafeteria,cafeteria,165
+1,M2,2023-04-13,fixed_decoder,cafeteria,cleaning,8
+1,M2,2023-04-13,fixed_decoder,cafeteria,kitchen,29
+1,M2,2023-04-13,fixed_decoder,cafeteria,nurse station,92
+1,M2,2023-04-13,fixed_decoder,cleaning,505,0
+1,M2,2023-04-13,fixed_decoder,cleaning,506,8
+1,M2,2023-04-13,fixed_decoder,cleaning,508,0
+1,M2,2023-04-13,fixed_decoder,cleaning,513,0
+1,M2,2023-04-13,fixed_decoder,cleaning,515,0
+1,M2,2023-04-13,fixed_decoder,cleaning,517,0
+1,M2,2023-04-13,fixed_decoder,cleaning,518,0
+1,M2,2023-04-13,fixed_decoder,cleaning,520,0
+1,M2,2023-04-13,fixed_decoder,cleaning,523,0
+1,M2,2023-04-13,fixed_decoder,cleaning,cafeteria,7
+1,M2,2023-04-13,fixed_decoder,cleaning,cleaning,39
+1,M2,2023-04-13,fixed_decoder,cleaning,kitchen,2
+1,M2,2023-04-13,fixed_decoder,cleaning,nurse station,49
+1,M2,2023-04-13,fixed_decoder,kitchen,505,0
+1,M2,2023-04-13,fixed_decoder,kitchen,506,0
+1,M2,2023-04-13,fixed_decoder,kitchen,508,0
+1,M2,2023-04-13,fixed_decoder,kitchen,513,0
+1,M2,2023-04-13,fixed_decoder,kitchen,515,0
+1,M2,2023-04-13,fixed_decoder,kitchen,517,0
+1,M2,2023-04-13,fixed_decoder,kitchen,518,0
+1,M2,2023-04-13,fixed_decoder,kitchen,520,0
+1,M2,2023-04-13,fixed_decoder,kitchen,523,0
+1,M2,2023-04-13,fixed_decoder,kitchen,cafeteria,79
+1,M2,2023-04-13,fixed_decoder,kitchen,cleaning,0
+1,M2,2023-04-13,fixed_decoder,kitchen,kitchen,479
+1,M2,2023-04-13,fixed_decoder,kitchen,nurse station,27
+1,M2,2023-04-13,fixed_decoder,nurse station,505,0
+1,M2,2023-04-13,fixed_decoder,nurse station,506,0
+1,M2,2023-04-13,fixed_decoder,nurse station,508,0
+1,M2,2023-04-13,fixed_decoder,nurse station,513,0
+1,M2,2023-04-13,fixed_decoder,nurse station,515,0
+1,M2,2023-04-13,fixed_decoder,nurse station,517,0
+1,M2,2023-04-13,fixed_decoder,nurse station,518,0
+1,M2,2023-04-13,fixed_decoder,nurse station,520,37
+1,M2,2023-04-13,fixed_decoder,nurse station,523,0
+1,M2,2023-04-13,fixed_decoder,nurse station,cafeteria,13
+1,M2,2023-04-13,fixed_decoder,nurse station,cleaning,0
+1,M2,2023-04-13,fixed_decoder,nurse station,kitchen,81
+1,M2,2023-04-13,fixed_decoder,nurse station,nurse station,745
+3,M5,2023-04-10,raw,501,501,16
+3,M5,2023-04-10,raw,501,506,0
+3,M5,2023-04-10,raw,501,508,0
+3,M5,2023-04-10,raw,501,511,0
+3,M5,2023-04-10,raw,501,516,5
+3,M5,2023-04-10,raw,501,520,0
+3,M5,2023-04-10,raw,501,523,1
+3,M5,2023-04-10,raw,501,cafeteria,0
+3,M5,2023-04-10,raw,501,cleaning,0
+3,M5,2023-04-10,raw,501,hallway,0
+3,M5,2023-04-10,raw,501,kitchen,0
+3,M5,2023-04-10,raw,501,nurse station,0
+3,M5,2023-04-10,raw,506,501,0
+3,M5,2023-04-10,raw,506,506,19
+3,M5,2023-04-10,raw,506,508,0
+3,M5,2023-04-10,raw,506,511,0
+3,M5,2023-04-10,raw,506,516,0
+3,M5,2023-04-10,raw,506,520,0
+3,M5,2023-04-10,raw,506,523,0
+3,M5,2023-04-10,raw,506,cafeteria,0
+3,M5,2023-04-10,raw,506,cleaning,4
+3,M5,2023-04-10,raw,506,hallway,0
+3,M5,2023-04-10,raw,506,kitchen,0
+3,M5,2023-04-10,raw,506,nurse station,1
+3,M5,2023-04-10,raw,508,501,0
+3,M5,2023-04-10,raw,508,506,0
+3,M5,2023-04-10,raw,508,508,5
+3,M5,2023-04-10,raw,508,511,0
+3,M5,2023-04-10,raw,508,516,0
+3,M5,2023-04-10,raw,508,520,8
+3,M5,2023-04-10,raw,508,523,0
+3,M5,2023-04-10,raw,508,cafeteria,0
+3,M5,2023-04-10,raw,508,cleaning,0
+3,M5,2023-04-10,raw,508,hallway,0
+3,M5,2023-04-10,raw,508,kitchen,0
+3,M5,2023-04-10,raw,508,nurse station,0
+3,M5,2023-04-10,raw,511,501,0
+3,M5,2023-04-10,raw,511,506,0
+3,M5,2023-04-10,raw,511,508,0
+3,M5,2023-04-10,raw,511,511,0
+3,M5,2023-04-10,raw,511,516,0
+3,M5,2023-04-10,raw,511,520,0
+3,M5,2023-04-10,raw,511,523,0
+3,M5,2023-04-10,raw,511,cafeteria,2
+3,M5,2023-04-10,raw,511,cleaning,0
+3,M5,2023-04-10,raw,511,hallway,0
+3,M5,2023-04-10,raw,511,kitchen,0
+3,M5,2023-04-10,raw,511,nurse station,15
+3,M5,2023-04-10,raw,516,501,0
+3,M5,2023-04-10,raw,516,506,0
+3,M5,2023-04-10,raw,516,508,0
+3,M5,2023-04-10,raw,516,511,0
+3,M5,2023-04-10,raw,516,516,3
+3,M5,2023-04-10,raw,516,520,0
+3,M5,2023-04-10,raw,516,523,1
+3,M5,2023-04-10,raw,516,cafeteria,0
+3,M5,2023-04-10,raw,516,cleaning,0
+3,M5,2023-04-10,raw,516,hallway,0
+3,M5,2023-04-10,raw,516,kitchen,0
+3,M5,2023-04-10,raw,516,nurse station,0
+3,M5,2023-04-10,raw,520,501,0
+3,M5,2023-04-10,raw,520,506,0
+3,M5,2023-04-10,raw,520,508,4
+3,M5,2023-04-10,raw,520,511,0
+3,M5,2023-04-10,raw,520,516,0
+3,M5,2023-04-10,raw,520,520,16
+3,M5,2023-04-10,raw,520,523,0
+3,M5,2023-04-10,raw,520,cafeteria,0
+3,M5,2023-04-10,raw,520,cleaning,0
+3,M5,2023-04-10,raw,520,hallway,0
+3,M5,2023-04-10,raw,520,kitchen,0
+3,M5,2023-04-10,raw,520,nurse station,0
+3,M5,2023-04-10,raw,523,501,0
+3,M5,2023-04-10,raw,523,506,0
+3,M5,2023-04-10,raw,523,508,1
+3,M5,2023-04-10,raw,523,511,3
+3,M5,2023-04-10,raw,523,516,0
+3,M5,2023-04-10,raw,523,520,3
+3,M5,2023-04-10,raw,523,523,59
+3,M5,2023-04-10,raw,523,cafeteria,0
+3,M5,2023-04-10,raw,523,cleaning,0
+3,M5,2023-04-10,raw,523,hallway,0
+3,M5,2023-04-10,raw,523,kitchen,0
+3,M5,2023-04-10,raw,523,nurse station,0
+3,M5,2023-04-10,raw,cafeteria,501,0
+3,M5,2023-04-10,raw,cafeteria,506,7
+3,M5,2023-04-10,raw,cafeteria,508,19
+3,M5,2023-04-10,raw,cafeteria,511,1
+3,M5,2023-04-10,raw,cafeteria,516,0
+3,M5,2023-04-10,raw,cafeteria,520,5
+3,M5,2023-04-10,raw,cafeteria,523,7
+3,M5,2023-04-10,raw,cafeteria,cafeteria,148
+3,M5,2023-04-10,raw,cafeteria,cleaning,19
+3,M5,2023-04-10,raw,cafeteria,hallway,8
+3,M5,2023-04-10,raw,cafeteria,kitchen,370
+3,M5,2023-04-10,raw,cafeteria,nurse station,115
+3,M5,2023-04-10,raw,cleaning,501,0
+3,M5,2023-04-10,raw,cleaning,506,8
+3,M5,2023-04-10,raw,cleaning,508,0
+3,M5,2023-04-10,raw,cleaning,511,0
+3,M5,2023-04-10,raw,cleaning,516,0
+3,M5,2023-04-10,raw,cleaning,520,0
+3,M5,2023-04-10,raw,cleaning,523,0
+3,M5,2023-04-10,raw,cleaning,cafeteria,0
+3,M5,2023-04-10,raw,cleaning,cleaning,8
+3,M5,2023-04-10,raw,cleaning,hallway,2
+3,M5,2023-04-10,raw,cleaning,kitchen,0
+3,M5,2023-04-10,raw,cleaning,nurse station,5
+3,M5,2023-04-10,raw,hallway,501,0
+3,M5,2023-04-10,raw,hallway,506,2
+3,M5,2023-04-10,raw,hallway,508,38
+3,M5,2023-04-10,raw,hallway,511,23
+3,M5,2023-04-10,raw,hallway,516,15
+3,M5,2023-04-10,raw,hallway,520,64
+3,M5,2023-04-10,raw,hallway,523,23
+3,M5,2023-04-10,raw,hallway,cafeteria,4
+3,M5,2023-04-10,raw,hallway,cleaning,3
+3,M5,2023-04-10,raw,hallway,hallway,4
+3,M5,2023-04-10,raw,hallway,kitchen,2
+3,M5,2023-04-10,raw,hallway,nurse station,37
+3,M5,2023-04-10,raw,kitchen,501,0
+3,M5,2023-04-10,raw,kitchen,506,1
+3,M5,2023-04-10,raw,kitchen,508,0
+3,M5,2023-04-10,raw,kitchen,511,2
+3,M5,2023-04-10,raw,kitchen,516,0
+3,M5,2023-04-10,raw,kitchen,520,0
+3,M5,2023-04-10,raw,kitchen,523,9
+3,M5,2023-04-10,raw,kitchen,cafeteria,75
+3,M5,2023-04-10,raw,kitchen,cleaning,1
+3,M5,2023-04-10,raw,kitchen,hallway,2
+3,M5,2023-04-10,raw,kitchen,kitchen,308
+3,M5,2023-04-10,raw,kitchen,nurse station,13
+3,M5,2023-04-10,raw,nurse station,501,0
+3,M5,2023-04-10,raw,nurse station,506,4
+3,M5,2023-04-10,raw,nurse station,508,16
+3,M5,2023-04-10,raw,nurse station,511,0
+3,M5,2023-04-10,raw,nurse station,516,0
+3,M5,2023-04-10,raw,nurse station,520,20
+3,M5,2023-04-10,raw,nurse station,523,10
+3,M5,2023-04-10,raw,nurse station,cafeteria,122
+3,M5,2023-04-10,raw,nurse station,cleaning,20
+3,M5,2023-04-10,raw,nurse station,hallway,12
+3,M5,2023-04-10,raw,nurse station,kitchen,39
+3,M5,2023-04-10,raw,nurse station,nurse station,1000
+3,M5,2023-04-10,fixed_decoder,501,501,18
+3,M5,2023-04-10,fixed_decoder,501,506,0
+3,M5,2023-04-10,fixed_decoder,501,508,0
+3,M5,2023-04-10,fixed_decoder,501,511,0
+3,M5,2023-04-10,fixed_decoder,501,516,2
+3,M5,2023-04-10,fixed_decoder,501,520,0
+3,M5,2023-04-10,fixed_decoder,501,523,0
+3,M5,2023-04-10,fixed_decoder,501,cafeteria,0
+3,M5,2023-04-10,fixed_decoder,501,cleaning,0
+3,M5,2023-04-10,fixed_decoder,501,hallway,0
+3,M5,2023-04-10,fixed_decoder,501,kitchen,0
+3,M5,2023-04-10,fixed_decoder,501,nurse station,2
+3,M5,2023-04-10,fixed_decoder,506,501,0
+3,M5,2023-04-10,fixed_decoder,506,506,20
+3,M5,2023-04-10,fixed_decoder,506,508,0
+3,M5,2023-04-10,fixed_decoder,506,511,0
+3,M5,2023-04-10,fixed_decoder,506,516,0
+3,M5,2023-04-10,fixed_decoder,506,520,0
+3,M5,2023-04-10,fixed_decoder,506,523,0
+3,M5,2023-04-10,fixed_decoder,506,cafeteria,0
+3,M5,2023-04-10,fixed_decoder,506,cleaning,4
+3,M5,2023-04-10,fixed_decoder,506,hallway,0
+3,M5,2023-04-10,fixed_decoder,506,kitchen,0
+3,M5,2023-04-10,fixed_decoder,506,nurse station,0
+3,M5,2023-04-10,fixed_decoder,508,501,0
+3,M5,2023-04-10,fixed_decoder,508,506,0
+3,M5,2023-04-10,fixed_decoder,508,508,4
+3,M5,2023-04-10,fixed_decoder,508,511,0
+3,M5,2023-04-10,fixed_decoder,508,516,0
+3,M5,2023-04-10,fixed_decoder,508,520,4
+3,M5,2023-04-10,fixed_decoder,508,523,0
+3,M5,2023-04-10,fixed_decoder,508,cafeteria,0
+3,M5,2023-04-10,fixed_decoder,508,cleaning,0
+3,M5,2023-04-10,fixed_decoder,508,hallway,0
+3,M5,2023-04-10,fixed_decoder,508,kitchen,0
+3,M5,2023-04-10,fixed_decoder,508,nurse station,5
+3,M5,2023-04-10,fixed_decoder,511,501,0
+3,M5,2023-04-10,fixed_decoder,511,506,0
+3,M5,2023-04-10,fixed_decoder,511,508,0
+3,M5,2023-04-10,fixed_decoder,511,511,0
+3,M5,2023-04-10,fixed_decoder,511,516,0
+3,M5,2023-04-10,fixed_decoder,511,520,0
+3,M5,2023-04-10,fixed_decoder,511,523,0
+3,M5,2023-04-10,fixed_decoder,511,cafeteria,0
+3,M5,2023-04-10,fixed_decoder,511,cleaning,0
+3,M5,2023-04-10,fixed_decoder,511,hallway,0
+3,M5,2023-04-10,fixed_decoder,511,kitchen,0
+3,M5,2023-04-10,fixed_decoder,511,nurse station,17
+3,M5,2023-04-10,fixed_decoder,516,501,0
+3,M5,2023-04-10,fixed_decoder,516,506,0
+3,M5,2023-04-10,fixed_decoder,516,508,0
+3,M5,2023-04-10,fixed_decoder,516,511,0
+3,M5,2023-04-10,fixed_decoder,516,516,0
+3,M5,2023-04-10,fixed_decoder,516,520,0
+3,M5,2023-04-10,fixed_decoder,516,523,0
+3,M5,2023-04-10,fixed_decoder,516,cafeteria,0
+3,M5,2023-04-10,fixed_decoder,516,cleaning,0
+3,M5,2023-04-10,fixed_decoder,516,hallway,0
+3,M5,2023-04-10,fixed_decoder,516,kitchen,0
+3,M5,2023-04-10,fixed_decoder,516,nurse station,4
+3,M5,2023-04-10,fixed_decoder,520,501,0
+3,M5,2023-04-10,fixed_decoder,520,506,0
+3,M5,2023-04-10,fixed_decoder,520,508,0
+3,M5,2023-04-10,fixed_decoder,520,511,0
+3,M5,2023-04-10,fixed_decoder,520,516,0
+3,M5,2023-04-10,fixed_decoder,520,520,20
+3,M5,2023-04-10,fixed_decoder,520,523,0
+3,M5,2023-04-10,fixed_decoder,520,cafeteria,0
+3,M5,2023-04-10,fixed_decoder,520,cleaning,0
+3,M5,2023-04-10,fixed_decoder,520,hallway,0
+3,M5,2023-04-10,fixed_decoder,520,kitchen,0
+3,M5,2023-04-10,fixed_decoder,520,nurse station,0
+3,M5,2023-04-10,fixed_decoder,523,501,0
+3,M5,2023-04-10,fixed_decoder,523,506,0
+3,M5,2023-04-10,fixed_decoder,523,508,0
+3,M5,2023-04-10,fixed_decoder,523,511,0
+3,M5,2023-04-10,fixed_decoder,523,516,0
+3,M5,2023-04-10,fixed_decoder,523,520,0
+3,M5,2023-04-10,fixed_decoder,523,523,54
+3,M5,2023-04-10,fixed_decoder,523,cafeteria,0
+3,M5,2023-04-10,fixed_decoder,523,cleaning,0
+3,M5,2023-04-10,fixed_decoder,523,hallway,0
+3,M5,2023-04-10,fixed_decoder,523,kitchen,0
+3,M5,2023-04-10,fixed_decoder,523,nurse station,12
+3,M5,2023-04-10,fixed_decoder,cafeteria,501,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,506,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,508,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,511,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,516,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,520,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,523,17
+3,M5,2023-04-10,fixed_decoder,cafeteria,cafeteria,209
+3,M5,2023-04-10,fixed_decoder,cafeteria,cleaning,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,hallway,0
+3,M5,2023-04-10,fixed_decoder,cafeteria,kitchen,333
+3,M5,2023-04-10,fixed_decoder,cafeteria,nurse station,140
+3,M5,2023-04-10,fixed_decoder,cleaning,501,0
+3,M5,2023-04-10,fixed_decoder,cleaning,506,0
+3,M5,2023-04-10,fixed_decoder,cleaning,508,0
+3,M5,2023-04-10,fixed_decoder,cleaning,511,0
+3,M5,2023-04-10,fixed_decoder,cleaning,516,0
+3,M5,2023-04-10,fixed_decoder,cleaning,520,0
+3,M5,2023-04-10,fixed_decoder,cleaning,523,0
+3,M5,2023-04-10,fixed_decoder,cleaning,cafeteria,1
+3,M5,2023-04-10,fixed_decoder,cleaning,cleaning,9
+3,M5,2023-04-10,fixed_decoder,cleaning,hallway,0
+3,M5,2023-04-10,fixed_decoder,cleaning,kitchen,0
+3,M5,2023-04-10,fixed_decoder,cleaning,nurse station,13
+3,M5,2023-04-10,fixed_decoder,hallway,501,3
+3,M5,2023-04-10,fixed_decoder,hallway,506,0
+3,M5,2023-04-10,fixed_decoder,hallway,508,0
+3,M5,2023-04-10,fixed_decoder,hallway,511,0
+3,M5,2023-04-10,fixed_decoder,hallway,516,6
+3,M5,2023-04-10,fixed_decoder,hallway,520,110
+3,M5,2023-04-10,fixed_decoder,hallway,523,31
+3,M5,2023-04-10,fixed_decoder,hallway,cafeteria,6
+3,M5,2023-04-10,fixed_decoder,hallway,cleaning,5
+3,M5,2023-04-10,fixed_decoder,hallway,hallway,0
+3,M5,2023-04-10,fixed_decoder,hallway,kitchen,4
+3,M5,2023-04-10,fixed_decoder,hallway,nurse station,50
+3,M5,2023-04-10,fixed_decoder,kitchen,501,0
+3,M5,2023-04-10,fixed_decoder,kitchen,506,0
+3,M5,2023-04-10,fixed_decoder,kitchen,508,0
+3,M5,2023-04-10,fixed_decoder,kitchen,511,0
+3,M5,2023-04-10,fixed_decoder,kitchen,516,0
+3,M5,2023-04-10,fixed_decoder,kitchen,520,0
+3,M5,2023-04-10,fixed_decoder,kitchen,523,12
+3,M5,2023-04-10,fixed_decoder,kitchen,cafeteria,62
+3,M5,2023-04-10,fixed_decoder,kitchen,cleaning,0
+3,M5,2023-04-10,fixed_decoder,kitchen,hallway,0
+3,M5,2023-04-10,fixed_decoder,kitchen,kitchen,333
+3,M5,2023-04-10,fixed_decoder,kitchen,nurse station,4
+3,M5,2023-04-10,fixed_decoder,nurse station,501,0
+3,M5,2023-04-10,fixed_decoder,nurse station,506,0
+3,M5,2023-04-10,fixed_decoder,nurse station,508,0
+3,M5,2023-04-10,fixed_decoder,nurse station,511,0
+3,M5,2023-04-10,fixed_decoder,nurse station,516,0
+3,M5,2023-04-10,fixed_decoder,nurse station,520,35
+3,M5,2023-04-10,fixed_decoder,nurse station,523,9
+3,M5,2023-04-10,fixed_decoder,nurse station,cafeteria,59
+3,M5,2023-04-10,fixed_decoder,nurse station,cleaning,0
+3,M5,2023-04-10,fixed_decoder,nurse station,hallway,0
+3,M5,2023-04-10,fixed_decoder,nurse station,kitchen,22
+3,M5,2023-04-10,fixed_decoder,nurse station,nurse station,1118
+3,M5,2023-04-11,raw,502,502,3
+3,M5,2023-04-11,raw,502,511,0
+3,M5,2023-04-11,raw,502,512,0
+3,M5,2023-04-11,raw,502,513,0
+3,M5,2023-04-11,raw,502,516,1
+3,M5,2023-04-11,raw,502,517,0
+3,M5,2023-04-11,raw,502,518,0
+3,M5,2023-04-11,raw,502,520,0
+3,M5,2023-04-11,raw,502,522,0
+3,M5,2023-04-11,raw,502,523,0
+3,M5,2023-04-11,raw,502,cafeteria,0
+3,M5,2023-04-11,raw,502,cleaning,0
+3,M5,2023-04-11,raw,502,hallway,0
+3,M5,2023-04-11,raw,502,kitchen,0
+3,M5,2023-04-11,raw,502,nurse station,0
+3,M5,2023-04-11,raw,511,502,0
+3,M5,2023-04-11,raw,511,511,10
+3,M5,2023-04-11,raw,511,512,0
+3,M5,2023-04-11,raw,511,513,0
+3,M5,2023-04-11,raw,511,516,0
+3,M5,2023-04-11,raw,511,517,0
+3,M5,2023-04-11,raw,511,518,0
+3,M5,2023-04-11,raw,511,520,3
+3,M5,2023-04-11,raw,511,522,1
+3,M5,2023-04-11,raw,511,523,3
+3,M5,2023-04-11,raw,511,cafeteria,0
+3,M5,2023-04-11,raw,511,cleaning,0
+3,M5,2023-04-11,raw,511,hallway,5
+3,M5,2023-04-11,raw,511,kitchen,0
+3,M5,2023-04-11,raw,511,nurse station,0
+3,M5,2023-04-11,raw,512,502,0
+3,M5,2023-04-11,raw,512,511,0
+3,M5,2023-04-11,raw,512,512,60
+3,M5,2023-04-11,raw,512,513,0
+3,M5,2023-04-11,raw,512,516,0
+3,M5,2023-04-11,raw,512,517,0
+3,M5,2023-04-11,raw,512,518,0
+3,M5,2023-04-11,raw,512,520,0
+3,M5,2023-04-11,raw,512,522,2
+3,M5,2023-04-11,raw,512,523,3
+3,M5,2023-04-11,raw,512,cafeteria,0
+3,M5,2023-04-11,raw,512,cleaning,0
+3,M5,2023-04-11,raw,512,hallway,0
+3,M5,2023-04-11,raw,512,kitchen,0
+3,M5,2023-04-11,raw,512,nurse station,0
+3,M5,2023-04-11,raw,513,502,1
+3,M5,2023-04-11,raw,513,511,0
+3,M5,2023-04-11,raw,513,512,0
+3,M5,2023-04-11,raw,513,513,5
+3,M5,2023-04-11,raw,513,516,0
+3,M5,2023-04-11,raw,513,517,1
+3,M5,2023-04-11,raw,513,518,0
+3,M5,2023-04-11,raw,513,520,0
+3,M5,2023-04-11,raw,513,522,0
+3,M5,2023-04-11,raw,513,523,0
+3,M5,2023-04-11,raw,513,cafeteria,0
+3,M5,2023-04-11,raw,513,cleaning,0
+3,M5,2023-04-11,raw,513,hallway,0
+3,M5,2023-04-11,raw,513,kitchen,0
+3,M5,2023-04-11,raw,513,nurse station,0
+3,M5,2023-04-11,raw,516,502,3
+3,M5,2023-04-11,raw,516,511,0
+3,M5,2023-04-11,raw,516,512,0
+3,M5,2023-04-11,raw,516,513,1
+3,M5,2023-04-11,raw,516,516,0
+3,M5,2023-04-11,raw,516,517,1
+3,M5,2023-04-11,raw,516,518,0
+3,M5,2023-04-11,raw,516,520,0
+3,M5,2023-04-11,raw,516,522,0
+3,M5,2023-04-11,raw,516,523,0
+3,M5,2023-04-11,raw,516,cafeteria,0
+3,M5,2023-04-11,raw,516,cleaning,0
+3,M5,2023-04-11,raw,516,hallway,0
+3,M5,2023-04-11,raw,516,kitchen,0
+3,M5,2023-04-11,raw,516,nurse station,0
+3,M5,2023-04-11,raw,517,502,3
+3,M5,2023-04-11,raw,517,511,0
+3,M5,2023-04-11,raw,517,512,0
+3,M5,2023-04-11,raw,517,513,0
+3,M5,2023-04-11,raw,517,516,0
+3,M5,2023-04-11,raw,517,517,3
+3,M5,2023-04-11,raw,517,518,0
+3,M5,2023-04-11,raw,517,520,0
+3,M5,2023-04-11,raw,517,522,0
+3,M5,2023-04-11,raw,517,523,0
+3,M5,2023-04-11,raw,517,cafeteria,0
+3,M5,2023-04-11,raw,517,cleaning,0
+3,M5,2023-04-11,raw,517,hallway,0
+3,M5,2023-04-11,raw,517,kitchen,1
+3,M5,2023-04-11,raw,517,nurse station,0
+3,M5,2023-04-11,raw,518,502,0
+3,M5,2023-04-11,raw,518,511,0
+3,M5,2023-04-11,raw,518,512,0
+3,M5,2023-04-11,raw,518,513,0
+3,M5,2023-04-11,raw,518,516,0
+3,M5,2023-04-11,raw,518,517,0
+3,M5,2023-04-11,raw,518,518,0
+3,M5,2023-04-11,raw,518,520,1
+3,M5,2023-04-11,raw,518,522,0
+3,M5,2023-04-11,raw,518,523,0
+3,M5,2023-04-11,raw,518,cafeteria,0
+3,M5,2023-04-11,raw,518,cleaning,0
+3,M5,2023-04-11,raw,518,hallway,1
+3,M5,2023-04-11,raw,518,kitchen,0
+3,M5,2023-04-11,raw,518,nurse station,0
+3,M5,2023-04-11,raw,520,502,0
+3,M5,2023-04-11,raw,520,511,0
+3,M5,2023-04-11,raw,520,512,0
+3,M5,2023-04-11,raw,520,513,0
+3,M5,2023-04-11,raw,520,516,0
+3,M5,2023-04-11,raw,520,517,0
+3,M5,2023-04-11,raw,520,518,0
+3,M5,2023-04-11,raw,520,520,11
+3,M5,2023-04-11,raw,520,522,0
+3,M5,2023-04-11,raw,520,523,0
+3,M5,2023-04-11,raw,520,cafeteria,0
+3,M5,2023-04-11,raw,520,cleaning,0
+3,M5,2023-04-11,raw,520,hallway,3
+3,M5,2023-04-11,raw,520,kitchen,0
+3,M5,2023-04-11,raw,520,nurse station,0
+3,M5,2023-04-11,raw,522,502,0
+3,M5,2023-04-11,raw,522,511,2
+3,M5,2023-04-11,raw,522,512,1
+3,M5,2023-04-11,raw,522,513,1
+3,M5,2023-04-11,raw,522,516,0
+3,M5,2023-04-11,raw,522,517,0
+3,M5,2023-04-11,raw,522,518,0
+3,M5,2023-04-11,raw,522,520,4
+3,M5,2023-04-11,raw,522,522,55
+3,M5,2023-04-11,raw,522,523,21
+3,M5,2023-04-11,raw,522,cafeteria,0
+3,M5,2023-04-11,raw,522,cleaning,0
+3,M5,2023-04-11,raw,522,hallway,6
+3,M5,2023-04-11,raw,522,kitchen,0
+3,M5,2023-04-11,raw,522,nurse station,1
+3,M5,2023-04-11,raw,523,502,0
+3,M5,2023-04-11,raw,523,511,0
+3,M5,2023-04-11,raw,523,512,9
+3,M5,2023-04-11,raw,523,513,0
+3,M5,2023-04-11,raw,523,516,0
+3,M5,2023-04-11,raw,523,517,0
+3,M5,2023-04-11,raw,523,518,0
+3,M5,2023-04-11,raw,523,520,0
+3,M5,2023-04-11,raw,523,522,0
+3,M5,2023-04-11,raw,523,523,19
+3,M5,2023-04-11,raw,523,cafeteria,0
+3,M5,2023-04-11,raw,523,cleaning,0
+3,M5,2023-04-11,raw,523,hallway,2
+3,M5,2023-04-11,raw,523,kitchen,0
+3,M5,2023-04-11,raw,523,nurse station,0
+3,M5,2023-04-11,raw,cafeteria,502,1
+3,M5,2023-04-11,raw,cafeteria,511,0
+3,M5,2023-04-11,raw,cafeteria,512,0
+3,M5,2023-04-11,raw,cafeteria,513,1
+3,M5,2023-04-11,raw,cafeteria,516,0
+3,M5,2023-04-11,raw,cafeteria,517,0
+3,M5,2023-04-11,raw,cafeteria,518,1
+3,M5,2023-04-11,raw,cafeteria,520,0
+3,M5,2023-04-11,raw,cafeteria,522,0
+3,M5,2023-04-11,raw,cafeteria,523,0
+3,M5,2023-04-11,raw,cafeteria,cafeteria,255
+3,M5,2023-04-11,raw,cafeteria,cleaning,20
+3,M5,2023-04-11,raw,cafeteria,hallway,8
+3,M5,2023-04-11,raw,cafeteria,kitchen,196
+3,M5,2023-04-11,raw,cafeteria,nurse station,69
+3,M5,2023-04-11,raw,cleaning,502,0
+3,M5,2023-04-11,raw,cleaning,511,0
+3,M5,2023-04-11,raw,cleaning,512,0
+3,M5,2023-04-11,raw,cleaning,513,0
+3,M5,2023-04-11,raw,cleaning,516,0
+3,M5,2023-04-11,raw,cleaning,517,0
+3,M5,2023-04-11,raw,cleaning,518,0
+3,M5,2023-04-11,raw,cleaning,520,0
+3,M5,2023-04-11,raw,cleaning,522,0
+3,M5,2023-04-11,raw,cleaning,523,0
+3,M5,2023-04-11,raw,cleaning,cafeteria,3
+3,M5,2023-04-11,raw,cleaning,cleaning,12
+3,M5,2023-04-11,raw,cleaning,hallway,3
+3,M5,2023-04-11,raw,cleaning,kitchen,0
+3,M5,2023-04-11,raw,cleaning,nurse station,6
+3,M5,2023-04-11,raw,hallway,502,0
+3,M5,2023-04-11,raw,hallway,511,0
+3,M5,2023-04-11,raw,hallway,512,0
+3,M5,2023-04-11,raw,hallway,513,1
+3,M5,2023-04-11,raw,hallway,516,1
+3,M5,2023-04-11,raw,hallway,517,0
+3,M5,2023-04-11,raw,hallway,518,0
+3,M5,2023-04-11,raw,hallway,520,0
+3,M5,2023-04-11,raw,hallway,522,0
+3,M5,2023-04-11,raw,hallway,523,0
+3,M5,2023-04-11,raw,hallway,cafeteria,2
+3,M5,2023-04-11,raw,hallway,cleaning,0
+3,M5,2023-04-11,raw,hallway,hallway,3
+3,M5,2023-04-11,raw,hallway,kitchen,2
+3,M5,2023-04-11,raw,hallway,nurse station,0
+3,M5,2023-04-11,raw,kitchen,502,0
+3,M5,2023-04-11,raw,kitchen,511,1
+3,M5,2023-04-11,raw,kitchen,512,0
+3,M5,2023-04-11,raw,kitchen,513,0
+3,M5,2023-04-11,raw,kitchen,516,0
+3,M5,2023-04-11,raw,kitchen,517,0
+3,M5,2023-04-11,raw,kitchen,518,0
+3,M5,2023-04-11,raw,kitchen,520,0
+3,M5,2023-04-11,raw,kitchen,522,0
+3,M5,2023-04-11,raw,kitchen,523,0
+3,M5,2023-04-11,raw,kitchen,cafeteria,396
+3,M5,2023-04-11,raw,kitchen,cleaning,2
+3,M5,2023-04-11,raw,kitchen,hallway,4
+3,M5,2023-04-11,raw,kitchen,kitchen,248
+3,M5,2023-04-11,raw,kitchen,nurse station,13
+3,M5,2023-04-11,raw,nurse station,502,0
+3,M5,2023-04-11,raw,nurse station,511,14
+3,M5,2023-04-11,raw,nurse station,512,2
+3,M5,2023-04-11,raw,nurse station,513,0
+3,M5,2023-04-11,raw,nurse station,516,0
+3,M5,2023-04-11,raw,nurse station,517,0
+3,M5,2023-04-11,raw,nurse station,518,5
+3,M5,2023-04-11,raw,nurse station,520,30
+3,M5,2023-04-11,raw,nurse station,522,0
+3,M5,2023-04-11,raw,nurse station,523,2
+3,M5,2023-04-11,raw,nurse station,cafeteria,87
+3,M5,2023-04-11,raw,nurse station,cleaning,76
+3,M5,2023-04-11,raw,nurse station,hallway,118
+3,M5,2023-04-11,raw,nurse station,kitchen,38
+3,M5,2023-04-11,raw,nurse station,nurse station,958
+3,M5,2023-04-11,fixed_decoder,502,502,4
+3,M5,2023-04-11,fixed_decoder,502,511,0
+3,M5,2023-04-11,fixed_decoder,502,512,0
+3,M5,2023-04-11,fixed_decoder,502,513,0
+3,M5,2023-04-11,fixed_decoder,502,516,0
+3,M5,2023-04-11,fixed_decoder,502,517,0
+3,M5,2023-04-11,fixed_decoder,502,518,0
+3,M5,2023-04-11,fixed_decoder,502,520,0
+3,M5,2023-04-11,fixed_decoder,502,522,0
+3,M5,2023-04-11,fixed_decoder,502,523,0
+3,M5,2023-04-11,fixed_decoder,502,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,502,cleaning,0
+3,M5,2023-04-11,fixed_decoder,502,hallway,0
+3,M5,2023-04-11,fixed_decoder,502,kitchen,0
+3,M5,2023-04-11,fixed_decoder,502,nurse station,0
+3,M5,2023-04-11,fixed_decoder,511,502,0
+3,M5,2023-04-11,fixed_decoder,511,511,19
+3,M5,2023-04-11,fixed_decoder,511,512,0
+3,M5,2023-04-11,fixed_decoder,511,513,0
+3,M5,2023-04-11,fixed_decoder,511,516,0
+3,M5,2023-04-11,fixed_decoder,511,517,0
+3,M5,2023-04-11,fixed_decoder,511,518,0
+3,M5,2023-04-11,fixed_decoder,511,520,0
+3,M5,2023-04-11,fixed_decoder,511,522,0
+3,M5,2023-04-11,fixed_decoder,511,523,0
+3,M5,2023-04-11,fixed_decoder,511,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,511,cleaning,0
+3,M5,2023-04-11,fixed_decoder,511,hallway,3
+3,M5,2023-04-11,fixed_decoder,511,kitchen,0
+3,M5,2023-04-11,fixed_decoder,511,nurse station,0
+3,M5,2023-04-11,fixed_decoder,512,502,0
+3,M5,2023-04-11,fixed_decoder,512,511,0
+3,M5,2023-04-11,fixed_decoder,512,512,65
+3,M5,2023-04-11,fixed_decoder,512,513,0
+3,M5,2023-04-11,fixed_decoder,512,516,0
+3,M5,2023-04-11,fixed_decoder,512,517,0
+3,M5,2023-04-11,fixed_decoder,512,518,0
+3,M5,2023-04-11,fixed_decoder,512,520,0
+3,M5,2023-04-11,fixed_decoder,512,522,0
+3,M5,2023-04-11,fixed_decoder,512,523,0
+3,M5,2023-04-11,fixed_decoder,512,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,512,cleaning,0
+3,M5,2023-04-11,fixed_decoder,512,hallway,0
+3,M5,2023-04-11,fixed_decoder,512,kitchen,0
+3,M5,2023-04-11,fixed_decoder,512,nurse station,0
+3,M5,2023-04-11,fixed_decoder,513,502,0
+3,M5,2023-04-11,fixed_decoder,513,511,0
+3,M5,2023-04-11,fixed_decoder,513,512,0
+3,M5,2023-04-11,fixed_decoder,513,513,7
+3,M5,2023-04-11,fixed_decoder,513,516,0
+3,M5,2023-04-11,fixed_decoder,513,517,0
+3,M5,2023-04-11,fixed_decoder,513,518,0
+3,M5,2023-04-11,fixed_decoder,513,520,0
+3,M5,2023-04-11,fixed_decoder,513,522,0
+3,M5,2023-04-11,fixed_decoder,513,523,0
+3,M5,2023-04-11,fixed_decoder,513,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,513,cleaning,0
+3,M5,2023-04-11,fixed_decoder,513,hallway,0
+3,M5,2023-04-11,fixed_decoder,513,kitchen,0
+3,M5,2023-04-11,fixed_decoder,513,nurse station,0
+3,M5,2023-04-11,fixed_decoder,516,502,5
+3,M5,2023-04-11,fixed_decoder,516,511,0
+3,M5,2023-04-11,fixed_decoder,516,512,0
+3,M5,2023-04-11,fixed_decoder,516,513,0
+3,M5,2023-04-11,fixed_decoder,516,516,0
+3,M5,2023-04-11,fixed_decoder,516,517,0
+3,M5,2023-04-11,fixed_decoder,516,518,0
+3,M5,2023-04-11,fixed_decoder,516,520,0
+3,M5,2023-04-11,fixed_decoder,516,522,0
+3,M5,2023-04-11,fixed_decoder,516,523,0
+3,M5,2023-04-11,fixed_decoder,516,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,516,cleaning,0
+3,M5,2023-04-11,fixed_decoder,516,hallway,0
+3,M5,2023-04-11,fixed_decoder,516,kitchen,0
+3,M5,2023-04-11,fixed_decoder,516,nurse station,0
+3,M5,2023-04-11,fixed_decoder,517,502,7
+3,M5,2023-04-11,fixed_decoder,517,511,0
+3,M5,2023-04-11,fixed_decoder,517,512,0
+3,M5,2023-04-11,fixed_decoder,517,513,0
+3,M5,2023-04-11,fixed_decoder,517,516,0
+3,M5,2023-04-11,fixed_decoder,517,517,0
+3,M5,2023-04-11,fixed_decoder,517,518,0
+3,M5,2023-04-11,fixed_decoder,517,520,0
+3,M5,2023-04-11,fixed_decoder,517,522,0
+3,M5,2023-04-11,fixed_decoder,517,523,0
+3,M5,2023-04-11,fixed_decoder,517,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,517,cleaning,0
+3,M5,2023-04-11,fixed_decoder,517,hallway,0
+3,M5,2023-04-11,fixed_decoder,517,kitchen,0
+3,M5,2023-04-11,fixed_decoder,517,nurse station,0
+3,M5,2023-04-11,fixed_decoder,518,502,0
+3,M5,2023-04-11,fixed_decoder,518,511,0
+3,M5,2023-04-11,fixed_decoder,518,512,0
+3,M5,2023-04-11,fixed_decoder,518,513,0
+3,M5,2023-04-11,fixed_decoder,518,516,0
+3,M5,2023-04-11,fixed_decoder,518,517,0
+3,M5,2023-04-11,fixed_decoder,518,518,0
+3,M5,2023-04-11,fixed_decoder,518,520,2
+3,M5,2023-04-11,fixed_decoder,518,522,0
+3,M5,2023-04-11,fixed_decoder,518,523,0
+3,M5,2023-04-11,fixed_decoder,518,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,518,cleaning,0
+3,M5,2023-04-11,fixed_decoder,518,hallway,0
+3,M5,2023-04-11,fixed_decoder,518,kitchen,0
+3,M5,2023-04-11,fixed_decoder,518,nurse station,0
+3,M5,2023-04-11,fixed_decoder,520,502,0
+3,M5,2023-04-11,fixed_decoder,520,511,0
+3,M5,2023-04-11,fixed_decoder,520,512,0
+3,M5,2023-04-11,fixed_decoder,520,513,0
+3,M5,2023-04-11,fixed_decoder,520,516,0
+3,M5,2023-04-11,fixed_decoder,520,517,0
+3,M5,2023-04-11,fixed_decoder,520,518,0
+3,M5,2023-04-11,fixed_decoder,520,520,13
+3,M5,2023-04-11,fixed_decoder,520,522,0
+3,M5,2023-04-11,fixed_decoder,520,523,0
+3,M5,2023-04-11,fixed_decoder,520,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,520,cleaning,0
+3,M5,2023-04-11,fixed_decoder,520,hallway,1
+3,M5,2023-04-11,fixed_decoder,520,kitchen,0
+3,M5,2023-04-11,fixed_decoder,520,nurse station,0
+3,M5,2023-04-11,fixed_decoder,522,502,0
+3,M5,2023-04-11,fixed_decoder,522,511,0
+3,M5,2023-04-11,fixed_decoder,522,512,1
+3,M5,2023-04-11,fixed_decoder,522,513,0
+3,M5,2023-04-11,fixed_decoder,522,516,0
+3,M5,2023-04-11,fixed_decoder,522,517,0
+3,M5,2023-04-11,fixed_decoder,522,518,0
+3,M5,2023-04-11,fixed_decoder,522,520,2
+3,M5,2023-04-11,fixed_decoder,522,522,54
+3,M5,2023-04-11,fixed_decoder,522,523,28
+3,M5,2023-04-11,fixed_decoder,522,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,522,cleaning,0
+3,M5,2023-04-11,fixed_decoder,522,hallway,4
+3,M5,2023-04-11,fixed_decoder,522,kitchen,0
+3,M5,2023-04-11,fixed_decoder,522,nurse station,2
+3,M5,2023-04-11,fixed_decoder,523,502,0
+3,M5,2023-04-11,fixed_decoder,523,511,0
+3,M5,2023-04-11,fixed_decoder,523,512,0
+3,M5,2023-04-11,fixed_decoder,523,513,0
+3,M5,2023-04-11,fixed_decoder,523,516,0
+3,M5,2023-04-11,fixed_decoder,523,517,0
+3,M5,2023-04-11,fixed_decoder,523,518,0
+3,M5,2023-04-11,fixed_decoder,523,520,0
+3,M5,2023-04-11,fixed_decoder,523,522,0
+3,M5,2023-04-11,fixed_decoder,523,523,30
+3,M5,2023-04-11,fixed_decoder,523,cafeteria,0
+3,M5,2023-04-11,fixed_decoder,523,cleaning,0
+3,M5,2023-04-11,fixed_decoder,523,hallway,0
+3,M5,2023-04-11,fixed_decoder,523,kitchen,0
+3,M5,2023-04-11,fixed_decoder,523,nurse station,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,502,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,511,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,512,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,513,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,516,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,517,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,518,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,520,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,522,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,523,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,cafeteria,269
+3,M5,2023-04-11,fixed_decoder,cafeteria,cleaning,2
+3,M5,2023-04-11,fixed_decoder,cafeteria,hallway,0
+3,M5,2023-04-11,fixed_decoder,cafeteria,kitchen,212
+3,M5,2023-04-11,fixed_decoder,cafeteria,nurse station,68
+3,M5,2023-04-11,fixed_decoder,cleaning,502,0
+3,M5,2023-04-11,fixed_decoder,cleaning,511,0
+3,M5,2023-04-11,fixed_decoder,cleaning,512,0
+3,M5,2023-04-11,fixed_decoder,cleaning,513,0
+3,M5,2023-04-11,fixed_decoder,cleaning,516,0
+3,M5,2023-04-11,fixed_decoder,cleaning,517,0
+3,M5,2023-04-11,fixed_decoder,cleaning,518,0
+3,M5,2023-04-11,fixed_decoder,cleaning,520,0
+3,M5,2023-04-11,fixed_decoder,cleaning,522,0
+3,M5,2023-04-11,fixed_decoder,cleaning,523,0
+3,M5,2023-04-11,fixed_decoder,cleaning,cafeteria,1
+3,M5,2023-04-11,fixed_decoder,cleaning,cleaning,13
+3,M5,2023-04-11,fixed_decoder,cleaning,hallway,0
+3,M5,2023-04-11,fixed_decoder,cleaning,kitchen,0
+3,M5,2023-04-11,fixed_decoder,cleaning,nurse station,10
+3,M5,2023-04-11,fixed_decoder,hallway,502,0
+3,M5,2023-04-11,fixed_decoder,hallway,511,0
+3,M5,2023-04-11,fixed_decoder,hallway,512,0
+3,M5,2023-04-11,fixed_decoder,hallway,513,2
+3,M5,2023-04-11,fixed_decoder,hallway,516,0
+3,M5,2023-04-11,fixed_decoder,hallway,517,0
+3,M5,2023-04-11,fixed_decoder,hallway,518,0
+3,M5,2023-04-11,fixed_decoder,hallway,520,0
+3,M5,2023-04-11,fixed_decoder,hallway,522,0
+3,M5,2023-04-11,fixed_decoder,hallway,523,0
+3,M5,2023-04-11,fixed_decoder,hallway,cafeteria,1
+3,M5,2023-04-11,fixed_decoder,hallway,cleaning,0
+3,M5,2023-04-11,fixed_decoder,hallway,hallway,5
+3,M5,2023-04-11,fixed_decoder,hallway,kitchen,1
+3,M5,2023-04-11,fixed_decoder,hallway,nurse station,0
+3,M5,2023-04-11,fixed_decoder,kitchen,502,0
+3,M5,2023-04-11,fixed_decoder,kitchen,511,0
+3,M5,2023-04-11,fixed_decoder,kitchen,512,0
+3,M5,2023-04-11,fixed_decoder,kitchen,513,0
+3,M5,2023-04-11,fixed_decoder,kitchen,516,0
+3,M5,2023-04-11,fixed_decoder,kitchen,517,0
+3,M5,2023-04-11,fixed_decoder,kitchen,518,0
+3,M5,2023-04-11,fixed_decoder,kitchen,520,0
+3,M5,2023-04-11,fixed_decoder,kitchen,522,0
+3,M5,2023-04-11,fixed_decoder,kitchen,523,0
+3,M5,2023-04-11,fixed_decoder,kitchen,cafeteria,358
+3,M5,2023-04-11,fixed_decoder,kitchen,cleaning,0
+3,M5,2023-04-11,fixed_decoder,kitchen,hallway,0
+3,M5,2023-04-11,fixed_decoder,kitchen,kitchen,306
+3,M5,2023-04-11,fixed_decoder,kitchen,nurse station,0
+3,M5,2023-04-11,fixed_decoder,nurse station,502,0
+3,M5,2023-04-11,fixed_decoder,nurse station,511,0
+3,M5,2023-04-11,fixed_decoder,nurse station,512,0
+3,M5,2023-04-11,fixed_decoder,nurse station,513,0
+3,M5,2023-04-11,fixed_decoder,nurse station,516,0
+3,M5,2023-04-11,fixed_decoder,nurse station,517,0
+3,M5,2023-04-11,fixed_decoder,nurse station,518,0
+3,M5,2023-04-11,fixed_decoder,nurse station,520,0
+3,M5,2023-04-11,fixed_decoder,nurse station,522,0
+3,M5,2023-04-11,fixed_decoder,nurse station,523,4
+3,M5,2023-04-11,fixed_decoder,nurse station,cafeteria,42
+3,M5,2023-04-11,fixed_decoder,nurse station,cleaning,43
+3,M5,2023-04-11,fixed_decoder,nurse station,hallway,83
+3,M5,2023-04-11,fixed_decoder,nurse station,kitchen,10
+3,M5,2023-04-11,fixed_decoder,nurse station,nurse station,1148
+3,M5,2023-04-12,raw,501,501,5
+3,M5,2023-04-12,raw,501,502,0
+3,M5,2023-04-12,raw,501,505,0
+3,M5,2023-04-12,raw,501,506,0
+3,M5,2023-04-12,raw,501,511,0
+3,M5,2023-04-12,raw,501,512,0
+3,M5,2023-04-12,raw,501,513,0
+3,M5,2023-04-12,raw,501,515,4
+3,M5,2023-04-12,raw,501,517,0
+3,M5,2023-04-12,raw,501,518,0
+3,M5,2023-04-12,raw,501,520,0
+3,M5,2023-04-12,raw,501,522,0
+3,M5,2023-04-12,raw,501,523,0
+3,M5,2023-04-12,raw,501,cafeteria,0
+3,M5,2023-04-12,raw,501,cleaning,0
+3,M5,2023-04-12,raw,501,hallway,0
+3,M5,2023-04-12,raw,501,kitchen,0
+3,M5,2023-04-12,raw,501,nurse station,0
+3,M5,2023-04-12,raw,502,501,1
+3,M5,2023-04-12,raw,502,502,9
+3,M5,2023-04-12,raw,502,505,4
+3,M5,2023-04-12,raw,502,506,0
+3,M5,2023-04-12,raw,502,511,0
+3,M5,2023-04-12,raw,502,512,0
+3,M5,2023-04-12,raw,502,513,7
+3,M5,2023-04-12,raw,502,515,4
+3,M5,2023-04-12,raw,502,517,8
+3,M5,2023-04-12,raw,502,518,0
+3,M5,2023-04-12,raw,502,520,0
+3,M5,2023-04-12,raw,502,522,0
+3,M5,2023-04-12,raw,502,523,0
+3,M5,2023-04-12,raw,502,cafeteria,0
+3,M5,2023-04-12,raw,502,cleaning,0
+3,M5,2023-04-12,raw,502,hallway,0
+3,M5,2023-04-12,raw,502,kitchen,0
+3,M5,2023-04-12,raw,502,nurse station,0
+3,M5,2023-04-12,raw,505,501,0
+3,M5,2023-04-12,raw,505,502,0
+3,M5,2023-04-12,raw,505,505,0
+3,M5,2023-04-12,raw,505,506,0
+3,M5,2023-04-12,raw,505,511,0
+3,M5,2023-04-12,raw,505,512,0
+3,M5,2023-04-12,raw,505,513,0
+3,M5,2023-04-12,raw,505,515,0
+3,M5,2023-04-12,raw,505,517,0
+3,M5,2023-04-12,raw,505,518,0
+3,M5,2023-04-12,raw,505,520,0
+3,M5,2023-04-12,raw,505,522,0
+3,M5,2023-04-12,raw,505,523,0
+3,M5,2023-04-12,raw,505,cafeteria,0
+3,M5,2023-04-12,raw,505,cleaning,2
+3,M5,2023-04-12,raw,505,hallway,0
+3,M5,2023-04-12,raw,505,kitchen,0
+3,M5,2023-04-12,raw,505,nurse station,0
+3,M5,2023-04-12,raw,506,501,0
+3,M5,2023-04-12,raw,506,502,0
+3,M5,2023-04-12,raw,506,505,1
+3,M5,2023-04-12,raw,506,506,26
+3,M5,2023-04-12,raw,506,511,0
+3,M5,2023-04-12,raw,506,512,0
+3,M5,2023-04-12,raw,506,513,1
+3,M5,2023-04-12,raw,506,515,0
+3,M5,2023-04-12,raw,506,517,2
+3,M5,2023-04-12,raw,506,518,0
+3,M5,2023-04-12,raw,506,520,0
+3,M5,2023-04-12,raw,506,522,0
+3,M5,2023-04-12,raw,506,523,0
+3,M5,2023-04-12,raw,506,cafeteria,0
+3,M5,2023-04-12,raw,506,cleaning,16
+3,M5,2023-04-12,raw,506,hallway,0
+3,M5,2023-04-12,raw,506,kitchen,2
+3,M5,2023-04-12,raw,506,nurse station,1
+3,M5,2023-04-12,raw,511,501,0
+3,M5,2023-04-12,raw,511,502,0
+3,M5,2023-04-12,raw,511,505,0
+3,M5,2023-04-12,raw,511,506,0
+3,M5,2023-04-12,raw,511,511,18
+3,M5,2023-04-12,raw,511,512,0
+3,M5,2023-04-12,raw,511,513,1
+3,M5,2023-04-12,raw,511,515,0
+3,M5,2023-04-12,raw,511,517,0
+3,M5,2023-04-12,raw,511,518,0
+3,M5,2023-04-12,raw,511,520,2
+3,M5,2023-04-12,raw,511,522,9
+3,M5,2023-04-12,raw,511,523,0
+3,M5,2023-04-12,raw,511,cafeteria,0
+3,M5,2023-04-12,raw,511,cleaning,0
+3,M5,2023-04-12,raw,511,hallway,0
+3,M5,2023-04-12,raw,511,kitchen,0
+3,M5,2023-04-12,raw,511,nurse station,0
+3,M5,2023-04-12,raw,512,501,0
+3,M5,2023-04-12,raw,512,502,0
+3,M5,2023-04-12,raw,512,505,0
+3,M5,2023-04-12,raw,512,506,0
+3,M5,2023-04-12,raw,512,511,2
+3,M5,2023-04-12,raw,512,512,39
+3,M5,2023-04-12,raw,512,513,0
+3,M5,2023-04-12,raw,512,515,0
+3,M5,2023-04-12,raw,512,517,0
+3,M5,2023-04-12,raw,512,518,1
+3,M5,2023-04-12,raw,512,520,0
+3,M5,2023-04-12,raw,512,522,4
+3,M5,2023-04-12,raw,512,523,18
+3,M5,2023-04-12,raw,512,cafeteria,0
+3,M5,2023-04-12,raw,512,cleaning,0
+3,M5,2023-04-12,raw,512,hallway,3
+3,M5,2023-04-12,raw,512,kitchen,0
+3,M5,2023-04-12,raw,512,nurse station,2
+3,M5,2023-04-12,raw,513,501,38
+3,M5,2023-04-12,raw,513,502,1
+3,M5,2023-04-12,raw,513,505,7
+3,M5,2023-04-12,raw,513,506,6
+3,M5,2023-04-12,raw,513,511,0
+3,M5,2023-04-12,raw,513,512,0
+3,M5,2023-04-12,raw,513,513,10
+3,M5,2023-04-12,raw,513,515,7
+3,M5,2023-04-12,raw,513,517,1
+3,M5,2023-04-12,raw,513,518,0
+3,M5,2023-04-12,raw,513,520,0
+3,M5,2023-04-12,raw,513,522,0
+3,M5,2023-04-12,raw,513,523,0
+3,M5,2023-04-12,raw,513,cafeteria,0
+3,M5,2023-04-12,raw,513,cleaning,14
+3,M5,2023-04-12,raw,513,hallway,0
+3,M5,2023-04-12,raw,513,kitchen,0
+3,M5,2023-04-12,raw,513,nurse station,0
+3,M5,2023-04-12,raw,515,501,7
+3,M5,2023-04-12,raw,515,502,0
+3,M5,2023-04-12,raw,515,505,1
+3,M5,2023-04-12,raw,515,506,0
+3,M5,2023-04-12,raw,515,511,0
+3,M5,2023-04-12,raw,515,512,0
+3,M5,2023-04-12,raw,515,513,8
+3,M5,2023-04-12,raw,515,515,6
+3,M5,2023-04-12,raw,515,517,0
+3,M5,2023-04-12,raw,515,518,0
+3,M5,2023-04-12,raw,515,520,0
+3,M5,2023-04-12,raw,515,522,0
+3,M5,2023-04-12,raw,515,523,0
+3,M5,2023-04-12,raw,515,cafeteria,0
+3,M5,2023-04-12,raw,515,cleaning,0
+3,M5,2023-04-12,raw,515,hallway,0
+3,M5,2023-04-12,raw,515,kitchen,0
+3,M5,2023-04-12,raw,515,nurse station,0
+3,M5,2023-04-12,raw,517,501,0
+3,M5,2023-04-12,raw,517,502,0
+3,M5,2023-04-12,raw,517,505,0
+3,M5,2023-04-12,raw,517,506,0
+3,M5,2023-04-12,raw,517,511,0
+3,M5,2023-04-12,raw,517,512,0
+3,M5,2023-04-12,raw,517,513,0
+3,M5,2023-04-12,raw,517,515,0
+3,M5,2023-04-12,raw,517,517,2
+3,M5,2023-04-12,raw,517,518,0
+3,M5,2023-04-12,raw,517,520,0
+3,M5,2023-04-12,raw,517,522,0
+3,M5,2023-04-12,raw,517,523,0
+3,M5,2023-04-12,raw,517,cafeteria,0
+3,M5,2023-04-12,raw,517,cleaning,0
+3,M5,2023-04-12,raw,517,hallway,0
+3,M5,2023-04-12,raw,517,kitchen,0
+3,M5,2023-04-12,raw,517,nurse station,0
+3,M5,2023-04-12,raw,518,501,0
+3,M5,2023-04-12,raw,518,502,0
+3,M5,2023-04-12,raw,518,505,0
+3,M5,2023-04-12,raw,518,506,0
+3,M5,2023-04-12,raw,518,511,0
+3,M5,2023-04-12,raw,518,512,0
+3,M5,2023-04-12,raw,518,513,0
+3,M5,2023-04-12,raw,518,515,0
+3,M5,2023-04-12,raw,518,517,0
+3,M5,2023-04-12,raw,518,518,0
+3,M5,2023-04-12,raw,518,520,3
+3,M5,2023-04-12,raw,518,522,0
+3,M5,2023-04-12,raw,518,523,0
+3,M5,2023-04-12,raw,518,cafeteria,0
+3,M5,2023-04-12,raw,518,cleaning,0
+3,M5,2023-04-12,raw,518,hallway,1
+3,M5,2023-04-12,raw,518,kitchen,0
+3,M5,2023-04-12,raw,518,nurse station,1
+3,M5,2023-04-12,raw,520,501,0
+3,M5,2023-04-12,raw,520,502,0
+3,M5,2023-04-12,raw,520,505,0
+3,M5,2023-04-12,raw,520,506,0
+3,M5,2023-04-12,raw,520,511,0
+3,M5,2023-04-12,raw,520,512,0
+3,M5,2023-04-12,raw,520,513,4
+3,M5,2023-04-12,raw,520,515,0
+3,M5,2023-04-12,raw,520,517,0
+3,M5,2023-04-12,raw,520,518,7
+3,M5,2023-04-12,raw,520,520,70
+3,M5,2023-04-12,raw,520,522,1
+3,M5,2023-04-12,raw,520,523,0
+3,M5,2023-04-12,raw,520,cafeteria,0
+3,M5,2023-04-12,raw,520,cleaning,0
+3,M5,2023-04-12,raw,520,hallway,4
+3,M5,2023-04-12,raw,520,kitchen,0
+3,M5,2023-04-12,raw,520,nurse station,0
+3,M5,2023-04-12,raw,522,501,0
+3,M5,2023-04-12,raw,522,502,0
+3,M5,2023-04-12,raw,522,505,0
+3,M5,2023-04-12,raw,522,506,0
+3,M5,2023-04-12,raw,522,511,1
+3,M5,2023-04-12,raw,522,512,0
+3,M5,2023-04-12,raw,522,513,0
+3,M5,2023-04-12,raw,522,515,0
+3,M5,2023-04-12,raw,522,517,0
+3,M5,2023-04-12,raw,522,518,0
+3,M5,2023-04-12,raw,522,520,1
+3,M5,2023-04-12,raw,522,522,6
+3,M5,2023-04-12,raw,522,523,2
+3,M5,2023-04-12,raw,522,cafeteria,0
+3,M5,2023-04-12,raw,522,cleaning,0
+3,M5,2023-04-12,raw,522,hallway,0
+3,M5,2023-04-12,raw,522,kitchen,0
+3,M5,2023-04-12,raw,522,nurse station,0
+3,M5,2023-04-12,raw,523,501,0
+3,M5,2023-04-12,raw,523,502,0
+3,M5,2023-04-12,raw,523,505,0
+3,M5,2023-04-12,raw,523,506,0
+3,M5,2023-04-12,raw,523,511,1
+3,M5,2023-04-12,raw,523,512,17
+3,M5,2023-04-12,raw,523,513,0
+3,M5,2023-04-12,raw,523,515,0
+3,M5,2023-04-12,raw,523,517,0
+3,M5,2023-04-12,raw,523,518,0
+3,M5,2023-04-12,raw,523,520,0
+3,M5,2023-04-12,raw,523,522,3
+3,M5,2023-04-12,raw,523,523,28
+3,M5,2023-04-12,raw,523,cafeteria,0
+3,M5,2023-04-12,raw,523,cleaning,0
+3,M5,2023-04-12,raw,523,hallway,3
+3,M5,2023-04-12,raw,523,kitchen,0
+3,M5,2023-04-12,raw,523,nurse station,0
+3,M5,2023-04-12,raw,cafeteria,501,0
+3,M5,2023-04-12,raw,cafeteria,502,0
+3,M5,2023-04-12,raw,cafeteria,505,0
+3,M5,2023-04-12,raw,cafeteria,506,8
+3,M5,2023-04-12,raw,cafeteria,511,2
+3,M5,2023-04-12,raw,cafeteria,512,0
+3,M5,2023-04-12,raw,cafeteria,513,0
+3,M5,2023-04-12,raw,cafeteria,515,0
+3,M5,2023-04-12,raw,cafeteria,517,1
+3,M5,2023-04-12,raw,cafeteria,518,3
+3,M5,2023-04-12,raw,cafeteria,520,1
+3,M5,2023-04-12,raw,cafeteria,522,0
+3,M5,2023-04-12,raw,cafeteria,523,0
+3,M5,2023-04-12,raw,cafeteria,cafeteria,95
+3,M5,2023-04-12,raw,cafeteria,cleaning,86
+3,M5,2023-04-12,raw,cafeteria,hallway,0
+3,M5,2023-04-12,raw,cafeteria,kitchen,241
+3,M5,2023-04-12,raw,cafeteria,nurse station,65
+3,M5,2023-04-12,raw,cleaning,501,0
+3,M5,2023-04-12,raw,cleaning,502,0
+3,M5,2023-04-12,raw,cleaning,505,0
+3,M5,2023-04-12,raw,cleaning,506,41
+3,M5,2023-04-12,raw,cleaning,511,1
+3,M5,2023-04-12,raw,cleaning,512,0
+3,M5,2023-04-12,raw,cleaning,513,0
+3,M5,2023-04-12,raw,cleaning,515,0
+3,M5,2023-04-12,raw,cleaning,517,7
+3,M5,2023-04-12,raw,cleaning,518,2
+3,M5,2023-04-12,raw,cleaning,520,2
+3,M5,2023-04-12,raw,cleaning,522,0
+3,M5,2023-04-12,raw,cleaning,523,0
+3,M5,2023-04-12,raw,cleaning,cafeteria,10
+3,M5,2023-04-12,raw,cleaning,cleaning,98
+3,M5,2023-04-12,raw,cleaning,hallway,5
+3,M5,2023-04-12,raw,cleaning,kitchen,1
+3,M5,2023-04-12,raw,cleaning,nurse station,32
+3,M5,2023-04-12,raw,hallway,501,0
+3,M5,2023-04-12,raw,hallway,502,0
+3,M5,2023-04-12,raw,hallway,505,1
+3,M5,2023-04-12,raw,hallway,506,2
+3,M5,2023-04-12,raw,hallway,511,2
+3,M5,2023-04-12,raw,hallway,512,0
+3,M5,2023-04-12,raw,hallway,513,0
+3,M5,2023-04-12,raw,hallway,515,0
+3,M5,2023-04-12,raw,hallway,517,1
+3,M5,2023-04-12,raw,hallway,518,0
+3,M5,2023-04-12,raw,hallway,520,5
+3,M5,2023-04-12,raw,hallway,522,0
+3,M5,2023-04-12,raw,hallway,523,0
+3,M5,2023-04-12,raw,hallway,cafeteria,6
+3,M5,2023-04-12,raw,hallway,cleaning,27
+3,M5,2023-04-12,raw,hallway,hallway,0
+3,M5,2023-04-12,raw,hallway,kitchen,6
+3,M5,2023-04-12,raw,hallway,nurse station,82
+3,M5,2023-04-12,raw,kitchen,501,0
+3,M5,2023-04-12,raw,kitchen,502,0
+3,M5,2023-04-12,raw,kitchen,505,1
+3,M5,2023-04-12,raw,kitchen,506,5
+3,M5,2023-04-12,raw,kitchen,511,0
+3,M5,2023-04-12,raw,kitchen,512,0
+3,M5,2023-04-12,raw,kitchen,513,2
+3,M5,2023-04-12,raw,kitchen,515,0
+3,M5,2023-04-12,raw,kitchen,517,2
+3,M5,2023-04-12,raw,kitchen,518,1
+3,M5,2023-04-12,raw,kitchen,520,2
+3,M5,2023-04-12,raw,kitchen,522,0
+3,M5,2023-04-12,raw,kitchen,523,1
+3,M5,2023-04-12,raw,kitchen,cafeteria,90
+3,M5,2023-04-12,raw,kitchen,cleaning,32
+3,M5,2023-04-12,raw,kitchen,hallway,4
+3,M5,2023-04-12,raw,kitchen,kitchen,617
+3,M5,2023-04-12,raw,kitchen,nurse station,38
+3,M5,2023-04-12,raw,nurse station,501,0
+3,M5,2023-04-12,raw,nurse station,502,0
+3,M5,2023-04-12,raw,nurse station,505,0
+3,M5,2023-04-12,raw,nurse station,506,12
+3,M5,2023-04-12,raw,nurse station,511,7
+3,M5,2023-04-12,raw,nurse station,512,2
+3,M5,2023-04-12,raw,nurse station,513,2
+3,M5,2023-04-12,raw,nurse station,515,0
+3,M5,2023-04-12,raw,nurse station,517,1
+3,M5,2023-04-12,raw,nurse station,518,23
+3,M5,2023-04-12,raw,nurse station,520,25
+3,M5,2023-04-12,raw,nurse station,522,1
+3,M5,2023-04-12,raw,nurse station,523,3
+3,M5,2023-04-12,raw,nurse station,cafeteria,24
+3,M5,2023-04-12,raw,nurse station,cleaning,89
+3,M5,2023-04-12,raw,nurse station,hallway,16
+3,M5,2023-04-12,raw,nurse station,kitchen,9
+3,M5,2023-04-12,raw,nurse station,nurse station,289
+3,M5,2023-04-12,fixed_decoder,501,501,7
+3,M5,2023-04-12,fixed_decoder,501,502,0
+3,M5,2023-04-12,fixed_decoder,501,505,0
+3,M5,2023-04-12,fixed_decoder,501,506,0
+3,M5,2023-04-12,fixed_decoder,501,511,0
+3,M5,2023-04-12,fixed_decoder,501,512,0
+3,M5,2023-04-12,fixed_decoder,501,513,0
+3,M5,2023-04-12,fixed_decoder,501,515,2
+3,M5,2023-04-12,fixed_decoder,501,517,0
+3,M5,2023-04-12,fixed_decoder,501,518,0
+3,M5,2023-04-12,fixed_decoder,501,520,0
+3,M5,2023-04-12,fixed_decoder,501,522,0
+3,M5,2023-04-12,fixed_decoder,501,523,0
+3,M5,2023-04-12,fixed_decoder,501,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,501,cleaning,0
+3,M5,2023-04-12,fixed_decoder,501,hallway,0
+3,M5,2023-04-12,fixed_decoder,501,kitchen,0
+3,M5,2023-04-12,fixed_decoder,501,nurse station,0
+3,M5,2023-04-12,fixed_decoder,502,501,2
+3,M5,2023-04-12,fixed_decoder,502,502,0
+3,M5,2023-04-12,fixed_decoder,502,505,9
+3,M5,2023-04-12,fixed_decoder,502,506,0
+3,M5,2023-04-12,fixed_decoder,502,511,0
+3,M5,2023-04-12,fixed_decoder,502,512,0
+3,M5,2023-04-12,fixed_decoder,502,513,4
+3,M5,2023-04-12,fixed_decoder,502,515,4
+3,M5,2023-04-12,fixed_decoder,502,517,13
+3,M5,2023-04-12,fixed_decoder,502,518,0
+3,M5,2023-04-12,fixed_decoder,502,520,0
+3,M5,2023-04-12,fixed_decoder,502,522,0
+3,M5,2023-04-12,fixed_decoder,502,523,0
+3,M5,2023-04-12,fixed_decoder,502,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,502,cleaning,0
+3,M5,2023-04-12,fixed_decoder,502,hallway,0
+3,M5,2023-04-12,fixed_decoder,502,kitchen,0
+3,M5,2023-04-12,fixed_decoder,502,nurse station,1
+3,M5,2023-04-12,fixed_decoder,505,501,0
+3,M5,2023-04-12,fixed_decoder,505,502,0
+3,M5,2023-04-12,fixed_decoder,505,505,0
+3,M5,2023-04-12,fixed_decoder,505,506,0
+3,M5,2023-04-12,fixed_decoder,505,511,0
+3,M5,2023-04-12,fixed_decoder,505,512,0
+3,M5,2023-04-12,fixed_decoder,505,513,0
+3,M5,2023-04-12,fixed_decoder,505,515,0
+3,M5,2023-04-12,fixed_decoder,505,517,0
+3,M5,2023-04-12,fixed_decoder,505,518,0
+3,M5,2023-04-12,fixed_decoder,505,520,0
+3,M5,2023-04-12,fixed_decoder,505,522,0
+3,M5,2023-04-12,fixed_decoder,505,523,0
+3,M5,2023-04-12,fixed_decoder,505,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,505,cleaning,0
+3,M5,2023-04-12,fixed_decoder,505,hallway,0
+3,M5,2023-04-12,fixed_decoder,505,kitchen,0
+3,M5,2023-04-12,fixed_decoder,505,nurse station,2
+3,M5,2023-04-12,fixed_decoder,506,501,0
+3,M5,2023-04-12,fixed_decoder,506,502,0
+3,M5,2023-04-12,fixed_decoder,506,505,0
+3,M5,2023-04-12,fixed_decoder,506,506,49
+3,M5,2023-04-12,fixed_decoder,506,511,0
+3,M5,2023-04-12,fixed_decoder,506,512,0
+3,M5,2023-04-12,fixed_decoder,506,513,0
+3,M5,2023-04-12,fixed_decoder,506,515,0
+3,M5,2023-04-12,fixed_decoder,506,517,0
+3,M5,2023-04-12,fixed_decoder,506,518,0
+3,M5,2023-04-12,fixed_decoder,506,520,0
+3,M5,2023-04-12,fixed_decoder,506,522,0
+3,M5,2023-04-12,fixed_decoder,506,523,0
+3,M5,2023-04-12,fixed_decoder,506,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,506,cleaning,0
+3,M5,2023-04-12,fixed_decoder,506,hallway,0
+3,M5,2023-04-12,fixed_decoder,506,kitchen,0
+3,M5,2023-04-12,fixed_decoder,506,nurse station,0
+3,M5,2023-04-12,fixed_decoder,511,501,0
+3,M5,2023-04-12,fixed_decoder,511,502,0
+3,M5,2023-04-12,fixed_decoder,511,505,0
+3,M5,2023-04-12,fixed_decoder,511,506,0
+3,M5,2023-04-12,fixed_decoder,511,511,24
+3,M5,2023-04-12,fixed_decoder,511,512,0
+3,M5,2023-04-12,fixed_decoder,511,513,0
+3,M5,2023-04-12,fixed_decoder,511,515,0
+3,M5,2023-04-12,fixed_decoder,511,517,0
+3,M5,2023-04-12,fixed_decoder,511,518,0
+3,M5,2023-04-12,fixed_decoder,511,520,0
+3,M5,2023-04-12,fixed_decoder,511,522,3
+3,M5,2023-04-12,fixed_decoder,511,523,0
+3,M5,2023-04-12,fixed_decoder,511,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,511,cleaning,0
+3,M5,2023-04-12,fixed_decoder,511,hallway,0
+3,M5,2023-04-12,fixed_decoder,511,kitchen,0
+3,M5,2023-04-12,fixed_decoder,511,nurse station,3
+3,M5,2023-04-12,fixed_decoder,512,501,0
+3,M5,2023-04-12,fixed_decoder,512,502,0
+3,M5,2023-04-12,fixed_decoder,512,505,0
+3,M5,2023-04-12,fixed_decoder,512,506,0
+3,M5,2023-04-12,fixed_decoder,512,511,0
+3,M5,2023-04-12,fixed_decoder,512,512,44
+3,M5,2023-04-12,fixed_decoder,512,513,0
+3,M5,2023-04-12,fixed_decoder,512,515,0
+3,M5,2023-04-12,fixed_decoder,512,517,0
+3,M5,2023-04-12,fixed_decoder,512,518,0
+3,M5,2023-04-12,fixed_decoder,512,520,0
+3,M5,2023-04-12,fixed_decoder,512,522,4
+3,M5,2023-04-12,fixed_decoder,512,523,16
+3,M5,2023-04-12,fixed_decoder,512,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,512,cleaning,0
+3,M5,2023-04-12,fixed_decoder,512,hallway,5
+3,M5,2023-04-12,fixed_decoder,512,kitchen,0
+3,M5,2023-04-12,fixed_decoder,512,nurse station,0
+3,M5,2023-04-12,fixed_decoder,513,501,48
+3,M5,2023-04-12,fixed_decoder,513,502,0
+3,M5,2023-04-12,fixed_decoder,513,505,0
+3,M5,2023-04-12,fixed_decoder,513,506,0
+3,M5,2023-04-12,fixed_decoder,513,511,0
+3,M5,2023-04-12,fixed_decoder,513,512,0
+3,M5,2023-04-12,fixed_decoder,513,513,4
+3,M5,2023-04-12,fixed_decoder,513,515,3
+3,M5,2023-04-12,fixed_decoder,513,517,0
+3,M5,2023-04-12,fixed_decoder,513,518,0
+3,M5,2023-04-12,fixed_decoder,513,520,0
+3,M5,2023-04-12,fixed_decoder,513,522,0
+3,M5,2023-04-12,fixed_decoder,513,523,0
+3,M5,2023-04-12,fixed_decoder,513,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,513,cleaning,23
+3,M5,2023-04-12,fixed_decoder,513,hallway,5
+3,M5,2023-04-12,fixed_decoder,513,kitchen,0
+3,M5,2023-04-12,fixed_decoder,513,nurse station,1
+3,M5,2023-04-12,fixed_decoder,515,501,3
+3,M5,2023-04-12,fixed_decoder,515,502,0
+3,M5,2023-04-12,fixed_decoder,515,505,0
+3,M5,2023-04-12,fixed_decoder,515,506,0
+3,M5,2023-04-12,fixed_decoder,515,511,0
+3,M5,2023-04-12,fixed_decoder,515,512,0
+3,M5,2023-04-12,fixed_decoder,515,513,6
+3,M5,2023-04-12,fixed_decoder,515,515,12
+3,M5,2023-04-12,fixed_decoder,515,517,0
+3,M5,2023-04-12,fixed_decoder,515,518,0
+3,M5,2023-04-12,fixed_decoder,515,520,0
+3,M5,2023-04-12,fixed_decoder,515,522,0
+3,M5,2023-04-12,fixed_decoder,515,523,0
+3,M5,2023-04-12,fixed_decoder,515,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,515,cleaning,0
+3,M5,2023-04-12,fixed_decoder,515,hallway,0
+3,M5,2023-04-12,fixed_decoder,515,kitchen,0
+3,M5,2023-04-12,fixed_decoder,515,nurse station,1
+3,M5,2023-04-12,fixed_decoder,517,501,0
+3,M5,2023-04-12,fixed_decoder,517,502,0
+3,M5,2023-04-12,fixed_decoder,517,505,0
+3,M5,2023-04-12,fixed_decoder,517,506,0
+3,M5,2023-04-12,fixed_decoder,517,511,0
+3,M5,2023-04-12,fixed_decoder,517,512,0
+3,M5,2023-04-12,fixed_decoder,517,513,0
+3,M5,2023-04-12,fixed_decoder,517,515,0
+3,M5,2023-04-12,fixed_decoder,517,517,2
+3,M5,2023-04-12,fixed_decoder,517,518,0
+3,M5,2023-04-12,fixed_decoder,517,520,0
+3,M5,2023-04-12,fixed_decoder,517,522,0
+3,M5,2023-04-12,fixed_decoder,517,523,0
+3,M5,2023-04-12,fixed_decoder,517,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,517,cleaning,0
+3,M5,2023-04-12,fixed_decoder,517,hallway,0
+3,M5,2023-04-12,fixed_decoder,517,kitchen,0
+3,M5,2023-04-12,fixed_decoder,517,nurse station,0
+3,M5,2023-04-12,fixed_decoder,518,501,0
+3,M5,2023-04-12,fixed_decoder,518,502,0
+3,M5,2023-04-12,fixed_decoder,518,505,0
+3,M5,2023-04-12,fixed_decoder,518,506,0
+3,M5,2023-04-12,fixed_decoder,518,511,0
+3,M5,2023-04-12,fixed_decoder,518,512,0
+3,M5,2023-04-12,fixed_decoder,518,513,0
+3,M5,2023-04-12,fixed_decoder,518,515,0
+3,M5,2023-04-12,fixed_decoder,518,517,0
+3,M5,2023-04-12,fixed_decoder,518,518,0
+3,M5,2023-04-12,fixed_decoder,518,520,5
+3,M5,2023-04-12,fixed_decoder,518,522,0
+3,M5,2023-04-12,fixed_decoder,518,523,0
+3,M5,2023-04-12,fixed_decoder,518,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,518,cleaning,0
+3,M5,2023-04-12,fixed_decoder,518,hallway,0
+3,M5,2023-04-12,fixed_decoder,518,kitchen,0
+3,M5,2023-04-12,fixed_decoder,518,nurse station,0
+3,M5,2023-04-12,fixed_decoder,520,501,0
+3,M5,2023-04-12,fixed_decoder,520,502,0
+3,M5,2023-04-12,fixed_decoder,520,505,0
+3,M5,2023-04-12,fixed_decoder,520,506,0
+3,M5,2023-04-12,fixed_decoder,520,511,0
+3,M5,2023-04-12,fixed_decoder,520,512,0
+3,M5,2023-04-12,fixed_decoder,520,513,0
+3,M5,2023-04-12,fixed_decoder,520,515,0
+3,M5,2023-04-12,fixed_decoder,520,517,0
+3,M5,2023-04-12,fixed_decoder,520,518,2
+3,M5,2023-04-12,fixed_decoder,520,520,83
+3,M5,2023-04-12,fixed_decoder,520,522,0
+3,M5,2023-04-12,fixed_decoder,520,523,0
+3,M5,2023-04-12,fixed_decoder,520,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,520,cleaning,0
+3,M5,2023-04-12,fixed_decoder,520,hallway,0
+3,M5,2023-04-12,fixed_decoder,520,kitchen,0
+3,M5,2023-04-12,fixed_decoder,520,nurse station,1
+3,M5,2023-04-12,fixed_decoder,522,501,0
+3,M5,2023-04-12,fixed_decoder,522,502,0
+3,M5,2023-04-12,fixed_decoder,522,505,0
+3,M5,2023-04-12,fixed_decoder,522,506,0
+3,M5,2023-04-12,fixed_decoder,522,511,0
+3,M5,2023-04-12,fixed_decoder,522,512,0
+3,M5,2023-04-12,fixed_decoder,522,513,0
+3,M5,2023-04-12,fixed_decoder,522,515,0
+3,M5,2023-04-12,fixed_decoder,522,517,0
+3,M5,2023-04-12,fixed_decoder,522,518,0
+3,M5,2023-04-12,fixed_decoder,522,520,0
+3,M5,2023-04-12,fixed_decoder,522,522,9
+3,M5,2023-04-12,fixed_decoder,522,523,0
+3,M5,2023-04-12,fixed_decoder,522,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,522,cleaning,0
+3,M5,2023-04-12,fixed_decoder,522,hallway,0
+3,M5,2023-04-12,fixed_decoder,522,kitchen,0
+3,M5,2023-04-12,fixed_decoder,522,nurse station,1
+3,M5,2023-04-12,fixed_decoder,523,501,0
+3,M5,2023-04-12,fixed_decoder,523,502,0
+3,M5,2023-04-12,fixed_decoder,523,505,0
+3,M5,2023-04-12,fixed_decoder,523,506,0
+3,M5,2023-04-12,fixed_decoder,523,511,0
+3,M5,2023-04-12,fixed_decoder,523,512,11
+3,M5,2023-04-12,fixed_decoder,523,513,0
+3,M5,2023-04-12,fixed_decoder,523,515,0
+3,M5,2023-04-12,fixed_decoder,523,517,0
+3,M5,2023-04-12,fixed_decoder,523,518,0
+3,M5,2023-04-12,fixed_decoder,523,520,0
+3,M5,2023-04-12,fixed_decoder,523,522,1
+3,M5,2023-04-12,fixed_decoder,523,523,40
+3,M5,2023-04-12,fixed_decoder,523,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,523,cleaning,0
+3,M5,2023-04-12,fixed_decoder,523,hallway,0
+3,M5,2023-04-12,fixed_decoder,523,kitchen,0
+3,M5,2023-04-12,fixed_decoder,523,nurse station,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,501,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,502,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,505,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,506,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,511,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,512,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,513,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,515,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,517,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,518,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,520,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,522,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,523,0
+3,M5,2023-04-12,fixed_decoder,cafeteria,cafeteria,50
+3,M5,2023-04-12,fixed_decoder,cafeteria,cleaning,70
+3,M5,2023-04-12,fixed_decoder,cafeteria,hallway,2
+3,M5,2023-04-12,fixed_decoder,cafeteria,kitchen,289
+3,M5,2023-04-12,fixed_decoder,cafeteria,nurse station,91
+3,M5,2023-04-12,fixed_decoder,cleaning,501,0
+3,M5,2023-04-12,fixed_decoder,cleaning,502,0
+3,M5,2023-04-12,fixed_decoder,cleaning,505,0
+3,M5,2023-04-12,fixed_decoder,cleaning,506,29
+3,M5,2023-04-12,fixed_decoder,cleaning,511,0
+3,M5,2023-04-12,fixed_decoder,cleaning,512,0
+3,M5,2023-04-12,fixed_decoder,cleaning,513,0
+3,M5,2023-04-12,fixed_decoder,cleaning,515,0
+3,M5,2023-04-12,fixed_decoder,cleaning,517,0
+3,M5,2023-04-12,fixed_decoder,cleaning,518,0
+3,M5,2023-04-12,fixed_decoder,cleaning,520,0
+3,M5,2023-04-12,fixed_decoder,cleaning,522,0
+3,M5,2023-04-12,fixed_decoder,cleaning,523,0
+3,M5,2023-04-12,fixed_decoder,cleaning,cafeteria,6
+3,M5,2023-04-12,fixed_decoder,cleaning,cleaning,120
+3,M5,2023-04-12,fixed_decoder,cleaning,hallway,6
+3,M5,2023-04-12,fixed_decoder,cleaning,kitchen,0
+3,M5,2023-04-12,fixed_decoder,cleaning,nurse station,38
+3,M5,2023-04-12,fixed_decoder,hallway,501,0
+3,M5,2023-04-12,fixed_decoder,hallway,502,0
+3,M5,2023-04-12,fixed_decoder,hallway,505,0
+3,M5,2023-04-12,fixed_decoder,hallway,506,0
+3,M5,2023-04-12,fixed_decoder,hallway,511,0
+3,M5,2023-04-12,fixed_decoder,hallway,512,0
+3,M5,2023-04-12,fixed_decoder,hallway,513,0
+3,M5,2023-04-12,fixed_decoder,hallway,515,0
+3,M5,2023-04-12,fixed_decoder,hallway,517,0
+3,M5,2023-04-12,fixed_decoder,hallway,518,0
+3,M5,2023-04-12,fixed_decoder,hallway,520,0
+3,M5,2023-04-12,fixed_decoder,hallway,522,0
+3,M5,2023-04-12,fixed_decoder,hallway,523,0
+3,M5,2023-04-12,fixed_decoder,hallway,cafeteria,0
+3,M5,2023-04-12,fixed_decoder,hallway,cleaning,20
+3,M5,2023-04-12,fixed_decoder,hallway,hallway,0
+3,M5,2023-04-12,fixed_decoder,hallway,kitchen,0
+3,M5,2023-04-12,fixed_decoder,hallway,nurse station,112
+3,M5,2023-04-12,fixed_decoder,kitchen,501,0
+3,M5,2023-04-12,fixed_decoder,kitchen,502,0
+3,M5,2023-04-12,fixed_decoder,kitchen,505,0
+3,M5,2023-04-12,fixed_decoder,kitchen,506,0
+3,M5,2023-04-12,fixed_decoder,kitchen,511,0
+3,M5,2023-04-12,fixed_decoder,kitchen,512,0
+3,M5,2023-04-12,fixed_decoder,kitchen,513,0
+3,M5,2023-04-12,fixed_decoder,kitchen,515,0
+3,M5,2023-04-12,fixed_decoder,kitchen,517,0
+3,M5,2023-04-12,fixed_decoder,kitchen,518,0
+3,M5,2023-04-12,fixed_decoder,kitchen,520,0
+3,M5,2023-04-12,fixed_decoder,kitchen,522,0
+3,M5,2023-04-12,fixed_decoder,kitchen,523,0
+3,M5,2023-04-12,fixed_decoder,kitchen,cafeteria,2
+3,M5,2023-04-12,fixed_decoder,kitchen,cleaning,25
+3,M5,2023-04-12,fixed_decoder,kitchen,hallway,4
+3,M5,2023-04-12,fixed_decoder,kitchen,kitchen,740
+3,M5,2023-04-12,fixed_decoder,kitchen,nurse station,24
+3,M5,2023-04-12,fixed_decoder,nurse station,501,0
+3,M5,2023-04-12,fixed_decoder,nurse station,502,0
+3,M5,2023-04-12,fixed_decoder,nurse station,505,0
+3,M5,2023-04-12,fixed_decoder,nurse station,506,0
+3,M5,2023-04-12,fixed_decoder,nurse station,511,0
+3,M5,2023-04-12,fixed_decoder,nurse station,512,0
+3,M5,2023-04-12,fixed_decoder,nurse station,513,0
+3,M5,2023-04-12,fixed_decoder,nurse station,515,0
+3,M5,2023-04-12,fixed_decoder,nurse station,517,0
+3,M5,2023-04-12,fixed_decoder,nurse station,518,0
+3,M5,2023-04-12,fixed_decoder,nurse station,520,20
+3,M5,2023-04-12,fixed_decoder,nurse station,522,0
+3,M5,2023-04-12,fixed_decoder,nurse station,523,5
+3,M5,2023-04-12,fixed_decoder,nurse station,cafeteria,7
+3,M5,2023-04-12,fixed_decoder,nurse station,cleaning,73
+3,M5,2023-04-12,fixed_decoder,nurse station,hallway,12
+3,M5,2023-04-12,fixed_decoder,nurse station,kitchen,2
+3,M5,2023-04-12,fixed_decoder,nurse station,nurse station,384
+3,M5,2023-04-13,raw,505,505,0
+3,M5,2023-04-13,raw,505,506,0
+3,M5,2023-04-13,raw,505,508,0
+3,M5,2023-04-13,raw,505,513,6
+3,M5,2023-04-13,raw,505,515,1
+3,M5,2023-04-13,raw,505,517,4
+3,M5,2023-04-13,raw,505,518,0
+3,M5,2023-04-13,raw,505,520,0
+3,M5,2023-04-13,raw,505,523,0
+3,M5,2023-04-13,raw,505,cafeteria,0
+3,M5,2023-04-13,raw,505,cleaning,0
+3,M5,2023-04-13,raw,505,kitchen,0
+3,M5,2023-04-13,raw,505,nurse station,0
+3,M5,2023-04-13,raw,506,505,0
+3,M5,2023-04-13,raw,506,506,35
+3,M5,2023-04-13,raw,506,508,0
+3,M5,2023-04-13,raw,506,513,3
+3,M5,2023-04-13,raw,506,515,0
+3,M5,2023-04-13,raw,506,517,1
+3,M5,2023-04-13,raw,506,518,0
+3,M5,2023-04-13,raw,506,520,0
+3,M5,2023-04-13,raw,506,523,0
+3,M5,2023-04-13,raw,506,cafeteria,0
+3,M5,2023-04-13,raw,506,cleaning,6
+3,M5,2023-04-13,raw,506,kitchen,1
+3,M5,2023-04-13,raw,506,nurse station,2
+3,M5,2023-04-13,raw,508,505,0
+3,M5,2023-04-13,raw,508,506,0
+3,M5,2023-04-13,raw,508,508,0
+3,M5,2023-04-13,raw,508,513,0
+3,M5,2023-04-13,raw,508,515,0
+3,M5,2023-04-13,raw,508,517,0
+3,M5,2023-04-13,raw,508,518,5
+3,M5,2023-04-13,raw,508,520,6
+3,M5,2023-04-13,raw,508,523,0
+3,M5,2023-04-13,raw,508,cafeteria,0
+3,M5,2023-04-13,raw,508,cleaning,0
+3,M5,2023-04-13,raw,508,kitchen,0
+3,M5,2023-04-13,raw,508,nurse station,0
+3,M5,2023-04-13,raw,513,505,0
+3,M5,2023-04-13,raw,513,506,0
+3,M5,2023-04-13,raw,513,508,0
+3,M5,2023-04-13,raw,513,513,18
+3,M5,2023-04-13,raw,513,515,15
+3,M5,2023-04-13,raw,513,517,0
+3,M5,2023-04-13,raw,513,518,0
+3,M5,2023-04-13,raw,513,520,0
+3,M5,2023-04-13,raw,513,523,0
+3,M5,2023-04-13,raw,513,cafeteria,0
+3,M5,2023-04-13,raw,513,cleaning,0
+3,M5,2023-04-13,raw,513,kitchen,0
+3,M5,2023-04-13,raw,513,nurse station,0
+3,M5,2023-04-13,raw,515,505,0
+3,M5,2023-04-13,raw,515,506,0
+3,M5,2023-04-13,raw,515,508,0
+3,M5,2023-04-13,raw,515,513,34
+3,M5,2023-04-13,raw,515,515,38
+3,M5,2023-04-13,raw,515,517,4
+3,M5,2023-04-13,raw,515,518,0
+3,M5,2023-04-13,raw,515,520,0
+3,M5,2023-04-13,raw,515,523,0
+3,M5,2023-04-13,raw,515,cafeteria,5
+3,M5,2023-04-13,raw,515,cleaning,2
+3,M5,2023-04-13,raw,515,kitchen,4
+3,M5,2023-04-13,raw,515,nurse station,1
+3,M5,2023-04-13,raw,517,505,0
+3,M5,2023-04-13,raw,517,506,0
+3,M5,2023-04-13,raw,517,508,0
+3,M5,2023-04-13,raw,517,513,0
+3,M5,2023-04-13,raw,517,515,0
+3,M5,2023-04-13,raw,517,517,3
+3,M5,2023-04-13,raw,517,518,0
+3,M5,2023-04-13,raw,517,520,0
+3,M5,2023-04-13,raw,517,523,0
+3,M5,2023-04-13,raw,517,cafeteria,0
+3,M5,2023-04-13,raw,517,cleaning,0
+3,M5,2023-04-13,raw,517,kitchen,1
+3,M5,2023-04-13,raw,517,nurse station,0
+3,M5,2023-04-13,raw,518,505,0
+3,M5,2023-04-13,raw,518,506,0
+3,M5,2023-04-13,raw,518,508,0
+3,M5,2023-04-13,raw,518,513,0
+3,M5,2023-04-13,raw,518,515,0
+3,M5,2023-04-13,raw,518,517,0
+3,M5,2023-04-13,raw,518,518,2
+3,M5,2023-04-13,raw,518,520,5
+3,M5,2023-04-13,raw,518,523,0
+3,M5,2023-04-13,raw,518,cafeteria,0
+3,M5,2023-04-13,raw,518,cleaning,0
+3,M5,2023-04-13,raw,518,kitchen,0
+3,M5,2023-04-13,raw,518,nurse station,1
+3,M5,2023-04-13,raw,520,505,0
+3,M5,2023-04-13,raw,520,506,0
+3,M5,2023-04-13,raw,520,508,2
+3,M5,2023-04-13,raw,520,513,0
+3,M5,2023-04-13,raw,520,515,0
+3,M5,2023-04-13,raw,520,517,0
+3,M5,2023-04-13,raw,520,518,3
+3,M5,2023-04-13,raw,520,520,19
+3,M5,2023-04-13,raw,520,523,0
+3,M5,2023-04-13,raw,520,cafeteria,0
+3,M5,2023-04-13,raw,520,cleaning,0
+3,M5,2023-04-13,raw,520,kitchen,0
+3,M5,2023-04-13,raw,520,nurse station,0
+3,M5,2023-04-13,raw,523,505,0
+3,M5,2023-04-13,raw,523,506,0
+3,M5,2023-04-13,raw,523,508,0
+3,M5,2023-04-13,raw,523,513,0
+3,M5,2023-04-13,raw,523,515,0
+3,M5,2023-04-13,raw,523,517,0
+3,M5,2023-04-13,raw,523,518,3
+3,M5,2023-04-13,raw,523,520,0
+3,M5,2023-04-13,raw,523,523,61
+3,M5,2023-04-13,raw,523,cafeteria,1
+3,M5,2023-04-13,raw,523,cleaning,0
+3,M5,2023-04-13,raw,523,kitchen,12
+3,M5,2023-04-13,raw,523,nurse station,1
+3,M5,2023-04-13,raw,cafeteria,505,0
+3,M5,2023-04-13,raw,cafeteria,506,5
+3,M5,2023-04-13,raw,cafeteria,508,0
+3,M5,2023-04-13,raw,cafeteria,513,1
+3,M5,2023-04-13,raw,cafeteria,515,0
+3,M5,2023-04-13,raw,cafeteria,517,1
+3,M5,2023-04-13,raw,cafeteria,518,1
+3,M5,2023-04-13,raw,cafeteria,520,0
+3,M5,2023-04-13,raw,cafeteria,523,0
+3,M5,2023-04-13,raw,cafeteria,cafeteria,54
+3,M5,2023-04-13,raw,cafeteria,cleaning,24
+3,M5,2023-04-13,raw,cafeteria,kitchen,20
+3,M5,2023-04-13,raw,cafeteria,nurse station,17
+3,M5,2023-04-13,raw,cleaning,505,0
+3,M5,2023-04-13,raw,cleaning,506,15
+3,M5,2023-04-13,raw,cleaning,508,0
+3,M5,2023-04-13,raw,cleaning,513,1
+3,M5,2023-04-13,raw,cleaning,515,0
+3,M5,2023-04-13,raw,cleaning,517,0
+3,M5,2023-04-13,raw,cleaning,518,2
+3,M5,2023-04-13,raw,cleaning,520,0
+3,M5,2023-04-13,raw,cleaning,523,0
+3,M5,2023-04-13,raw,cleaning,cafeteria,3
+3,M5,2023-04-13,raw,cleaning,cleaning,23
+3,M5,2023-04-13,raw,cleaning,kitchen,2
+3,M5,2023-04-13,raw,cleaning,nurse station,5
+3,M5,2023-04-13,raw,kitchen,505,0
+3,M5,2023-04-13,raw,kitchen,506,0
+3,M5,2023-04-13,raw,kitchen,508,0
+3,M5,2023-04-13,raw,kitchen,513,1
+3,M5,2023-04-13,raw,kitchen,515,0
+3,M5,2023-04-13,raw,kitchen,517,1
+3,M5,2023-04-13,raw,kitchen,518,3
+3,M5,2023-04-13,raw,kitchen,520,0
+3,M5,2023-04-13,raw,kitchen,523,0
+3,M5,2023-04-13,raw,kitchen,cafeteria,28
+3,M5,2023-04-13,raw,kitchen,cleaning,7
+3,M5,2023-04-13,raw,kitchen,kitchen,210
+3,M5,2023-04-13,raw,kitchen,nurse station,8
+3,M5,2023-04-13,raw,nurse station,505,1
+3,M5,2023-04-13,raw,nurse station,506,4
+3,M5,2023-04-13,raw,nurse station,508,0
+3,M5,2023-04-13,raw,nurse station,513,1
+3,M5,2023-04-13,raw,nurse station,515,0
+3,M5,2023-04-13,raw,nurse station,517,0
+3,M5,2023-04-13,raw,nurse station,518,55
+3,M5,2023-04-13,raw,nurse station,520,42
+3,M5,2023-04-13,raw,nurse station,523,0
+3,M5,2023-04-13,raw,nurse station,cafeteria,26
+3,M5,2023-04-13,raw,nurse station,cleaning,29
+3,M5,2023-04-13,raw,nurse station,kitchen,30
+3,M5,2023-04-13,raw,nurse station,nurse station,160
+3,M5,2023-04-13,fixed_decoder,505,505,0
+3,M5,2023-04-13,fixed_decoder,505,506,0
+3,M5,2023-04-13,fixed_decoder,505,508,0
+3,M5,2023-04-13,fixed_decoder,505,513,11
+3,M5,2023-04-13,fixed_decoder,505,515,0
+3,M5,2023-04-13,fixed_decoder,505,517,0
+3,M5,2023-04-13,fixed_decoder,505,518,0
+3,M5,2023-04-13,fixed_decoder,505,520,0
+3,M5,2023-04-13,fixed_decoder,505,523,0
+3,M5,2023-04-13,fixed_decoder,505,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,505,cleaning,0
+3,M5,2023-04-13,fixed_decoder,505,kitchen,0
+3,M5,2023-04-13,fixed_decoder,505,nurse station,0
+3,M5,2023-04-13,fixed_decoder,506,505,0
+3,M5,2023-04-13,fixed_decoder,506,506,46
+3,M5,2023-04-13,fixed_decoder,506,508,0
+3,M5,2023-04-13,fixed_decoder,506,513,0
+3,M5,2023-04-13,fixed_decoder,506,515,0
+3,M5,2023-04-13,fixed_decoder,506,517,0
+3,M5,2023-04-13,fixed_decoder,506,518,0
+3,M5,2023-04-13,fixed_decoder,506,520,0
+3,M5,2023-04-13,fixed_decoder,506,523,0
+3,M5,2023-04-13,fixed_decoder,506,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,506,cleaning,2
+3,M5,2023-04-13,fixed_decoder,506,kitchen,0
+3,M5,2023-04-13,fixed_decoder,506,nurse station,0
+3,M5,2023-04-13,fixed_decoder,508,505,0
+3,M5,2023-04-13,fixed_decoder,508,506,0
+3,M5,2023-04-13,fixed_decoder,508,508,0
+3,M5,2023-04-13,fixed_decoder,508,513,0
+3,M5,2023-04-13,fixed_decoder,508,515,0
+3,M5,2023-04-13,fixed_decoder,508,517,0
+3,M5,2023-04-13,fixed_decoder,508,518,0
+3,M5,2023-04-13,fixed_decoder,508,520,11
+3,M5,2023-04-13,fixed_decoder,508,523,0
+3,M5,2023-04-13,fixed_decoder,508,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,508,cleaning,0
+3,M5,2023-04-13,fixed_decoder,508,kitchen,0
+3,M5,2023-04-13,fixed_decoder,508,nurse station,0
+3,M5,2023-04-13,fixed_decoder,513,505,0
+3,M5,2023-04-13,fixed_decoder,513,506,0
+3,M5,2023-04-13,fixed_decoder,513,508,0
+3,M5,2023-04-13,fixed_decoder,513,513,24
+3,M5,2023-04-13,fixed_decoder,513,515,9
+3,M5,2023-04-13,fixed_decoder,513,517,0
+3,M5,2023-04-13,fixed_decoder,513,518,0
+3,M5,2023-04-13,fixed_decoder,513,520,0
+3,M5,2023-04-13,fixed_decoder,513,523,0
+3,M5,2023-04-13,fixed_decoder,513,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,513,cleaning,0
+3,M5,2023-04-13,fixed_decoder,513,kitchen,0
+3,M5,2023-04-13,fixed_decoder,513,nurse station,0
+3,M5,2023-04-13,fixed_decoder,515,505,0
+3,M5,2023-04-13,fixed_decoder,515,506,0
+3,M5,2023-04-13,fixed_decoder,515,508,0
+3,M5,2023-04-13,fixed_decoder,515,513,25
+3,M5,2023-04-13,fixed_decoder,515,515,46
+3,M5,2023-04-13,fixed_decoder,515,517,0
+3,M5,2023-04-13,fixed_decoder,515,518,0
+3,M5,2023-04-13,fixed_decoder,515,520,0
+3,M5,2023-04-13,fixed_decoder,515,523,0
+3,M5,2023-04-13,fixed_decoder,515,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,515,cleaning,6
+3,M5,2023-04-13,fixed_decoder,515,kitchen,10
+3,M5,2023-04-13,fixed_decoder,515,nurse station,1
+3,M5,2023-04-13,fixed_decoder,517,505,0
+3,M5,2023-04-13,fixed_decoder,517,506,0
+3,M5,2023-04-13,fixed_decoder,517,508,0
+3,M5,2023-04-13,fixed_decoder,517,513,0
+3,M5,2023-04-13,fixed_decoder,517,515,0
+3,M5,2023-04-13,fixed_decoder,517,517,0
+3,M5,2023-04-13,fixed_decoder,517,518,0
+3,M5,2023-04-13,fixed_decoder,517,520,0
+3,M5,2023-04-13,fixed_decoder,517,523,0
+3,M5,2023-04-13,fixed_decoder,517,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,517,cleaning,0
+3,M5,2023-04-13,fixed_decoder,517,kitchen,3
+3,M5,2023-04-13,fixed_decoder,517,nurse station,1
+3,M5,2023-04-13,fixed_decoder,518,505,0
+3,M5,2023-04-13,fixed_decoder,518,506,0
+3,M5,2023-04-13,fixed_decoder,518,508,0
+3,M5,2023-04-13,fixed_decoder,518,513,0
+3,M5,2023-04-13,fixed_decoder,518,515,0
+3,M5,2023-04-13,fixed_decoder,518,517,0
+3,M5,2023-04-13,fixed_decoder,518,518,0
+3,M5,2023-04-13,fixed_decoder,518,520,8
+3,M5,2023-04-13,fixed_decoder,518,523,0
+3,M5,2023-04-13,fixed_decoder,518,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,518,cleaning,0
+3,M5,2023-04-13,fixed_decoder,518,kitchen,0
+3,M5,2023-04-13,fixed_decoder,518,nurse station,0
+3,M5,2023-04-13,fixed_decoder,520,505,0
+3,M5,2023-04-13,fixed_decoder,520,506,0
+3,M5,2023-04-13,fixed_decoder,520,508,0
+3,M5,2023-04-13,fixed_decoder,520,513,0
+3,M5,2023-04-13,fixed_decoder,520,515,0
+3,M5,2023-04-13,fixed_decoder,520,517,0
+3,M5,2023-04-13,fixed_decoder,520,518,0
+3,M5,2023-04-13,fixed_decoder,520,520,24
+3,M5,2023-04-13,fixed_decoder,520,523,0
+3,M5,2023-04-13,fixed_decoder,520,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,520,cleaning,0
+3,M5,2023-04-13,fixed_decoder,520,kitchen,0
+3,M5,2023-04-13,fixed_decoder,520,nurse station,0
+3,M5,2023-04-13,fixed_decoder,523,505,0
+3,M5,2023-04-13,fixed_decoder,523,506,0
+3,M5,2023-04-13,fixed_decoder,523,508,0
+3,M5,2023-04-13,fixed_decoder,523,513,0
+3,M5,2023-04-13,fixed_decoder,523,515,0
+3,M5,2023-04-13,fixed_decoder,523,517,0
+3,M5,2023-04-13,fixed_decoder,523,518,0
+3,M5,2023-04-13,fixed_decoder,523,520,0
+3,M5,2023-04-13,fixed_decoder,523,523,62
+3,M5,2023-04-13,fixed_decoder,523,cafeteria,0
+3,M5,2023-04-13,fixed_decoder,523,cleaning,0
+3,M5,2023-04-13,fixed_decoder,523,kitchen,12
+3,M5,2023-04-13,fixed_decoder,523,nurse station,4
+3,M5,2023-04-13,fixed_decoder,cafeteria,505,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,506,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,508,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,513,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,515,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,517,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,518,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,520,1
+3,M5,2023-04-13,fixed_decoder,cafeteria,523,0
+3,M5,2023-04-13,fixed_decoder,cafeteria,cafeteria,71
+3,M5,2023-04-13,fixed_decoder,cafeteria,cleaning,22
+3,M5,2023-04-13,fixed_decoder,cafeteria,kitchen,27
+3,M5,2023-04-13,fixed_decoder,cafeteria,nurse station,2
+3,M5,2023-04-13,fixed_decoder,cleaning,505,0
+3,M5,2023-04-13,fixed_decoder,cleaning,506,0
+3,M5,2023-04-13,fixed_decoder,cleaning,508,0
+3,M5,2023-04-13,fixed_decoder,cleaning,513,0
+3,M5,2023-04-13,fixed_decoder,cleaning,515,0
+3,M5,2023-04-13,fixed_decoder,cleaning,517,0
+3,M5,2023-04-13,fixed_decoder,cleaning,518,0
+3,M5,2023-04-13,fixed_decoder,cleaning,520,0
+3,M5,2023-04-13,fixed_decoder,cleaning,523,0
+3,M5,2023-04-13,fixed_decoder,cleaning,cafeteria,6
+3,M5,2023-04-13,fixed_decoder,cleaning,cleaning,40
+3,M5,2023-04-13,fixed_decoder,cleaning,kitchen,0
+3,M5,2023-04-13,fixed_decoder,cleaning,nurse station,5
+3,M5,2023-04-13,fixed_decoder,kitchen,505,0
+3,M5,2023-04-13,fixed_decoder,kitchen,506,0
+3,M5,2023-04-13,fixed_decoder,kitchen,508,0
+3,M5,2023-04-13,fixed_decoder,kitchen,513,0
+3,M5,2023-04-13,fixed_decoder,kitchen,515,0
+3,M5,2023-04-13,fixed_decoder,kitchen,517,0
+3,M5,2023-04-13,fixed_decoder,kitchen,518,0
+3,M5,2023-04-13,fixed_decoder,kitchen,520,0
+3,M5,2023-04-13,fixed_decoder,kitchen,523,0
+3,M5,2023-04-13,fixed_decoder,kitchen,cafeteria,26
+3,M5,2023-04-13,fixed_decoder,kitchen,cleaning,9
+3,M5,2023-04-13,fixed_decoder,kitchen,kitchen,223
+3,M5,2023-04-13,fixed_decoder,kitchen,nurse station,0
+3,M5,2023-04-13,fixed_decoder,nurse station,505,0
+3,M5,2023-04-13,fixed_decoder,nurse station,506,0
+3,M5,2023-04-13,fixed_decoder,nurse station,508,0
+3,M5,2023-04-13,fixed_decoder,nurse station,513,0
+3,M5,2023-04-13,fixed_decoder,nurse station,515,0
+3,M5,2023-04-13,fixed_decoder,nurse station,517,0
+3,M5,2023-04-13,fixed_decoder,nurse station,518,11
+3,M5,2023-04-13,fixed_decoder,nurse station,520,0
+3,M5,2023-04-13,fixed_decoder,nurse station,523,0
+3,M5,2023-04-13,fixed_decoder,nurse station,cafeteria,22
+3,M5,2023-04-13,fixed_decoder,nurse station,cleaning,5
+3,M5,2023-04-13,fixed_decoder,nurse station,kitchen,26
+3,M5,2023-04-13,fixed_decoder,nurse station,nurse station,284

@@ -23,6 +23,11 @@
 !/reports/legacy_1s_3s/
 !/reports/legacy_1s_3s/*.csv
 !/reports/legacy_1s_3s/*.md
+!/reports/strong_ml_1s_3s/
+!/reports/strong_ml_1s_3s/*.csv
+!/reports/strong_ml_1s_3s/*.json
+!/reports/strong_ml_1s_3s/*.md
+!/reports/strong_ml_1s_3s/*.png
 /figures/
 /docs/DATASET_EDA_INSIGHTS_REPORT.md
 

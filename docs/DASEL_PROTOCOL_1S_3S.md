@@ -74,6 +74,31 @@ ML result. They must not be compared with the legacy decoded M0-M8 values as
 if only the window size changed. The fold metrics and exact feature counts are
 in `reports/dasel_matched_1s_3s/fold_metrics.csv` and `summary.csv`.
 
+## Strong strict ML result
+
+The reviewed strong run applies the same class intersection before all
+model-side fitting. The 1s M2 branch uses 100 fold-selected drift-aware
+features with `0.75 class-balanced + 0.25 soft visit-cap` weights. The 3s M5
+branch uses all 23 beacon-frequency features plus up to 77 selected
+non-frequency features. Both branches use synthetic minority jitter limited
+to outer-train, a three-seed XGBoost ensemble, and a fixed temporal decoder.
+
+| Window | Raw Macro-F1 | Fixed-decoder Macro-F1 | Stable | Boundary ±15s |
+| ---: | ---: | ---: | ---: | ---: |
+| 1s M2 | 0.3475 ± 0.0228 | 0.4441 ± 0.0535 | 0.5408 | 0.3565 |
+| 3s M5 | 0.3881 ± 0.0326 | 0.4732 ± 0.0420 | 0.5750 | 0.4214 |
+
+The five-observation smoother corresponds to at most 5 seconds of past
+probability context for 1s and 15 seconds for 3s. Viterbi transition counts
+are fitted only on contiguous outer-training sequences. Viterbi backtracking
+makes `fixed_decoder` an offline evaluation output; the raw probability stream
+and causal smoothing stage remain suitable for online monitoring.
+
+Native XGBoost TreeSHAP explains the raw ensemble only. Features missing from
+an outer fold are assigned zero contribution before cross-fold aggregation so
+fold-specific selection does not inflate global importance. Full tables and
+figures are in `reports/strong_ml_1s_3s/`.
+
 ## Reproduction
 
 Extract private feature matrices:
@@ -100,6 +125,13 @@ Run the raw confirmatory XGBoost baseline:
 python scripts/run_dasel_windows.py \
   --features-dir /private/output/features \
   --output-dir artifacts/dasel_confirmatory
+```
+
+Run the strong 1s/3s configurations:
+
+```bash
+python scripts/run_strong_ml.py \
+  --features-dir /private/output/features
 ```
 
 The artifact directory contains private row-level predictions and stays
