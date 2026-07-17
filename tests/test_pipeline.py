@@ -176,6 +176,24 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(len(features), 1)
             self.assertEqual(float(features.loc[0, "RSSI_1_last"]), -40.0)
 
+    def test_configured_feature_exclusions_are_fold_local_inputs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config = _config(root / "aligned.csv", root / "raw.csv", root / "labels.csv")
+            config["features"]["exclude_columns"] = ["hour"]  # type: ignore[index]
+            features = pd.DataFrame(
+                {
+                    "date": ["2025-01-01"] * 4 + ["2025-01-02"] * 4,
+                    "user_id": [1] * 8,
+                    "room": ["a", "a", "b", "b"] * 2,
+                    "window_start": [f"2025-01-0{1 + i // 4} 00:00:0{i % 4}" for i in range(8)],
+                    "hour": [0, 0, 1, 1] * 2,
+                    "RSSI_1_mean": [-70.0, -69.0, -40.0, -39.0] * 2,
+                }
+            )
+            results = train_lodo(config, features, root / "training")
+            self.assertTrue((results["n_candidate_features"] == 1).all())
+
     def test_room_transition_does_not_split_a_time_window(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

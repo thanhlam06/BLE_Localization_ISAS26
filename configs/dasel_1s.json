@@ -21,6 +21,16 @@
     "replace_zero_rssi": false,
     "aggregations": [],
     "include_time_features": false,
+    "exclude_columns": [
+      "hour",
+      "minute",
+      "second",
+      "dayofweek",
+      "time_sin",
+      "time_cos",
+      "power_mean_all",
+      "power_std_all"
+    ],
     "input_mode": "preextracted_dasel_262"
   },
   "training": {

@@ -445,9 +445,15 @@ def _feature_columns(df: pd.DataFrame, config: dict[str, Any]) -> list[str]:
         config["processed"]["label_col"],
         "window_start",
     }
+    excluded.update(config.get("features", {}).get("exclude_columns", []))
+    excluded_prefixes = tuple(
+        str(prefix) for prefix in config.get("features", {}).get("exclude_prefixes", [])
+    )
     cols = []
     for col in df.columns:
         if col in excluded:
+            continue
+        if excluded_prefixes and str(col).startswith(excluded_prefixes):
             continue
         if pd.api.types.is_numeric_dtype(df[col]):
             cols.append(col)
