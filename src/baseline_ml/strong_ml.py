@@ -869,6 +869,10 @@ def run_fold(
         int(window_config["smooth_steps"]),
         float(config["decoder"]["max_gap_multiplier"]),
     )
+    # Causal smoothing is an independently evaluable, online-compatible phase.
+    # It uses only the current and historical probabilities; Viterbi is applied
+    # afterwards as a separate (offline backtracking) decoder.
+    smoothed_prediction = smoothed.argmax(axis=1)
     decoded_prediction = viterbi_decode(
         smoothed,
         test_engineered["window_ts"],
@@ -889,6 +893,7 @@ def run_fold(
     all_labels = np.arange(len(encoder.classes_))
     for decoder_name, prediction in (
         ("raw", raw_prediction),
+        ("causal_smoothing", smoothed_prediction),
         ("fixed_decoder", decoded_prediction),
     ):
         for region, mask in (
@@ -983,9 +988,12 @@ def run_fold(
             "window_ts": test_engineered["window_ts"].astype(str),
             "y_true": encoder.inverse_transform(y_test),
             "y_pred_raw": encoder.inverse_transform(raw_prediction),
+            "y_pred_causal_smoothing": encoder.inverse_transform(smoothed_prediction),
             "y_pred_fixed_decoder": encoder.inverse_transform(decoded_prediction),
             "confidence_raw": probabilities.max(axis=1),
+            "confidence_causal_smoothing": smoothed.max(axis=1),
             "entropy_raw": -(probabilities * np.log(np.maximum(probabilities, 1e-12))).sum(axis=1),
+            "entropy_causal_smoothing": -(smoothed * np.log(np.maximum(smoothed, 1e-12))).sum(axis=1),
             "is_boundary_15s": boundary.astype(int),
         }
     )
@@ -1025,12 +1033,12 @@ def _plot_fold_f1(metrics: pd.DataFrame, path: Path) -> None:
     subset = metrics.loc[metrics["region"].eq("all")].copy()
     windows = sorted(subset["window_seconds"].unique())
     figure, axes = plt.subplots(1, len(windows), figsize=(6.4 * len(windows), 4.4), squeeze=False)
-    colors = {"raw": "#3568a8", "fixed_decoder": "#d56b2d"}
+    colors = {"raw": "#3568a8", "causal_smoothing": "#6a8f4e", "fixed_decoder": "#d56b2d"}
     for axis, window in zip(axes[0], windows):
         window_rows = subset.loc[subset["window_seconds"].eq(window)]
         days = sorted(window_rows["test_day"].unique())
         positions = np.arange(len(days))
-        for decoder in ("raw", "fixed_decoder"):
+        for decoder in ("raw", "causal_smoothing", "fixed_decoder"):
             indexed = window_rows.loc[window_rows["decoder"].eq(decoder)].set_index("test_day")
             values = indexed.reindex(days)["macro_f1"].to_numpy(dtype=float)
             axis.plot(
@@ -1294,7 +1302,8 @@ def publish_reports(
         "",
         "- **1s / M2:** top-100 drift-aware features, 0.75 class-balanced + 0.25 soft visit-cap weights, and a three-seed XGBoost ensemble.",
         "- **3s / M5:** 23 beacon-frequency features plus up to 77 selected non-frequency features, class-balanced weights, and a three-seed XGBoost ensemble.",
-        "- **Fixed decoder:** causal five-observation probability smoothing followed by train-only Markov Viterbi decoding. At 1s this uses up to 5 seconds of past probability context; at 3s it uses up to 15 seconds.",
+        "- **Causal smoothing:** probabilities are averaged over the current observation and up to five historical observations within each contiguous segment. This is the online-compatible intermediate phase (up to 5 seconds at 1s, or 15 seconds at 3s).",
+        "- **Fixed decoder:** the causal-smoothed probabilities are passed to a train-only Markov Viterbi decoder. Viterbi backtracking is an offline final-label phase and is reported separately.",
         "",
         "## Outer-fold results",
         "",

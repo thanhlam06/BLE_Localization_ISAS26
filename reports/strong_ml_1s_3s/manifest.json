@@ -26,13 +26,13 @@
     },
     {
       "path": "class_metrics.csv",
-      "bytes": 6686,
-      "sha256": "48295094f46cf25ef51a604c683f6ae72f9244cf01b34e0ee0c89ffa4f47c197"
+      "bytes": 10413,
+      "sha256": "7241ca1798b8519175cee800cda6139f7241ac41ab98225f2b4ef8ebcda72a50"
     },
     {
       "path": "confusion_counts.csv",
-      "bytes": 137828,
-      "sha256": "416933a2bb3556ca5f07b317ab0094383f8642dff94b74e71848f9b83e380520"
+      "bytes": 220508,
+      "sha256": "fe94eca288aa9b2149e2d3d50c30d91324518676fe378554289b0a04343bf719"
     },
     {
       "path": "confusion_fixed_decoder.png",
@@ -46,18 +46,18 @@
     },
     {
       "path": "feature_stability.csv",
-      "bytes": 12028,
-      "sha256": "bd83164278be28e34a12bcf3c3934ee460eabe5216dd3d2d6e68cbe2718fcde3"
+      "bytes": 12140,
+      "sha256": "edd0ddaf7fba329942f9678e9c52fd7ab928482162b24e980591c008ae64b697"
     },
     {
       "path": "fold_macro_f1.png",
-      "bytes": 81466,
-      "sha256": "5586c3fb2ec18c224b2cb8135e9a0000e44e7fefccaa3acc73a4cbce9e035bab"
+      "bytes": 108181,
+      "sha256": "eeab9a2c676cc544563ec8c82a7a6a94a586a99fe553189ac15acf4454f84308"
     },
     {
       "path": "fold_metrics.csv",
-      "bytes": 7424,
-      "sha256": "7da1359acccd1b50aca1bd067c9a5dec42ad505ef78c2c59608293f68b27a06a"
+      "bytes": 11354,
+      "sha256": "1bc1536876bf79acca843a4b1c9ed2175b4f74268ec63aba1fc2aa82473c3d25"
     },
     {
       "path": "protocol_audit.csv",
@@ -66,13 +66,13 @@
     },
     {
       "path": "REPORT.md",
-      "bytes": 2624,
-      "sha256": "7c991cf41e9b088db54d288a50d9a0c239df6b3c617d94120ece0a0b3b580512"
+      "bytes": 3977,
+      "sha256": "93ca01e808fb08f5453030b8314dc0d65cf6f5375cb5ef43e97dfe72af09a745"
     },
     {
       "path": "shap_family_importance.csv",
-      "bytes": 583,
-      "sha256": "253e2874cb11750f833fef406045faf978cb8d16dc1b91e7ed8421d01a690f82"
+      "bytes": 525,
+      "sha256": "89c3ac62d54401febbbcc08b6599d453b0cfdd3f8659dc59e65557c459c9e07f"
     },
     {
       "path": "shap_feature_families.png",
@@ -81,8 +81,8 @@
     },
     {
       "path": "shap_importance.csv",
-      "bytes": 24645,
-      "sha256": "79aceba40815bacc9561af8686b60d9dbee7ce94e93154b80f8944675b827dee"
+      "bytes": 21358,
+      "sha256": "74615e2c00abea39b304af3d508a9d9cadbc70aeff70c0fd7bf56cf3804fa47c"
     },
     {
       "path": "shap_top_features.png",
@@ -91,8 +91,8 @@
     },
     {
       "path": "summary.csv",
-      "bytes": 1657,
-      "sha256": "9c5bbdc0b14d60831ca2a5023c0e12c6e7520397a8d64eb1c9a85d92d2173009"
+      "bytes": 2465,
+      "sha256": "f663e641c76ef6cb7e777851a07d62217c2c41cb3b5ff362854c2035f82faab8"
     }
   ],
   "private_artifacts_published": false,
