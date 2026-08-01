@@ -1,0 +1,33 @@
+{
+  "builder": "scripts/build_project_analysis.py",
+  "contains_row_level_data": false,
+  "inputs": {
+    "reports/project_analysis/data_limitations_summary.csv": "a3e84746158dc74ae004364020ce4c2cfb510a6c91e3d4ba62f61931cbc3aee6",
+    "reports/project_analysis/data_lineage.csv": "d05e05964db08ca12f57afbd694d5a6b0101d52bff566e10c2dec0fc94003b30",
+    "reports/project_analysis/label_mixing_by_window.csv": "abf83a02861c87b0898a96c91b023c5e59f47e9488ee01e31defe9d618d7f558",
+    "reports/project_analysis/window_protocol_distortion.csv": "5bf0fed55e6012f59bcf325807b85d4e926b38febc622a366655731bca6177d5",
+    "reports/strong_ml_1s_3s/class_metrics.csv": "7241ca1798b8519175cee800cda6139f7241ac41ab98225f2b4ef8ebcda72a50",
+    "reports/strong_ml_1s_3s/confusion_counts.csv": "fe94eca288aa9b2149e2d3d50c30d91324518676fe378554289b0a04343bf719",
+    "reports/strong_ml_1s_3s/fold_metrics.csv": "1bc1536876bf79acca843a4b1c9ed2175b4f74268ec63aba1fc2aa82473c3d25",
+    "reports/strong_ml_1s_3s/summary.csv": "f663e641c76ef6cb7e777851a07d62217c2c41cb3b5ff362854c2035f82faab8"
+  },
+  "matplotlib": "3.10.9",
+  "outputs": [
+    "boundary_stable_macro_f1.png",
+    "data_limitations_summary.csv",
+    "data_lineage.csv",
+    "data_retention_and_distortion.png",
+    "key_class_metrics.csv",
+    "key_class_postprocessing_f1.png",
+    "label_mixing_by_window.csv",
+    "label_mixing_by_window.png",
+    "per_class_fixed_decoder_f1.png",
+    "postprocessing_macro_f1.png",
+    "postprocessing_summary.csv",
+    "top_confusions_fixed_decoder.csv",
+    "top_confusions_fixed_decoder.png",
+    "window_protocol_distortion.csv"
+  ],
+  "pandas": "3.0.3",
+  "python": "3.14.5"
+}

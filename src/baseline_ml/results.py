@@ -298,9 +298,12 @@ def write_reports(rows: list[dict[str, object]], root: Path) -> tuple[Path, Path
         best = rows[0]
         lines.extend(
             [
-                "## Best Recorded Result",
+                "## Legacy tuned diagnostic reference",
                 "",
-                f"- Macro-F1 candidate: `{float(best['mean_macro_f1_candidate']):.6f}`",
+                "This indexed maximum predates the corrected strict public protocol and",
+                "is retained only as a historical diagnostic reference.",
+                "",
+                f"- Historical Macro-F1 candidate: `{float(best['mean_macro_f1_candidate']):.6f}`",
                 f"- Source: `{best['source_path']}`",
                 f"- Model: `{best.get('model', 'n/a')}`",
                 f"- Stage/inference: `{best.get('stage', best.get('inference', 'n/a'))}`",
@@ -333,8 +336,9 @@ def write_reports(rows: list[dict[str, object]], root: Path) -> tuple[Path, Path
     lines.extend(
         [
             "",
-            "Interpretation note: tuned closed-set results are diagnostic unless a separate",
-            "nested validation or holdout split is used.",
+            "Interpretation note: the ranked candidates below are legacy tuned closed-set",
+            "diagnostics, not headline confirmatory results. Use the strict LODO sections",
+            "above for protocol-matched comparisons.",
             "",
         ]
     )

@@ -28,6 +28,11 @@
 !/reports/strong_ml_1s_3s/*.json
 !/reports/strong_ml_1s_3s/*.md
 !/reports/strong_ml_1s_3s/*.png
+!/reports/project_analysis/
+!/reports/project_analysis/*.csv
+!/reports/project_analysis/*.json
+!/reports/project_analysis/*.md
+!/reports/project_analysis/*.png
 /figures/
 /docs/DATASET_EDA_INSIGHTS_REPORT.md
 
