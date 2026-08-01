@@ -68,7 +68,9 @@ notebooks/
   1s/                           Sanitized EDA/ML/ablation/H1-H7 flow
   3s/                           Sanitized EDA/ML/ablation/H1-H7 flow
 scripts/
+  build_project_analysis.py    Rebuilds aggregate data/model/error plots
   extract_dasel_features.py     Historical 262-column 1s/3s extractor
+  predict_strong_ml.py          Audited full-train 1s/3s inference CLI
   run_baseline.py               Main pipeline CLI
   run_dasel_windows.py          Strict 1s/3s audit and training runner
   run_strong_ml.py              Strong M2/M5 training, evaluation, plots, SHAP
@@ -142,6 +144,50 @@ Private models, probabilities, and row-level predictions are written below
 native XGBoost TreeSHAP importance are publishable in
 `reports/strong_ml_1s_3s/`. TreeSHAP explains the raw ensemble; decoder effects
 are evaluated separately as raw-versus-decoded metrics.
+
+### Verified data and error audit
+
+The full-timestamp audit found zero true exact duplicates among 1,099,957
+labeled packets. Truncating time to seconds before deduplication retains only
+87,558 packets (7.96%) while leaving the 23,584 one-second frame count
+unchanged. The reviewed preprocessing contract therefore keeps sub-second
+timestamps until window assignment.
+
+Under strict four-fold LODO, the strongest reviewed 1s branch moves from
+Macro-F1 0.3475 raw to 0.3918 with causal smoothing and 0.4441 with offline
+Viterbi. The 3s branch moves from 0.3881 to 0.4526 and 0.4732. These global
+gains do not solve hallway or all short-visit errors: fixed-decoder hallway F1
+is 0.0000 at 1s and 0.0024 at 3s, and 1s room-508 F1 falls from 0.2610 after
+causal smoothing to 0.0090 after Viterbi.
+
+See [the data audit](docs/DATA_AUDIT.md),
+[the model/post-processing analysis](docs/MODEL_POSTPROCESSING_ANALYSIS.md),
+and the reproducible aggregate plots under `reports/project_analysis/`.
+
+Regenerate the public aggregate plots:
+
+```bash
+python scripts/build_project_analysis.py
+```
+
+### Audited inference on an unlabeled BLE file
+
+The final inference CLI fits the reviewed 1s M2 and 3s M5 configurations on
+all authorized labeled training days. It preserves full timestamp precision,
+removes only exact full-timestamp detections, publishes raw and causal outputs,
+and marks Viterbi output as offline. Test-day accuracy/F1 are not reported when
+ground truth is absent.
+
+```bash
+python scripts/predict_strong_ml.py \
+  --test-file /authorized/path/BLE_Test.csv \
+  --train-features-dir /private/output/features \
+  --lodo-artifact-dir artifacts/strong_ml \
+  --output-dir artifacts/final_inference
+```
+
+The output directory is ignored because it contains row-level timestamps,
+predictions, probabilities, models, and training-only fingerprints.
 
 ## Private dataset contract
 
