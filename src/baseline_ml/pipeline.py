@@ -27,7 +27,17 @@ from .config import load_config, project_root, resolve_path
 RESULT_COLUMNS = (
     "test_day",
     "model",
+    "class_protocol",
     "closed_set",
+    "n_train_raw",
+    "n_test_raw",
+    "n_train_classes_raw",
+    "n_test_classes_raw",
+    "n_common_classes",
+    "n_train_dropped",
+    "n_test_dropped",
+    "n_train_only_classes",
+    "n_test_only_classes",
     "n_train",
     "n_test",
     "n_classes",
@@ -44,6 +54,20 @@ RESULT_COLUMNS = (
 )
 
 PREDICTION_COLUMNS = ("test_day", "y_true", "y_pred")
+
+CLASS_AUDIT_COLUMNS = (
+    "test_day",
+    "class_protocol",
+    "n_train_raw",
+    "n_test_raw",
+    "n_train_classes_raw",
+    "n_test_classes_raw",
+    "n_common_classes",
+    "n_train_dropped",
+    "n_test_dropped",
+    "n_train_only_classes",
+    "n_test_only_classes",
+)
 
 SUMMARY_COLUMNS = (
     "model",
@@ -421,9 +445,15 @@ def _feature_columns(df: pd.DataFrame, config: dict[str, Any]) -> list[str]:
         config["processed"]["label_col"],
         "window_start",
     }
+    excluded.update(config.get("features", {}).get("exclude_columns", []))
+    excluded_prefixes = tuple(
+        str(prefix) for prefix in config.get("features", {}).get("exclude_prefixes", [])
+    )
     cols = []
     for col in df.columns:
         if col in excluded:
+            continue
+        if excluded_prefixes and str(col).startswith(excluded_prefixes):
             continue
         if pd.api.types.is_numeric_dtype(df[col]):
             cols.append(col)
@@ -451,11 +481,99 @@ def _drop_bad_features(train_x: pd.DataFrame, test_x: pd.DataFrame) -> tuple[pd.
     }
 
 
+def _apply_class_protocol(
+    train_df: pd.DataFrame,
+    test_df: pd.DataFrame,
+    label_col: str,
+    class_protocol: str,
+    test_day: str,
+) -> tuple[pd.DataFrame, pd.DataFrame, dict[str, int]]:
+    """Apply and audit the fold class policy before any model-side fitting.
+
+    ``dasel_intersection`` reproduces the class-count interpretation in DASEL
+    Table II: the model class set is the intersection of labels observed in
+    the outer-training days and the held-out day. Both sides are filtered to
+    that same set before feature cleaning, imputation, weighting, or fitting.
+    """
+    train_labels = set(train_df[label_col].astype(str))
+    test_labels = set(test_df[label_col].astype(str))
+    common = train_labels & test_labels
+    audit = {
+        "n_train_raw": int(len(train_df)),
+        "n_test_raw": int(len(test_df)),
+        "n_train_classes_raw": int(len(train_labels)),
+        "n_test_classes_raw": int(len(test_labels)),
+        "n_common_classes": int(len(common)),
+        "n_train_only_classes": int(len(train_labels - test_labels)),
+        "n_test_only_classes": int(len(test_labels - train_labels)),
+    }
+
+    if class_protocol == "dasel_intersection":
+        train_df = train_df[train_df[label_col].astype(str).isin(common)].copy()
+        test_df = test_df[test_df[label_col].astype(str).isin(common)].copy()
+        filtered_train_labels = set(train_df[label_col].astype(str))
+        filtered_test_labels = set(test_df[label_col].astype(str))
+        if filtered_train_labels != common or filtered_test_labels != common:
+            raise AssertionError(
+                f"LODO fold '{test_day}' did not preserve the shared class set"
+            )
+    elif class_protocol == "train_label_space":
+        unseen_labels = test_labels - train_labels
+        if unseen_labels:
+            raise ValueError(
+                f"LODO fold '{test_day}' has {len(unseen_labels)} test label(s) "
+                "absent from training while class_protocol=train_label_space"
+            )
+    else:
+        raise ValueError(
+            "Unsupported training.class_protocol: "
+            f"{class_protocol!r}; expected 'dasel_intersection' or "
+            "'train_label_space'"
+        )
+
+    audit["n_train_dropped"] = audit["n_train_raw"] - int(len(train_df))
+    audit["n_test_dropped"] = audit["n_test_raw"] - int(len(test_df))
+    return train_df, test_df, audit
+
+
+def audit_lodo_classes(
+    features_df: pd.DataFrame,
+    date_col: str,
+    label_col: str,
+    class_protocol: str = "dasel_intersection",
+) -> pd.DataFrame:
+    """Return a row-count/class-count audit without fitting a model."""
+    rows: list[dict[str, Any]] = []
+    days = sorted(features_df[date_col].dropna().astype(str).unique())
+    for test_day in days:
+        train_df = features_df[features_df[date_col].astype(str) != test_day].copy()
+        test_df = features_df[features_df[date_col].astype(str) == test_day].copy()
+        _, _, audit = _apply_class_protocol(
+            train_df,
+            test_df,
+            label_col,
+            class_protocol,
+            test_day,
+        )
+        rows.append(
+            {
+                "test_day": test_day,
+                "class_protocol": class_protocol,
+                **audit,
+            }
+        )
+    return pd.DataFrame(rows, columns=CLASS_AUDIT_COLUMNS)
+
+
 def train_lodo(config: dict[str, Any], features_df: pd.DataFrame, out_dir: Path) -> pd.DataFrame:
     processed = config["processed"]
     label_col = processed["label_col"]
     date_col = processed["date_col"]
     closed_set = bool(config["training"].get("closed_set", True))
+    class_protocol = config["training"].get(
+        "class_protocol",
+        "dasel_intersection" if closed_set else "train_label_space",
+    )
     feature_cols = _feature_columns(features_df, config)
     if not feature_cols:
         raise ValueError("No numeric feature columns are available for training")
@@ -466,19 +584,13 @@ def train_lodo(config: dict[str, Any], features_df: pd.DataFrame, out_dir: Path)
     for test_day in days:
         train_df = features_df[features_df[date_col].astype(str) != test_day].copy()
         test_df = features_df[features_df[date_col].astype(str) == test_day].copy()
-        if closed_set:
-            common = sorted(set(train_df[label_col].astype(str)) & set(test_df[label_col].astype(str)))
-            train_df = train_df[train_df[label_col].astype(str).isin(common)]
-            test_df = test_df[test_df[label_col].astype(str).isin(common)]
-        else:
-            train_labels = set(train_df[label_col].astype(str))
-            test_labels = set(test_df[label_col].astype(str))
-            unseen_labels = test_labels - train_labels
-            if unseen_labels:
-                raise ValueError(
-                    f"LODO fold '{test_day}' has {len(unseen_labels)} test label(s) "
-                    "absent from training while closed_set=false"
-                )
+        train_df, test_df, class_audit = _apply_class_protocol(
+            train_df,
+            test_df,
+            label_col,
+            str(class_protocol),
+            test_day,
+        )
 
         if train_df.empty or test_df.empty:
             continue
@@ -502,6 +614,7 @@ def train_lodo(config: dict[str, Any], features_df: pd.DataFrame, out_dir: Path)
         row = {
             "test_day": test_day,
             "model": config["training"]["model"],
+            "class_protocol": class_protocol,
             "closed_set": closed_set,
             "n_train": int(len(train_df)),
             "n_test": int(len(test_df)),
@@ -513,6 +626,7 @@ def train_lodo(config: dict[str, Any], features_df: pd.DataFrame, out_dir: Path)
             "macro_f1": float(f1_score(y_test, y_pred, labels=labels, average="macro", zero_division=0)),
             "weighted_f1": float(f1_score(y_test, y_pred, labels=labels, average="weighted", zero_division=0)),
         }
+        row.update(class_audit)
         row.update(feature_audit)
         rows.append(row)
 
@@ -528,6 +642,13 @@ def train_lodo(config: dict[str, Any], features_df: pd.DataFrame, out_dir: Path)
     out_dir.mkdir(parents=True, exist_ok=True)
     results_df = pd.DataFrame(rows, columns=RESULT_COLUMNS)
     results_df.to_csv(out_dir / "lodo_results.csv", index=False)
+    class_audit_df = audit_lodo_classes(
+        features_df,
+        date_col,
+        label_col,
+        str(class_protocol),
+    )
+    class_audit_df.to_csv(out_dir / "lodo_class_audit.csv", index=False)
     if predictions:
         predictions_df = pd.concat(predictions, ignore_index=True)
     else:

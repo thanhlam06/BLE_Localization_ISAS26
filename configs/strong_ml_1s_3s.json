@@ -1,0 +1,59 @@
+{
+  "protocol": "dasel_intersection",
+  "windows": {
+    "1": {
+      "variant": "M2",
+      "description": "Top-100 drift-aware features plus visit-balanced weights",
+      "smooth_steps": 5
+    },
+    "3": {
+      "variant": "M5",
+      "description": "23 frequency features plus up to 77 selected non-frequency features",
+      "smooth_steps": 5
+    }
+  },
+  "seeds": [42, 1042, 2042],
+  "selector": {
+    "top_k": 100,
+    "max_rank_rows": 8000,
+    "correlation_threshold": 0.95,
+    "day_mi_threshold": 0.08,
+    "day_dominance_ratio": 1.25,
+    "extra_trees": 250
+  },
+  "augmentation": {
+    "target_quantile": 0.5,
+    "max_new_per_class": 1500,
+    "max_multiplier": 2.0,
+    "rssi_noise_fraction": 0.03
+  },
+  "weighting": {
+    "visit_cap_seconds": 50.0,
+    "m2_class_fraction": 0.75,
+    "m2_visit_fraction": 0.25
+  },
+  "xgboost": {
+    "n_estimators": 300,
+    "max_depth": 2,
+    "learning_rate": 0.019708414272057828,
+    "subsample": 0.5534281837285242,
+    "colsample_bytree": 0.5819630370366842,
+    "min_child_weight": 7.991772382059395,
+    "gamma": 1.3931793892618227,
+    "reg_lambda": 28.679898648982864,
+    "reg_alpha": 0.02726257973632696,
+    "max_delta_step": 6.923947311989912,
+    "objective": "multi:softprob",
+    "eval_metric": "mlogloss",
+    "tree_method": "hist"
+  },
+  "decoder": {
+    "markov_lambda": 1.0,
+    "transition_pseudocount": 0.001,
+    "max_gap_multiplier": 2.5
+  },
+  "shap": {
+    "max_samples_per_fold": 500,
+    "top_n_plot": 20
+  }
+}

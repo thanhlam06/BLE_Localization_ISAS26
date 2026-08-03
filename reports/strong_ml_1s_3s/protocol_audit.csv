@@ -1,0 +1,9 @@
+test_day,class_protocol,n_train_raw,n_test_raw,n_train_classes_raw,n_test_classes_raw,n_common_classes,n_train_dropped,n_test_dropped,n_train_only_classes,n_test_only_classes,n_train,n_test,window_seconds,variant,n_selected,n_selector_candidates,n_selector_usable,n_augmented,n_train_fit,n_seeds,boundary_samples,stable_samples
+2023-04-10,dasel_intersection,16231,7353,22,12,12,1231,0,10,0,15000,7353,1,M2,100,238,181,286,15286,3,1801,5552
+2023-04-11,dasel_intersection,15845,7739,22,15,15,709,0,7,0,15136,7739,1,M2,100,238,196,341,15477,3,896,6843
+2023-04-12,dasel_intersection,17608,5976,21,19,18,102,44,3,1,17506,5932,1,M2,100,238,190,313,17819,3,1079,4853
+2023-04-13,dasel_intersection,21068,2516,21,14,13,1788,35,8,1,19280,2481,1,M2,100,238,190,128,19408,3,662,1819
+2023-04-10,dasel_intersection,6537,2757,22,12,12,590,0,10,0,5947,2757,3,M5,99,238,190,120,6067,3,726,2031
+2023-04-11,dasel_intersection,6469,2825,22,15,15,342,0,7,0,6127,2825,3,M5,98,238,196,161,6288,3,373,2452
+2023-04-12,dasel_intersection,6685,2609,21,19,18,51,25,3,1,6634,2584,3,M5,99,238,196,128,6762,3,502,2082
+2023-04-13,dasel_intersection,8191,1103,21,14,13,762,18,8,1,7429,1085,3,M5,98,238,190,71,7500,3,304,781

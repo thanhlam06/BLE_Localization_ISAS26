@@ -1,0 +1,21 @@
+window_seconds,true_room,pred_room,count
+1,cafeteria,kitchen,2877
+1,cafeteria,nurse station,1145
+1,hallway,nurse station,475
+1,kitchen,cafeteria,334
+1,nurse station,kitchen,284
+1,cleaning,nurse station,278
+1,hallway,508,235
+1,nurse station,cafeteria,174
+1,kitchen,nurse station,157
+1,nurse station,cleaning,155
+3,cafeteria,kitchen,861
+3,kitchen,cafeteria,448
+3,cafeteria,nurse station,301
+3,hallway,nurse station,162
+3,nurse station,cafeteria,130
+3,nurse station,cleaning,121
+3,hallway,520,110
+3,nurse station,hallway,95
+3,cafeteria,cleaning,94
+3,cleaning,nurse station,66

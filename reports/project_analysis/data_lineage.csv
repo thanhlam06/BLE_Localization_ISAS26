@@ -1,0 +1,10 @@
+stage,rows
+Labeled packets with full timestamp,1099957
+True full-timestamp exact unique,1099957
+Second-level unique beacon/RSSI/room,87558
+FULL windows 1s,23584
+FULL windows 3s,9294
+FULL windows 5s,5876
+FULL windows 10s,3171
+FULL windows 30s,1224
+FULL windows 45s,866

@@ -15,6 +15,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from baseline_ml.pipeline import (  # noqa: E402
+    CLASS_AUDIT_COLUMNS,
     PREDICTION_COLUMNS,
     RESULT_COLUMNS,
     SUMMARY_COLUMNS,
@@ -57,6 +58,7 @@ def _config(aligned_path: Path, raw_path: Path, label_path: Path) -> dict[str, o
         "training": {
             "evaluation": "leave_one_day_out",
             "closed_set": True,
+            "class_protocol": "dasel_intersection",
             "model": "rf",
             "random_state": 7,
             "xgb_params": {},
@@ -129,10 +131,12 @@ class PipelineTests(unittest.TestCase):
 
             training_dir = output_dir / "training"
             results = pd.read_csv(training_dir / "lodo_results.csv")
+            class_audit = pd.read_csv(training_dir / "lodo_class_audit.csv")
             predictions = pd.read_csv(training_dir / "lodo_predictions.csv")
             summary = pd.read_csv(training_dir / "lodo_summary.csv")
 
             self.assertEqual(list(results.columns), list(RESULT_COLUMNS))
+            self.assertEqual(list(class_audit.columns), list(CLASS_AUDIT_COLUMNS))
             self.assertEqual(list(predictions.columns), list(PREDICTION_COLUMNS))
             self.assertEqual(list(summary.columns), list(SUMMARY_COLUMNS))
             self.assertEqual(len(results), 3)
@@ -171,6 +175,24 @@ class PipelineTests(unittest.TestCase):
             features = stage_extract(config, root / "features")
             self.assertEqual(len(features), 1)
             self.assertEqual(float(features.loc[0, "RSSI_1_last"]), -40.0)
+
+    def test_configured_feature_exclusions_are_fold_local_inputs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config = _config(root / "aligned.csv", root / "raw.csv", root / "labels.csv")
+            config["features"]["exclude_columns"] = ["hour"]  # type: ignore[index]
+            features = pd.DataFrame(
+                {
+                    "date": ["2025-01-01"] * 4 + ["2025-01-02"] * 4,
+                    "user_id": [1] * 8,
+                    "room": ["a", "a", "b", "b"] * 2,
+                    "window_start": [f"2025-01-0{1 + i // 4} 00:00:0{i % 4}" for i in range(8)],
+                    "hour": [0, 0, 1, 1] * 2,
+                    "RSSI_1_mean": [-70.0, -69.0, -40.0, -39.0] * 2,
+                }
+            )
+            results = train_lodo(config, features, root / "training")
+            self.assertTrue((results["n_candidate_features"] == 1).all())
 
     def test_room_transition_does_not_split_a_time_window(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -297,6 +319,7 @@ class PipelineTests(unittest.TestCase):
             root = Path(tmp)
             config = _config(root / "aligned.csv", root / "raw.csv", root / "labels.csv")
             config["training"]["closed_set"] = False  # type: ignore[index]
+            config["training"]["class_protocol"] = "train_label_space"  # type: ignore[index]
             features = pd.DataFrame(
                 {
                     "date": ["2025-01-01", "2025-01-02"],
@@ -309,6 +332,42 @@ class PipelineTests(unittest.TestCase):
 
             with self.assertRaisesRegex(ValueError, "absent from training"):
                 train_lodo(config, features, root / "training")
+
+    def test_dasel_intersection_filters_both_sides_before_fit(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config = _config(root / "aligned.csv", root / "raw.csv", root / "labels.csv")
+            rows = []
+            class_sets = {
+                "2025-01-01": ("shared_a", "shared_b", "day1_only"),
+                "2025-01-02": ("shared_a", "shared_b", "day2_only"),
+                "2025-01-03": ("shared_a", "shared_b"),
+            }
+            for day, rooms in class_sets.items():
+                for room_index, room in enumerate(rooms):
+                    for sample in range(3):
+                        rows.append(
+                            {
+                                "date": day,
+                                "user_id": 1,
+                                "room": room,
+                                "window_start": f"{day} 00:00:0{sample}",
+                                "RSSI_1_mean": float(room_index * 10 + sample),
+                                "RSSI_2_mean": float(room_index * -5 + sample),
+                            }
+                        )
+
+            results = train_lodo(config, pd.DataFrame(rows), root / "training")
+            day1 = results.loc[results["test_day"].eq("2025-01-01")].iloc[0]
+            self.assertEqual(day1["class_protocol"], "dasel_intersection")
+            self.assertEqual(int(day1["n_train_classes_raw"]), 3)
+            self.assertEqual(int(day1["n_test_classes_raw"]), 3)
+            self.assertEqual(int(day1["n_common_classes"]), 2)
+            self.assertEqual(int(day1["n_classes"]), 2)
+            self.assertEqual(int(day1["n_train_only_classes"]), 1)
+            self.assertEqual(int(day1["n_test_only_classes"]), 1)
+            self.assertEqual(int(day1["n_train_dropped"]), 3)
+            self.assertEqual(int(day1["n_test_dropped"]), 3)
 
     def test_single_day_smoke_output_keeps_csv_schema(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

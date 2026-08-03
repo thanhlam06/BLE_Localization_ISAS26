@@ -1,0 +1,64 @@
+{
+  "project_name": "ISAS26 DASEL-matched ML 3s",
+  "raw": {
+    "ble_path": "data/private/DASEL_preprocessed_train.csv",
+    "label_path": "data/private/not_used_for_preextracted_features.csv"
+  },
+  "processing": {
+    "build_aligned_if_missing": false
+  },
+  "processed": {
+    "aligned_cache_path": "data/private/DASEL_preprocessed_train.csv",
+    "date_col": "date",
+    "time_col": "window_ts",
+    "user_col": "user_id",
+    "label_col": "room"
+  },
+  "features": {
+    "window_seconds": 3,
+    "rssi_prefix": "rssi_",
+    "missing_rssi": -110.0,
+    "replace_zero_rssi": false,
+    "aggregations": [],
+    "include_time_features": false,
+    "exclude_columns": [
+      "hour",
+      "minute",
+      "second",
+      "dayofweek",
+      "time_sin",
+      "time_cos",
+      "power_mean_all",
+      "power_std_all"
+    ],
+    "input_mode": "preextracted_dasel_262"
+  },
+  "training": {
+    "evaluation": "leave_one_day_out",
+    "closed_set": true,
+    "class_protocol": "dasel_intersection",
+    "model": "xgb",
+    "random_state": 42,
+    "xgb_params": {
+      "n_estimators": 300,
+      "max_depth": 2,
+      "learning_rate": 0.019708414272057828,
+      "subsample": 0.5534281837285242,
+      "colsample_bytree": 0.5819630370366842,
+      "min_child_weight": 7.991772382059395,
+      "gamma": 1.3931793892618227,
+      "reg_lambda": 28.679898648982864,
+      "reg_alpha": 0.02726257973632696,
+      "max_delta_step": 6.923947311989912,
+      "eval_metric": "mlogloss",
+      "tree_method": "hist"
+    },
+    "rf_params": {
+      "n_estimators": 600,
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt",
+      "class_weight": "balanced_subsample"
+    }
+  }
+}

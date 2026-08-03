@@ -1,0 +1,14 @@
+metric,value,unit,interpretation
+full_packet_rows,1099957,rows,Packets with sub-second timestamp and room label
+true_exact_duplicates,0,rows,Exact duplicate key includes full timestamp beacon RSSI and room
+second_unique_rows,87558,rows,Rows retained after second-level beacon RSSI room uniqueness
+second_unique_removed_fraction,0.9203982015666979,fraction,Lossy compression rather than exact deduplication
+active_beacons,23,beacons,B24 and B25 have zero nonzero windows in the audited feature matrices
+full_total_detection_room_mi,0.1608,mutual_information,Spatial information in packet rate
+full_total_detection_day_mi,0.4331,mutual_information,Day shortcut in packet rate
+full_median_room_frequency_js,0.0602,JS_divergence,Descriptive room-conditional cross-day frequency drift
+second_unique_median_room_frequency_js,0.0570,JS_divergence,Descriptive room-conditional cross-day frequency drift
+full_median_room_rssi_shift,0.7275,dB,Descriptive room-conditional cross-day RSSI shift
+second_unique_median_room_rssi_shift,0.7750,dB,Descriptive room-conditional cross-day RSSI shift
+unseen_room_day_cells,2,cells,Test room-day cells absent from their training folds
+unseen_1s_windows,79,windows,Open-set support excluded by strict shared-class evaluation

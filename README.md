@@ -5,6 +5,10 @@ localization from Bluetooth Low Energy (BLE) RSSI measurements. The executable
 pipeline builds fixed-window signal features and evaluates XGBoost or Random
 Forest models with Leave-One-Day-Out (LODO) validation.
 
+The `agent/dasel-class-matched-1s-3s` research track adds auditable 1-second
+and 3-second experiments whose model class set matches the train/test class
+intersection reported in DASEL Table II.
+
 > **Private dataset:** the raw BLE data, location labels, aligned cache,
 > row-level features, and row-level predictions are not distributed with this
 > repository. Access must be obtained from the project owners. Do not commit
@@ -51,26 +55,139 @@ This is a research/evaluation pipeline, not a real-time localization service.
 ```text
 configs/
   baseline.json                 Default paths, feature settings, and models
+  dasel_1s.json                 Strict class-matched 1s control
+  dasel_3s.json                 Strict class-matched 3s control
 data/
   README.md                     Public private-input contract (no data rows)
 docs/
+  DASEL_PROTOCOL_1S_3S.md       Class policy, evidence, and reproduction
   PIPELINE.md                   Detailed stage contract and outputs
   PROJECT_INDEX.md              Public repository file map
   RESULTS.md                    Generated aggregate result summary
+notebooks/
+  1s/                           Sanitized EDA/ML/ablation/H1-H7 flow
+  3s/                           Sanitized EDA/ML/ablation/H1-H7 flow
 scripts/
+  build_project_analysis.py    Rebuilds aggregate data/model/error plots
+  extract_dasel_features.py     Historical 262-column 1s/3s extractor
+  predict_strong_ml.py          Audited full-train 1s/3s inference CLI
   run_baseline.py               Main pipeline CLI
+  run_dasel_windows.py          Strict 1s/3s audit and training runner
+  run_strong_ml.py              Strong M2/M5 training, evaluation, plots, SHAP
   summarize_results.py          Aggregate-result report generator
 src/baseline_ml/
   config.py                     Config loading and path resolution
   pipeline.py                   Processing, extraction, and LODO training
   results.py                    Result discovery and report generation
+  strong_ml.py                  Fold-local strong ML and temporal decoder
 requirements.txt                Python dependencies
 tests/test_pipeline.py          Synthetic end-to-end regression tests
 ```
 
-Only reviewed aggregate reports and figures should be published. Historical
-notebooks and private-data-derived row-level artifacts are not required to run
-the public CLI.
+Only reviewed aggregate reports and figures should be published. The sanitized
+notebooks preserve code provenance but are not required to run the public CLI;
+private-data-derived row-level artifacts remain excluded.
+
+## DASEL-matched 1s/3s track
+
+The strict class policy is `training.class_protocol=dasel_intersection`. For
+every held-out day, the runner computes the intersection of room labels found
+in the training days and that test day, then filters **both** sides before any
+model-side fitting. The reviewed audit reproduces DASEL Table II class counts
+`12, 15, 18, 13` for both 1s and 3s matrices.
+
+Create the private feature matrices:
+
+```bash
+python scripts/extract_dasel_features.py \
+  --input /authorized/path/DASEL_preprocessed_train.csv \
+  --output-dir /private/output/features \
+  --windows 1 3
+```
+
+Audit only, without training:
+
+```bash
+python scripts/run_dasel_windows.py \
+  --features-dir /private/output/features \
+  --output-dir artifacts/dasel_audit \
+  --audit-only
+```
+
+Run both confirmatory controls:
+
+```bash
+python scripts/run_dasel_windows.py \
+  --features-dir /private/output/features \
+  --output-dir artifacts/dasel_confirmatory
+```
+
+See [the protocol note](docs/DASEL_PROTOCOL_1S_3S.md) before comparing scores.
+The archived M0-M8 leaderboard is explicitly marked legacy/exploratory because
+its original training class policy was asymmetric.
+
+### Strong reviewed ML configurations
+
+The strong runner applies the best reviewed classical configurations without
+relaxing the strict DASEL shared-class rule. The 1s branch uses M2 (top-100
+drift-aware features and soft visit-balanced weights); the 3s branch uses M5
+(23 beacon-frequency features plus selected RSSI/context features). Both use a
+three-seed XGBoost ensemble and the same fixed temporal decoder.
+
+```bash
+python scripts/run_strong_ml.py \
+  --features-dir /private/output/features
+```
+
+Private models, probabilities, and row-level predictions are written below
+`artifacts/strong_ml/`. Only reviewed fold/aggregate metrics, figures, and
+native XGBoost TreeSHAP importance are publishable in
+`reports/strong_ml_1s_3s/`. TreeSHAP explains the raw ensemble; decoder effects
+are evaluated separately as raw-versus-decoded metrics.
+
+### Verified data and error audit
+
+The full-timestamp audit found zero true exact duplicates among 1,099,957
+labeled packets. Truncating time to seconds before deduplication retains only
+87,558 packets (7.96%) while leaving the 23,584 one-second frame count
+unchanged. The reviewed preprocessing contract therefore keeps sub-second
+timestamps until window assignment.
+
+Under strict four-fold LODO, the strongest reviewed 1s branch moves from
+Macro-F1 0.3475 raw to 0.3918 with causal smoothing and 0.4441 with offline
+Viterbi. The 3s branch moves from 0.3881 to 0.4526 and 0.4732. These global
+gains do not solve hallway or all short-visit errors: fixed-decoder hallway F1
+is 0.0000 at 1s and 0.0024 at 3s, and 1s room-508 F1 falls from 0.2610 after
+causal smoothing to 0.0090 after Viterbi.
+
+See [the data audit](docs/DATA_AUDIT.md),
+[the model/post-processing analysis](docs/MODEL_POSTPROCESSING_ANALYSIS.md),
+and the reproducible aggregate plots under `reports/project_analysis/`.
+
+Regenerate the public aggregate plots:
+
+```bash
+python scripts/build_project_analysis.py
+```
+
+### Audited inference on an unlabeled BLE file
+
+The final inference CLI fits the reviewed 1s M2 and 3s M5 configurations on
+all authorized labeled training days. It preserves full timestamp precision,
+removes only exact full-timestamp detections, publishes raw and causal outputs,
+and marks Viterbi output as offline. Test-day accuracy/F1 are not reported when
+ground truth is absent.
+
+```bash
+python scripts/predict_strong_ml.py \
+  --test-file /authorized/path/BLE_Test.csv \
+  --train-features-dir /private/output/features \
+  --lodo-artifact-dir artifacts/strong_ml \
+  --output-dir artifacts/final_inference
+```
+
+The output directory is ignored because it contains row-level timestamps,
+predictions, probabilities, models, and training-only fingerprints.
 
 ## Private dataset contract
 
@@ -257,6 +374,11 @@ With `training.closed_set=true`, each fold is restricted to room classes found
 in both its training days and held-out day. This prevents label-encoder errors
 but does **not** measure unseen-room recognition. Report these scores as
 closed-set LODO results, not open-world deployment performance.
+
+For auditable behavior, prefer the explicit
+`training.class_protocol="dasel_intersection"`. The legacy `closed_set` flag is
+kept for compatibility and maps to that protocol when `class_protocol` is not
+provided.
 
 With `closed_set=false`, the trainer keeps all fold rows but stops with a clear
 error if the held-out day contains a class absent from training; the current
